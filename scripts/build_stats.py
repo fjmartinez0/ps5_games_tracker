@@ -75,8 +75,8 @@ def main():
             continue
         gid, fmt = r["game_id"], r["format"]
         add_low(gid, fmt, r["price"])
-        if fmt == "digital" and launch[gid]["digital"] is None and r.get("regular"):
-            launch[gid]["digital"] = r["regular"]
+        if fmt == "digital" and launch[gid]["digital"] is None:   # earliest PlayStation Store price = launch price
+            launch[gid]["digital"] = r.get("regular") or r["price"]
     for r in rows:
         gid, fmt = r["game_id"], r["format"]
         g = by_id.get(gid)

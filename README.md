@@ -105,9 +105,14 @@ and Sunday's agent run collects Walmart prices from published flyers instead.
   (add `--preview` for a standalone file with the data embedded, in `.run/preview.html`).
 - `tools/seed_catalog.py`, `tools/seed_history.py`: the one-time rebuild from 2026-10-17 (kept for audit).
 
+## Source test results (Mac, 2026-10-18)
+- PlayStation Store, Metacritic (scores and browse lists) and Deku Deals (current prices + full daily
+  price history) work. Deku's history is imported once per game, so statistics use real daily prices.
+- EB Games and Walmart block automated reads → their prices come from the Sunday flyer task only.
+- OpenCritic's search answered 400; a second endpoint is now tried. It's only a fallback for the ~25
+  games Metacritic doesn't score.
+
 ## Known limits
 - None of these sites has an official API. The page readers try structured data first and page text
   last, and were tested against sample pages, not the live sites - hence step 4.
-- Deku Deals' dated price-history charts may not be readable; if they are, history before tracking can
-  be back-filled later. Until then, pre-tracking statistics rely on published sale lists.
 - Sale history before 2026-10-17 covers major published sales only.

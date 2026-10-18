@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17",
+ "generated_at": "2026-10-18",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -398,7 +398,7 @@
    },
    "lowest": {
     "digital": 50.24,
-    "disc": 49.99
+    "disc": null
    },
    "launch": {
     "digital": 66.99,
@@ -767,7 +767,7 @@
    },
    "lowest": {
     "digital": 51.29,
-    "disc": 49.96
+    "disc": 64.99
    },
    "launch": {
     "digital": 89.99,
@@ -1136,7 +1136,7 @@
    },
    "lowest": {
     "digital": 32.72,
-    "disc": 44.99
+    "disc": 59.99
    },
    "launch": {
     "digital": 93.49,
@@ -1433,7 +1433,7 @@
    },
    "lowest": {
     "digital": 63.89,
-    "disc": 64.96
+    "disc": null
    },
    "launch": {
     "digital": null,
@@ -1485,7 +1485,7 @@
    },
    "lowest": {
     "digital": 46.74,
-    "disc": 54.98
+    "disc": 69.99
    },
    "launch": {
     "digital": 93.49,
@@ -1609,7 +1609,7 @@
    },
    "lowest": {
     "digital": 37.39,
-    "disc": 39.99
+    "disc": 49.99
    },
    "launch": {
     "digital": 93.49,
@@ -2128,7 +2128,7 @@
    },
    "lowest": {
     "digital": 29.69,
-    "disc": 49.99
+    "disc": null
    },
    "launch": {
     "digital": null,
@@ -2269,7 +2269,7 @@
    },
    "lowest": {
     "digital": 35.99,
-    "disc": 42.32
+    "disc": 79.99
    },
    "launch": {
     "digital": 89.99,

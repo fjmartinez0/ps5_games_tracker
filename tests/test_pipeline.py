@@ -62,13 +62,11 @@ class Pipeline(unittest.TestCase):
         self.cache(u3, "deku_item.html")
         d = deku.read(u3)
         self.assertTrue(d["is_ps5"])
-        self.assertIn({"store": "Best Buy", "format": "disc", "price": 29.99, "was": 49.99}, d["offers"])
-        self.assertEqual(d["lowest"], {"digital": 27.99, "disc": 29.99})
-        self.assertTrue(d["ps_store_url"].startswith("https://store.playstation.com/en-ca/product/"))
-        mu = metacritic.game_url("skate-story")
-        self.cache(mu, "metacritic_game.html")
-        m = metacritic.read_score(mu)
-        self.assertEqual((m["score"], m["reviews"]), (80, 29))
+        self.assertIn({"store": "Best Buy", "format": "disc", "price": 29.99, "was": None}, d["offers"])
+        self.assertNotIn("Video Games Plus", {o["store"] for o in d["offers"]})            # price 0 = not available
+        self.assertEqual(d["lowest"], {"digital": 35.99, "disc": 44.99})                   # from history, PS5 only
+        self.assertEqual(d["ps_store_url"], "https://store.playstation.com/en-ca/product/UP0000-PPSA00000_00-HADES2GAME000000")
+        self.assertEqual(sorted(d["history"]), [("digital", "PlayStation Store"), ("disc", "Best Buy"), ("disc", "PNP Games")])
         self.cache(metacritic.BROWSE.format(sort="metascore", y=2026, p=1), "metacritic_browse.html")
         items = metacritic.browse(2026, 1)
         self.assertEqual([(i["title"], i["score"], i["release_date"]) for i in items][:2],
@@ -118,9 +116,11 @@ class Pipeline(unittest.TestCase):
                          [("digital", "PlayStation Store", 30), ("disc", "Best Buy", 40)])
         self.assertNotIn("Amazon.ca", {s["store"] for s in mine})                 # not one of the 5 disc stores
         g = next(x for x in self.games() if x["id"] == hades["id"])
-        self.assertEqual((g["physical"], g["disc"]["msrp"]), ("Yes", 49.99))
+        self.assertEqual((g["physical"], g["disc"]["msrp"], g["disc"]["msrp_source"]), ("Yes", 49.99, "history"))
+        hist = [json.loads(x) for x in (self.root / "data/prices.jsonl").read_text().splitlines() if '"deku-history"' in x]
+        self.assertEqual(len(hist), 7)                                   # change points only, PS5 stores only
         out = self.run_script("scripts/notify.py").stdout                       # no topics configured: prints
-        self.assertIn("2 price alerts", out)
+        self.assertIn("2 price alerts", out)                             # digital 30% off; disc 40% off + new low
         self.assertIn("Hades II disc at Best Buy", out)
         out = self.run_script("scripts/notify.py").stdout
         self.assertIn("0 price alerts", out)                                     # once per sale

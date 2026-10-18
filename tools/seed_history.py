@@ -110,8 +110,10 @@ def main():
         src = SRC[{"EB Games": "EB_" + eid, "Walmart": "WM_" + eid}.get(store, eid)] if store != "PlayStation Store" else SRC[eid if eid != "OCT26" else "DEKU"]
         obs.append({"title": title, "format": fmt, "store": store, "event": eid, "date": date,
                     "regular": regular, "price": price, "pct": pct, "us_pct": price is None, "source": src})
-    lows = [{"title": t, "format": f, "price": p, "source": SRC["DEKU"], "seen_on": "2026-10-17"}
-            for t, (d, x) in LOWEST.items() for f, p in (("digital", d), ("disc", x)) if p is not None]
+    # digital only: Deku's disc "all time low" can include Amazon.ca, which isn't one of the five disc stores;
+    # disc lows come from the store-by-store history imported on the first run instead
+    lows = [{"title": t, "format": "digital", "price": d, "source": SRC["DEKU"], "seen_on": "2026-10-17"}
+            for t, (d, x) in LOWEST.items() if d is not None]
     save_json(EVENTS, EVENT_LIST)
     save_json(SEED_OBS, {"note": "Sale prices researched on 2026-10-17 from published sale lists, before nightly tracking began. "
                                  "Disc regular prices use the most common launch price, not a store's own 'regular' label.",

@@ -68,8 +68,8 @@ def main():
     for slug in ("death-stranding-2", "ghost-of-yotei", "kingdom-come-deliverance-ii"):
         u = deku.item_url(slug)
         run(f"deku {slug}", u, lambda u=u: deku.read(u),
-            lambda o: (o["is_ps5"] and bool(o["offers"]),
-                       f"ps5={o['is_ps5']} offers={o['offers'][:4]} lowest={o['lowest']} history_series={len(o['history'])}"))
+            lambda o: (o["is_ps5"] and bool(o["offers"]) and bool(o["history"]),
+                       f"ps5={o['is_ps5']} offers={o['offers'][:4]} lowest={o['lowest']} history={sorted(o['history'])}"))
 
     # EB Games and Walmart: can we read a page at all?
     for store, u in (("EB Games", "https://www.ebgames.ca/SearchResult/QuickSearch?q=death+stranding+2"),
@@ -86,8 +86,9 @@ def main():
     for name, status, detail, url in results:
         lines.append(f"| {name} | {status} | {str(detail)[:300].replace('|', '/').replace(chr(10), ' ')} |")
     (RUN / "source_test_report.md").write_text("\n".join(lines) + "\n")
-    passed = sum(1 for r in results if r[1] == "PASS")
-    print(f"\n{passed}/{len(results)} passed. Report: .run/source_test_report.md  Raw pages: .run/samples/")
+    expected_blocked = {"ebgames search", "walmart search"}             # known: these two block automated access
+    passed = sum(1 for r in results if r[1] == "PASS" or (r[0] in expected_blocked and r[1] == "BLOCKED"))
+    print(f"\n{passed}/{len(results)} passed (EB Games/Walmart blocked is expected; flyers cover them). Report: .run/source_test_report.md  Raw pages: .run/samples/")
     if passed < len(results):
         print("Send the report and a zip of .run/samples so the failing readers can be adjusted.")
 

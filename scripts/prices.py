@@ -51,7 +51,7 @@ def main():
 
     # last known prices per (game, format, store) so we only append changes
     last = {}
-    for r in read_jsonl(PRICES):
+    for r in sorted(read_jsonl(PRICES), key=lambda r: r["date"]):      # latest by date, not file order
         last[(r["game_id"], f"{r['format']}|{r['store']}")] = r["price"]
     tracked = [g for g in games if g["status"] in ("listed", "pending_score")]
     if args.only:
@@ -93,9 +93,23 @@ def main():
                 checks.append(log_check("deku", g["id"], disc["deku_url"], d["is_ps5"], {"offers": len(d["offers"])}))
                 if not d["is_ps5"]:
                     notes.append(f"{g['title']}: Deku Deals link shows no PS5 prices (wrong platform item?)")
+                if d.get("ps_store_url") and not (g.get("ps_store") or {}).get("url"):
+                    g.setdefault("ps_store", {})["url"] = d["ps_store_url"]
+                hist = {k: v for k, v in d["history"].items() if k[1] in DISC_STORES or k[1] == DIGITAL_STORE}
+                if hist and not disc.get("history_imported"):          # one-time back-fill of the full daily history
+                    rows = [(dt_, f, st, pr) for dt_, f, st, pr in deku.history_changes(hist) if dt_ < on]
+                    obs.extend({"date": dt_, "game_id": g["id"], "format": f, "store": st, "price": pr,
+                                "regular": None, "source": "deku-history"} for dt_, f, st, pr in rows)
+                    for dt_, f, st, pr in rows:
+                        g["_last"][f"{f}|{st}"] = pr
+                        low[(g["id"], f)] = min(low.get((g["id"], f), 1e9), pr)
+                    disc["history_imported"] = on
+                firsts = [sorted(v)[0][1] for (f, st), v in hist.items() if f == "disc"]
+                if firsts and disc.get("msrp_source") != "history":     # launch price = first price each store showed
+                    disc["msrp"], disc["msrp_source"] = disc_msrp(firsts), "history"
                 for o in d["offers"]:
                     if o["format"] == "disc" and o["store"] in DISC_STORES:
-                        seen.append((o["store"], o["price"], o["was"] or o["price"], None))
+                        seen.append((o["store"], o["price"], disc.get("msrp") or o["price"], None))
                 for fmt in ("digital", "disc"):
                     if d["lowest"][fmt] is not None:
                         low[(g["id"], fmt)] = min(low.get((g["id"], fmt), 1e9), d["lowest"][fmt])

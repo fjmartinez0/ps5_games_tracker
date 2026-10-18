@@ -37,8 +37,8 @@ Write the file early (an empty but valid proposal) and update it as you go, so a
 - `metacritic_url`: `https://www.metacritic.com/game/<slug>/critic-reviews/?platform=playstation-5`
 - `deku_url`: the **PS5** item on Deku Deals with Canadian prices: `https://www.dekudeals.com/items/<slug>?format=all&country=ca`
   (check that the page lists PS5 prices; multi-platform games sometimes default to Switch 2 or Xbox)
-- `eb_url`: `https://www.ebgames.ca/...` product page for the PS5 disc (optional)
-- `walmart_url`: `https://www.walmart.ca/en/ip/...` product page for the PS5 disc (optional)
+- `eb_url`, `walmart_url`: leave `null`. Both stores block automated page reads, so their prices come only from
+  the Sunday flyer task.
 
 ## Evidence rules
 - Never invent a score, price, date or link. Leave a field `null` if you didn't find it.

@@ -5,15 +5,30 @@ slowly (one request per game, cached) and stop for the night if it refuses.
 """
 from urllib.parse import quote
 
-from common import fetch_json
+from common import FetchError, fetch_json
 
 API = "https://api.opencritic.com/api"
 HDRS = {"Origin": "https://opencritic.com", "Referer": "https://opencritic.com/"}
 
 
 def search(title: str) -> list[dict]:
-    data = fetch_json(f"{API}/game/search?criteria={quote(title)}", headers=HDRS, cache_hours=72)
-    return [{"id": d.get("id"), "name": d.get("name"), "dist": d.get("dist")} for d in data if isinstance(d, dict)]
+    """OpenCritic changed its search endpoint at least once; try the known forms in order."""
+    last = None
+    for path in (f"/meta/search?criteria={quote(title)}", f"/game/search?criteria={quote(title)}"):
+        try:
+            data = fetch_json(API + path, headers=HDRS, cache_hours=72)
+        except FetchError as e:
+            last = e
+            if e.blocked:
+                raise
+            continue
+        rows = [{"id": d.get("id"), "name": d.get("name"), "dist": d.get("dist")} for d in data
+                if isinstance(d, dict) and d.get("relation", "game") == "game"]
+        if rows:
+            return rows
+    if last:
+        raise last
+    return []
 
 
 def read_score(game_id: int) -> dict:
