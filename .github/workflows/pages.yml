@@ -1,0 +1,53 @@
+name: Validate and publish dashboard
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/**", "index.html", "scripts/validate.py", "scripts/common.py", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 50
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Validate data (second gate)
+        run: python3 scripts/validate.py
+      - name: Build site folder and stamp last data change
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp data/*.json _site/data/
+          python3 - <<'EOF'
+          import json, subprocess, os
+          ts = subprocess.check_output(["git", "log", "-1", "--format=%cI", "--", "data"], text=True).strip()
+          p = "_site/data/meta.json"; m = json.load(open(p))
+          m["last_updated_at"] = ts
+          m["repo"] = os.environ["GITHUB_REPOSITORY"]
+          json.dump(m, open(p, "w"), indent=1)
+          EOF
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,123 @@
+[
+ {
+  "id": "DOP25",
+  "name": "Days of Play 2025",
+  "start": "2025-05-28",
+  "end": "2025-06-11",
+  "special": true,
+  "formats": [
+   "digital"
+  ],
+  "source": "https://mobilesyrup.com/2025/05/27/playstation-days-of-play-2025-sale-ps5-consoles-accessories-games/"
+ },
+ {
+  "id": "SUM25",
+  "name": "Summer Sale 2025",
+  "start": "2025-07-16",
+  "end": null,
+  "special": false,
+  "formats": [
+   "digital"
+  ],
+  "source": "https://mobilesyrup.com/2025/07/16/playstation-summer-sale-2025/"
+ },
+ {
+  "id": "BF25",
+  "name": "Black Friday 2025",
+  "start": "2025-11-21",
+  "end": "2025-12-05",
+  "special": true,
+  "formats": [
+   "digital",
+   "disc"
+  ],
+  "source": "https://mobilesyrup.com/2025/11/21/playstation-canada-black-friday-2025-deals/"
+ },
+ {
+  "id": "HOL25",
+  "name": "Holiday Sale 2025",
+  "start": "2025-12-17",
+  "end": "2026-01-21",
+  "special": true,
+  "formats": [
+   "digital"
+  ],
+  "source": "https://www.tomsguide.com/gaming/playstation/first-playstation-sale-of-2026-has-ps5-games-from-usd4-heres-15-deals-id-buy-now",
+  "note": "US % off"
+ },
+ {
+  "id": "BOX25",
+  "name": "Boxing Week 2025",
+  "start": "2025-12-21",
+  "end": "2025-12-31",
+  "special": true,
+  "formats": [
+   "disc"
+  ],
+  "source": "https://mobilesyrup.com/2025/12/22/eb-games-launches-boxing-week-deals-secret-in-store-sales/",
+  "note": "EB Games"
+ },
+ {
+  "id": "DOP26",
+  "name": "Days of Play 2026",
+  "start": "2026-05-27",
+  "end": "2026-06-10",
+  "special": true,
+  "formats": [
+   "digital"
+  ],
+  "source": "https://mobilesyrup.com/2026/05/26/playstation-big-annual-days-of-play-sale-2026/"
+ },
+ {
+  "id": "OCT26",
+  "name": "October Sale 2026",
+  "start": "2026-10-08",
+  "end": "2026-10-22",
+  "special": false,
+  "formats": [
+   "digital"
+  ],
+  "source": "https://www.dekudeals.com/?country=ca",
+  "note": "observed Oct 17"
+ },
+ {
+  "id": "BF26",
+  "name": "Black Friday 2026",
+  "start": "2026-11-20",
+  "end": "2026-12-04",
+  "special": true,
+  "formats": [
+   "digital",
+   "disc"
+  ],
+  "expected": true,
+  "source": null,
+  "note": "expected, based on 2025"
+ },
+ {
+  "id": "BOX26",
+  "name": "Boxing Week 2026",
+  "start": "2026-12-21",
+  "end": "2026-12-31",
+  "special": true,
+  "formats": [
+   "disc"
+  ],
+  "expected": true,
+  "source": null,
+  "note": "expected, based on 2025"
+ },
+ {
+  "id": "HOL26",
+  "name": "Holiday Sale 2026",
+  "start": "2026-12-16",
+  "end": "2027-01-20",
+  "special": true,
+  "formats": [
+   "digital"
+  ],
+  "expected": true,
+  "source": null,
+  "note": "expected, based on 2025"
+ }
+]

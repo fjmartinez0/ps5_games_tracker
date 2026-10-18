@@ -1,0 +1,311 @@
+# Metacritic PS5 browse pages (sorted by Metascore, year filter), read 2026-10-17. Rows with score >= 70.
+# Columns: release_date | metacritic | title | category | scale | genre
+# category: game | dlc | sports | vr | f2p | dup (re-release/edition/episode of a listed game) | review (needs a human/agent check)
+2025-04-24|92|Clair Obscur: Expedition 33|game|AA|Turn-based RPG
+2025-09-04|92|Hollow Knight: Silksong|game|Indie|Metroidvania
+2025-04-29|92|Forza Horizon 5|game|AAA|Racing / Open world
+2025-03-06|91|Split Fiction|game|AA|Co-op action-adventure
+2025-01-31|90|Citizen Sleeper 2: Starward Vector|game|Indie|Narrative RPG
+2025-11-18|89|Sektori|game|Indie|Twin-stick shooter
+2025-06-26|89|Death Stranding 2: On The Beach|game|AAA|Action-adventure
+2025-10-22|89|Dispatch|game|AA|Narrative adventure
+2025-10-15|89|BALL x PIT|game|Indie|Roguelite / Arcade
+2025-02-28|88|Monster Hunter Wilds|game|AAA|Action RPG
+2025-09-30|88|FINAL FANTASY TACTICS - The Ivalice Chronicles|game|AA|Tactical RPG
+2025-08-19|88|Sword of the Sea|game|Indie|Adventure
+2025-04-17|88|Indiana Jones and the Great Circle|game|AAA|Action-adventure
+2025-02-04|88|Kingdom Come: Deliverance II|game|AA|Open-world RPG
+2025-09-19|87|Trails in the Sky 1st Chapter|game|AA|JRPG
+2025-08-29|87|Shinobi: Art of Vengeance|game|AA|2D action platformer
+2025-10-09|87|Absolum|game|Indie|Beat 'em up / Roguelite
+2025-11-11|87|Lumines Arise|game|AA|Puzzle / Rhythm
+2025-11-13|86|Inazuma Eleven: Victory Road|game|AA|Sports RPG
+2025-10-02|86|Ghost of Yotei|game|AAA|Open-world action
+2025-09-25|86|Silent Hill f|game|AAA|Survival horror
+2025-08-20|86|Triangle Strategy|game|AA|Tactical RPG
+2025-08-28|85|Metal Gear Solid Delta: Snake Eater|game|AAA|Stealth action
+2025-10-30|85|ARC Raiders|game|AA|Extraction shooter
+2025-04-10|85|Promise Mascot Agency|game|Indie|Management / Adventure
+2025-04-10|85|Blue Prince|game|Indie|Puzzle / Roguelike
+2025-12-04|84|Octopath Traveler 0|game|AA|JRPG
+2025-10-30|84|Dragon Quest I & II HD-2D Remake|game|AA|JRPG
+2025-07-15|84|Eriksholm: The Stolen Dream|game|Indie|Stealth / Strategy
+2025-08-07|84|Gradius Origins|game|AA|Shoot 'em up collection
+2025-08-12|84|Senua's Saga: Hellblade II - Enhanced|game|AAA|Action-adventure
+2025-06-06|84|Lies of P: Overture|dlc|AA|Soulslike
+2025-10-30|84|Mortal Kombat: Legacy Kollection|game|AA|Fighting collection
+2025-07-31|84|Ninja Gaiden: Ragebound|game|Indie|2D action platformer
+2025-05-15|83|DOOM: The Dark Ages|game|AAA|FPS
+2025-06-13|83|The Alters|game|AA|Survival / Strategy
+2025-11-13|83|Atelier Ryza Secret Trilogy Deluxe Pack|game|AA|JRPG collection
+2025-10-10|83|Battlefield 6|game|AAA|FPS
+2025-01-22|83|ENDER MAGNOLIA: Bloom in the Mist|game|Indie|Metroidvania
+2025-11-13|83|Anno 117: Pax Romana|game|AA|City builder / Strategy
+2025-03-18|83|MLB The Show 25|sports|AAA|Sports / Baseball
+2025-03-04|83|Two Point Museum|game|AA|Management sim
+2025-06-17|83|Lost in Random: The Eternal Die|game|Indie|Roguelite action
+2025-08-20|82|The Rogue Prince of Persia|game|AA|Roguelite action
+2025-10-21|82|Jurassic World Evolution 3|game|AA|Park management sim
+2025-07-11|82|Tony Hawk's Pro Skater 3 + 4|game|AAA|Skateboarding
+2025-09-05|82|NBA 2K26|sports|AAA|Sports / Basketball
+2025-10-23|82|PowerWash Simulator 2|game|Indie|Simulation
+2025-07-10|82|EA Sports College Football 26|sports|AAA|Sports / Football
+2025-03-27|82|HITMAN World of Assassination Part One - VR Edition|vr|AA|Stealth (VR)
+2025-09-25|82|Sonic Racing: CrossWorlds|game|AA|Kart racing
+2025-09-30|82|LEGO Party!|game|AA|Party
+2025-04-22|82|The Elder Scrolls IV: Oblivion Remastered|game|AAA|Open-world RPG
+2025-01-17|82|Tales of Graces f Remastered|game|AA|JRPG
+2025-08-26|81|Fresh Tracks|game|Indie|Platformer
+2025-03-20|81|Assassin's Creed Shadows|game|AAA|Open-world action RPG
+2025-03-06|81|Sorry We're Closed|game|Indie|Survival horror
+2025-04-17|81|Bionic Bay|game|Indie|Puzzle platformer
+2025-12-19|81|Avatar: Frontiers of Pandora - From the Ashes|dlc|AAA|Action-adventure
+2025-12-08|81|Yakuza 0: Director's Cut|game|AA|Action-adventure
+2025-09-18|81|Frostpunk 2|game|AA|City builder / Survival
+2025-09-09|81|Dragon Ball: Gekishin Squadra|review|AA|Team action (check if free-to-play)
+2025-03-06|81|Suikoden I & II HD Remaster: Gate Rune and Dunan Unification Wars|game|AA|JRPG collection
+2025-05-30|80|F1 25|sports|AAA|Sports / Racing (licensed)
+2025-11-20|80|S.T.A.L.K.E.R. 2: Heart of Chornobyl|game|AAA|Survival FPS
+2025-03-21|80|Atelier Yumia: The Alchemist of Memories & The Envisioned Land|game|AA|JRPG
+2025-02-28|80|PGA TOUR 2K25|sports|AAA|Sports / Golf
+2025-01-23|80|Ninja Gaiden 2 Black|game|AA|Action
+2025-05-21|80|Fantasy Life i: The Girl Who Steals Time|game|AA|Life sim RPG
+2025-07-15|80|Ready or Not|game|AA|Tactical shooter
+2025-12-08|80|Skate Story|game|Indie|Skateboarding / Adventure
+2025-12-01|80|MARVEL Cosmic Invasion|game|AA|Beat 'em up
+2025-10-31|80|Tales of Xillia Remastered|game|AA|JRPG
+2025-04-24|80|Fatal Fury: City of the Wolves|game|AA|Fighting
+2025-04-24|80|Amerzone - The Explorer's Legacy|game|AA|Adventure
+2025-03-14|80|WWE 2K25|sports|AAA|Sports / Wrestling
+2025-05-08|80|Revenge of the Savage Planet|game|AA|Action-adventure
+2025-10-21|79|Ninja Gaiden 4|game|AAA|Hack-and-slash
+2025-08-05|79|Hello Kitty Island Adventure|game|AA|Life sim
+2025-08-26|79|Gears of War: Reloaded|game|AAA|Third-person shooter
+2025-01-17|79|Dynasty Warriors: Origins|game|AA|Musou action
+2025-10-24|79|Once Upon a KATAMARI|game|AA|Arcade / Puzzle
+2025-02-21|79|Like a Dragon: Pirate Yakuza in Hawaii|game|AA|Action-adventure
+2025-10-29|79|The Outer Worlds 2|game|AAA|RPG
+2025-03-11|79|Wanderstop|game|Indie|Cozy narrative
+2025-02-13|79|Tiny Terry's Turbo Trip|game|Indie|Platformer
+2025-09-15|79|LEGO Voyagers|game|Indie|Co-op puzzle adventure
+2025-10-03|79|Digimon Story Time Stranger|game|AA|JRPG
+2025-07-22|79|Luto|game|Indie|Psychological horror
+2025-03-27|78|The First Berserker: Khazan|game|AA|Soulslike
+2025-01-07|78|Ys Memoire: The Oath in Felghana|game|AA|Action RPG
+2025-10-23|78|Tormented Souls 2|game|Indie|Survival horror
+2025-12-08|78|Microsoft Flight Simulator 2024|game|AAA|Flight simulation
+2025-09-18|78|Dying Light: The Beast|game|AA|Survival horror
+2025-03-27|78|SaGa Frontier 2 Remastered|game|AA|JRPG
+2025-06-19|78|Chronicles of the Wolf|game|Indie|Metroidvania
+2025-04-25|78|Days Gone Remastered|game|AAA|Open-world action
+2025-04-30|78|MotoGP 25|sports|AA|Sports / Racing (licensed)
+2025-05-20|78|RoadCraft|game|AA|Simulation
+2025-02-11|78|Sid Meier's Civilization VII|game|AAA|Strategy
+2025-09-12|78|Borderlands 4|game|AAA|Looter shooter
+2025-10-30|78|Virtua Fighter 5 R.E.V.O. World Stage|game|AA|Fighting
+2025-11-20|78|R-Type Delta: HD Boosted|game|AA|Shoot 'em up
+2025-05-30|77|Elden Ring Nightreign|game|AAA|Action RPG / Co-op
+2025-05-08|77|The Midnight Walk|game|Indie|Adventure / Horror
+2025-09-26|77|EA Sports FC 26|sports|AAA|Sports / Football
+2025-04-17|77|Mandragora: Whispers of the Witch Tree|game|Indie|Metroidvania / RPG
+2025-01-28|77|Tails of Iron 2: Whiskers of Winter|game|Indie|Action RPG
+2025-08-14|77|Madden NFL 26|sports|AAA|Sports / American football
+2025-09-04|77|Hell is Us|game|AA|Action-adventure
+2025-10-09|77|Yooka-Replaylee|game|Indie|3D platformer
+2025-01-30|77|Phantom Brave: The Lost Hero|game|AA|Tactical RPG
+2025-05-20|77|Teenage Mutant Ninja Turtles: Splintered Fate|game|Indie|Roguelite action
+2025-04-01|77|Koira|game|Indie|Adventure
+2025-09-05|77|Cronos: The New Dawn|game|AA|Survival horror
+2025-11-17|76|The Berlin Apartment|game|Indie|Narrative adventure
+2025-02-14|76|The Legend of Heroes: Trails through Daybreak II|game|AA|JRPG
+2025-10-23|76|Plants vs. Zombies: Replanted|game|AA|Tower defense
+2025-08-05|76|Demon Slayer: Kimetsu no Yaiba - The Hinokami Chronicles 2|game|AA|Arena fighter
+2025-10-16|76|Reach|vr|AA|Action-adventure (VR)
+2025-09-25|75|Agatha Christie - Death on the Nile|game|AA|Mystery adventure
+2025-09-23|75|Baby Steps|game|Indie|Physics / Adventure
+2025-07-11|75|Patapon 1 + 2 Replay|game|AA|Rhythm / Strategy
+2025-05-23|75|Tainted Grail: The Fall of Avalon|game|AA|Open-world RPG
+2025-01-30|75|Sniper Elite: Resistance|game|AA|Tactical shooter
+2025-02-18|75|Lost Records: Bloom & Rage Tape 1|dup|AA|Narrative adventure
+2025-06-19|75|RAIDOU Remastered: The Mystery of the Soulless Army|game|AA|Action RPG
+2025-09-12|74|Gloomy Eyes|game|Indie|Puzzle adventure
+2025-06-17|74|Date Everything!|game|Indie|Dating sim / Narrative
+2025-07-31|74|9 Years of Shadows|game|Indie|Metroidvania
+2025-09-26|74|Atelier Resleriana: The Red Alchemist & the White Guardian|game|AA|JRPG
+2025-08-28|74|Super Robot Wars Y|game|AA|Tactical RPG
+2025-09-04|74|Indiana Jones and the Great Circle: The Order of Giants|dlc|AAA|Action-adventure
+2025-11-15|74|Where Winds Meet|f2p|AA|Open-world action RPG
+2025-10-09|74|Bye Sweet Carole|game|Indie|Horror adventure
+2025-07-24|74|WUCHANG: Fallen Feathers|game|AA|Soulslike
+2025-06-26|74|Ruffy and the Riverside|game|Indie|3D platformer
+2025-10-23|74|Bounty Star|game|Indie|Mech action
+2025-09-26|74|Pac-Man World 2: Re-PAC|game|AA|3D platformer
+2025-02-18|74|Lost Records: Bloom & Rage|game|AA|Narrative adventure
+2025-12-09|74|Romancing SaGa: Minstrel Song Remastered International|game|AA|JRPG
+2025-05-30|74|Disney Illusion Island|game|AA|Platformer
+2025-03-27|74|Atomfall|game|AA|Action RPG / Survival
+2025-05-29|74|Copycat|game|Indie|Narrative adventure
+2025-11-19|73|Demonschool|game|Indie|Tactical RPG
+2025-12-02|73|Sleep Awake|game|Indie|Psychological horror
+2025-09-12|73|NHL 26|sports|AAA|Sports / Hockey
+2025-09-02|73|Metal Eden|game|Indie|FPS
+2025-04-15|73|Lushfoil Photography Sim|game|Indie|Photography sim
+2025-09-19|73|Towa and the Guardians of the Sacred Tree|game|AA|Roguelite action
+2025-01-10|73|Freedom Wars Remastered|game|AA|Action
+2025-10-14|73|NASCAR 25|sports|AA|Sports / Racing (licensed)
+2025-07-10|73|System Shock 2: 25th Anniversary Remaster|game|AA|Immersive sim
+2025-08-08|73|Mafia: The Old Country|game|AAA|Action-adventure
+2025-03-27|72|KARMA: The Dark World|game|Indie|Psychological thriller
+2025-01-28|72|Cuisineer|game|Indie|Roguelite / Management
+2025-11-18|72|SpongeBob SquarePants: Titans of the Tide|game|AA|3D platformer
+2025-06-19|72|Rematch|sports|Indie|Sports / Football
+2025-09-05|72|Everybody's Golf Hot Shots|sports|AA|Sports / Golf
+2025-07-17|72|RoboCop: Rogue City - Unfinished Business|game|AA|FPS (standalone)
+2025-03-21|71|Bleach Rebirth of Souls|game|AA|Arena fighter
+2025-05-13|71|Labyrinth Of The Demon King|game|Indie|Survival horror
+2025-04-22|71|Steel Seed|game|Indie|Stealth action
+2025-08-28|71|The Knightling|game|Indie|Action-adventure
+2025-10-10|71|Little Nightmares III|game|AA|Horror / Puzzle-platformer
+2025-05-22|71|Blades of Fire|game|AA|Action RPG
+2025-04-10|71|Monster Energy Supercross 25 - The Official Video Game|sports|AA|Sports / Racing (licensed)
+2025-09-30|70|Alien: Rogue Incursion Evolved Edition|game|AA|Survival horror
+2025-09-16|70|Assassin's Creed Shadows: Claws of Awaji|dlc|AAA|Open-world action RPG
+2025-04-17|70|Rusty Rabbit|game|Indie|Platformer
+2025-06-16|70|Gex Trilogy|game|AA|Platformer collection
+2025-05-28|70|to a T|game|Indie|Narrative adventure
+2025-10-07|70|King of Meat|game|AA|Co-op action
+2025-12-12|70|Terminator 2D: NO FATE|game|Indie|Action platformer
+2026-04-14|94|Hades II|game|Indie|Roguelike / Action
+2026-05-29|91|Mina the Hollower|game|Indie|Action-adventure
+2026-08-04|91|Big Walk|game|Indie|Co-op adventure
+2026-07-07|91|DOOM: The Dark Ages - Revelations|dlc|AAA|FPS
+2026-09-17|90|Trails in the Sky 2nd Chapter|game|AA|JRPG
+2026-02-27|89|Resident Evil Requiem|game|AAA|Survival horror
+2026-10-06|88|Star Wars: Galactic Racer|game|AA|Racing
+2026-07-15|88|Denshattack!|game|Indie|Arcade / Action
+2026-05-27|87|007 First Light|game|AAA|Action / Stealth
+2026-10-02|87|Ace Combat 8: Wings of Theve|game|AAA|Aerial combat
+2026-04-30|87|SAROS|game|AAA|Action / Roguelite
+2026-08-12|87|Ghost of Yotei: Complete Edition|dup|AAA|Open-world action
+2026-05-07|86|Mixtape|game|Indie|Narrative adventure
+2026-02-06|86|Nioh 3|game|AAA|Action RPG
+2026-03-13|86|Monster Hunter Stories 3: Twisted Reflection|game|AA|JRPG
+2026-10-08|86|Silver Pines|game|Indie|Horror / Metroidvania
+2026-02-13|85|Rune Factory: Guardians of Azuma|game|AA|Action RPG / Farming
+2026-04-28|85|Diablo IV: Lord of Hatred|dlc|AAA|Action RPG expansion
+2026-04-17|85|PRAGMATA|game|AAA|Action-adventure
+2026-09-04|85|Onimusha: Way of the Sword|game|AAA|Samurai action
+2026-08-06|85|Marvel Tokon: Fighting Souls|game|AA|Fighting
+2026-02-05|85|Super Bomberman Collection|game|AA|Party / Arcade collection
+2026-10-08|85|Order of the Sinking Star|game|Indie|Puzzle adventure
+2026-08-27|85|Metal Gear Solid: Master Collection Vol. 2|game|AA|Stealth action collection
+2026-09-22|84|Well Dweller|game|Indie|Metroidvania
+2026-01-15|84|The Legend of Heroes: Trails beyond the Horizon|game|AA|JRPG
+2026-02-12|84|BlazBlue Entropy Effect X|game|Indie|Roguelite action
+2026-08-20|84|Mortal Shell II|game|AA|Soulslike
+2026-10-15|84|Castlevania: Belmont's Curse|game|AA|Action platformer
+2026-09-24|84|CONTROL Resonant|game|AAA|Action RPG / Adventure
+2026-07-09|83|Assassin's Creed Black Flag Resynced|game|AAA|Open-world action
+2026-09-03|83|The Blood of Dawnwalker|game|AA|Action RPG / Open world
+2026-01-20|83|MIO: Memories in Orbit|game|Indie|Metroidvania
+2026-02-20|83|Ys X: Proud Nordics|game|AA|Action JRPG
+2026-02-17|83|Under The Island|game|Indie|Top-down adventure
+2026-05-19|83|LEGO Batman: Legacy of the Dark Knight|game|AAA|Action-adventure
+2026-07-23|83|CULTIC|game|Indie|FPS
+2026-10-09|83|Dragon's Dogma 2: Dark Arisen|review|AAA|Action RPG (check if expansion)
+2026-01-29|83|Cairn|game|Indie|Climbing / Survival
+2026-03-05|83|Planet of Lana II|game|Indie|Puzzle adventure
+2026-02-05|83|Dragon Quest VII Reimagined|game|AA|JRPG
+2026-08-27|83|Star Wars Zero Company|game|AA|Tactical strategy
+2026-09-29|83|TOEM 2|game|Indie|Adventure / Photography
+2026-03-31|82|GRIME II|game|Indie|Soulslike / Metroidvania
+2026-07-08|81|Granblue Fantasy: Relink - Endless Ragnarok|review|AA|Action RPG (check if expansion)
+2026-05-21|81|Luna Abyss|game|Indie|FPS / Bullet hell
+2026-03-05|81|Marathon|game|AAA|Extraction shooter
+2026-03-31|81|South of Midnight|game|AA|Action-adventure
+2026-02-17|81|Avowed|game|AAA|Action RPG
+2026-10-13|81|Valor Mortis|game|AA|First-person action RPG
+2026-07-28|80|Halo: Campaign Evolved|game|AAA|FPS
+2026-10-06|80|Kingdom Hearts Collection I ~ III|game|AAA|Action RPG collection
+2026-09-24|80|Silent Hill: Townfall|game|AA|Psychological survival horror
+2026-02-13|80|REANIMAL|game|Indie|Horror adventure
+2026-04-07|80|People of Note|game|Indie|Musical RPG
+2026-05-01|79|Constance|game|Indie|Metroidvania
+2026-09-22|79|Dune: Awakening|game|AAA|Open-world survival MMO
+2026-05-19|79|Darksiders: Warmastered Edition|game|AA|Action-adventure
+2026-06-19|79|EA Sports UFC 6|sports|AAA|Sports / Fighting
+2026-02-12|79|RIDE 6|game|AA|Motorcycle racing
+2026-08-13|79|Duskfade|game|Indie|Action RPG
+2026-04-07|78|Starfield|game|AAA|Open-world RPG
+2026-08-27|78|Resonance: A Plague Tale Legacy|game|AA|Action-adventure
+2026-06-18|78|The Adventures of Elliot: The Millennium Tales|game|AA|Action RPG
+2026-07-16|78|Moss: The Forgotten Relic|review|Indie|Action-adventure (check if VR-only)
+2026-07-09|78|EA Sports College Football 27|sports|AAA|Sports / Football
+2026-06-03|78|F1 25: 2026 Season Pack|dlc|AAA|Sports / Racing
+2026-08-18|78|The Sinking City 2|game|AA|Survival horror
+2026-01-20|78|2XKO|f2p|AAA|Fighting
+2026-09-04|78|NBA 2K27|sports|AAA|Sports / Basketball
+2026-03-13|78|WWE 2K26|sports|AAA|Sports / Wrestling
+2026-05-05|78|MOTORSLICE|game|Indie|Action platformer
+2026-08-13|78|Madden NFL 27|sports|AAA|Sports / American football
+2026-09-29|78|Transport Fever 3|game|AA|Transport / Business sim
+2026-03-19|77|Crimson Desert|game|AAA|Open-world action-adventure
+2026-07-23|77|Gurei|game|Indie|Action
+2026-03-26|77|New Super Lucky's Tale|game|AA|3D platformer
+2026-04-16|77|MOUSE: P.I. For Hire|game|Indie|FPS
+2026-02-27|77|Tales of Berseria Remastered|game|AA|JRPG
+2026-07-23|77|Avatar Legends: The Fighting Game|game|AA|Fighting
+2026-04-30|76|Invincible VS|game|AA|Fighting
+2026-03-26|76|Screamer|game|AA|Arcade racing
+2026-04-30|76|Bus Bound|game|Indie|Driving sim
+2026-07-16|76|PowerWash Simulator 2: Star Wars Pack|dlc|Indie|Simulation
+2026-03-26|76|Project Songbird|game|Indie|Psychological horror
+2026-05-12|76|Call of the Elder Gods|game|Indie|Puzzle adventure
+2026-03-03|76|Scott Pilgrim EX|game|AA|Beat 'em up
+2026-09-18|76|NASCAR 26|sports|AA|Sports / Racing (licensed)
+2026-02-13|76|Kingdom Come: Deliverance - Next-Gen Update|dup|AA|Open-world RPG
+2026-04-29|75|MotoGP 26|sports|AA|Sports / Racing (licensed)
+2026-09-15|75|Marvel's Wolverine|game|AAA|Action-adventure
+2026-07-14|75|D-topia|game|AA|Management / Adventure
+2026-07-30|75|Blue Reflection Quartet|game|AA|JRPG
+2026-10-01|75|End of Abyss|review|Indie|Action (Metacritic showed 75 and 73)
+2026-03-27|75|Mega Man Star Force Legacy Collection|game|AA|Action RPG collection
+2026-05-26|75|Realm of Ink|game|Indie|Roguelite action
+2026-10-08|75|Forever Ago|game|Indie|Narrative adventure
+2026-03-12|74|Fatal Frame II: Crimson Butterfly REMAKE|game|AA|Survival horror
+2026-09-25|74|EA Sports FC 27|sports|AAA|Sports / Football
+2026-03-26|74|Etrange Overlord|game|AA|Action RPG
+2026-02-12|74|Yakuza Kiwami 3 & Dark Ties|game|AA|Action-adventure
+2026-06-23|74|Deer & Boy|game|Indie|Puzzle platformer
+2026-03-24|74|Ariana and the Elder Codex|game|AA|JRPG
+2026-08-28|74|Captain Tsubasa 2: World Fighters|sports|AA|Sports / Football
+2026-06-05|74|Hollowbody|game|Indie|Survival horror
+2026-04-29|73|NTE: Neverness to Everness|f2p|AA|Open-world action RPG
+2026-03-26|73|ICARUS|game|AA|Survival
+2026-09-10|73|Hot Wheels Infinite Rush|game|AA|Arcade racing
+2026-03-17|73|MLB The Show 26|sports|AAA|Sports / Baseball
+2026-03-12|73|John Carpenter's Toxic Commando|game|AA|Co-op shooter
+2026-04-02|73|Darwin's Paradox!|game|Indie|Platformer
+2026-02-10|73|Crisol: Theater of Idols|game|Indie|Horror FPS
+2026-10-01|72|Dynasty Warriors 3 Complete Edition Remastered|game|AA|Musou action
+2026-04-30|72|Adorable Adventures|game|Indie|Adventure
+2026-02-13|72|Rayman: 30th Anniversary Edition|game|AA|Platformer collection
+2026-05-12|72|Directive 8020|game|AA|Narrative horror
+2026-02-11|72|Romeo is a Dead Man|game|AA|Action
+2026-01-12|72|Big Hops|game|Indie|3D platformer
+2026-02-06|72|My Hero Academia: All's Justice|game|AA|Arena fighter
+2026-04-14|72|Dosa Divas|game|Indie|RPG
+2026-04-16|72|Ground Zero|game|Indie|Survival horror
+2026-03-27|72|MARVEL MaXimum Collection|game|AA|Arcade collection
+2026-03-31|71|Super Meat Boy 3D|game|Indie|3D platformer
+2026-08-04|71|Beast of Reincarnation|game|AA|Action RPG
+2026-03-26|71|DAMON and BABY|game|Indie|Action shooter
+2026-03-26|71|Life is Strange: Reunion|game|AA|Narrative adventure
+2026-04-22|71|Tides of Tomorrow|game|AA|Narrative adventure
+2026-03-16|71|Starship Troopers: Ultimate Bug War!|game|AA|FPS
+2026-02-13|70|High on Life 2|game|AA|FPS
+2026-02-19|70|Styx: Blades of Greed|game|AA|Stealth
+2026-03-03|70|Legacy of Kain: Defiance Remastered|game|AA|Action-adventure
+2026-01-30|70|Code Vein II|game|AA|Action RPG
+2026-05-21|70|STARBITES|game|Indie|RPG
+2026-09-09|70|Dragon Quest Heroes: Torneko's Mystery Dungeon -Classic HD-|game|AA|Roguelike RPG

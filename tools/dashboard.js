@@ -1,0 +1,220 @@
+(async function(){
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : null;
+const dash = '<span class="muted">—</span>';
+const money = n => n == null ? null : "$" + Number(n).toFixed(2);
+const day = d => new Date(d + "T12:00:00");
+const fmt = d => d ? day(d).toLocaleDateString("en-CA", {month:"short", day:"numeric", year:"numeric"}) : null;
+const r = n => Math.round(n);
+
+// ---------- load data (fetch from /data, or embedded data for offline previews)
+async function load(name, fallback){
+  if (window.EMBEDDED_DATA && name in window.EMBEDDED_DATA) return window.EMBEDDED_DATA[name];
+  try { const res = await fetch(`data/${name}.json`, {cache:"no-cache"}); if (!res.ok) throw 0; return await res.json(); }
+  catch { return fallback; }
+}
+const [GAMES, STATS, SALES, WISH, EVENTS, META] = await Promise.all([
+  load("games", []), load("stats", {summary:{}, games:{}, events:[], calendar:[], buckets:[]}), load("sales", {open:[], closed:[]}),
+  load("wishlist", {game_ids:[]}), load("events", []), load("meta", {})]);
+const now = new Date();
+const daysSince = d => Math.floor((now - day(d)) / 864e5);
+
+const upd = META.last_updated_at || META.last_run_at;
+$("#updated").textContent = upd ? new Date(upd).toLocaleString("en-CA", {year:"numeric", month:"short", day:"numeric", hour:"numeric", minute:"2-digit", timeZone:"America/Toronto", timeZoneName:"short"}) : "not yet";
+
+const score = g => (g.metacritic && g.metacritic.score != null) ? g.metacritic.score : (g.alt_score ? g.alt_score.score : null);
+const scoreSrc = g => (g.metacritic && g.metacritic.score != null) ? "Metacritic PS5" : (g.alt_score ? g.alt_score.source : "");
+const listed = GAMES.filter(g => g.status === "listed");
+const pending = GAMES.filter(g => g.status === "pending_score");
+const byId = Object.fromEntries(GAMES.map(g => [g.id, g]));
+const wish = new Set(WISH.game_ids || []);
+const pendingWish = new Map();      // id -> "add"|"remove" requested from this browser session
+const isNew = g => g.listed_on && g.listed_on !== META.baseline_date && daysSince(g.listed_on) <= 7;
+const unverifiedN = listed.filter(g => !g.verified).length;
+if (unverifiedN) { const b = $("#banner"); b.hidden = false;
+  b.textContent = `${unverifiedN} of ${listed.length} games were carried over from the old spreadsheet or Metacritic's lists and are still being re-checked against their sources (about 40 a night). Scores marked * aren't confirmed yet.`; }
+
+// ---------- shared bits
+const S = STATS.summary || {};
+const BUCKETS = STATS.buckets && STATS.buckets.length ? STATS.buckets : ["0–3 Months","3–6 Months","6–12 Months","12+ Months"];
+const EVN = Object.fromEntries((STATS.events || []).map(e => [e.id, e]));
+const evName = id => id ? (EVN[id] ? EVN[id].name : id) : "Store price";
+const shortEv = id => evName(id).replace(/ 20\d\d$/, "");
+
+function nextDrop(g){
+  const n = (STATS.games[g.id] || {}).next_expected;
+  if (!n) return dash;
+  if (n.on_sale) return `<span class="chip ok">On Sale Now</span><br><span class="muted">${Object.entries(n.on_sale).map(([f, s]) => `${f === "disc" ? "Disc" : "Digital"} −${s.pct}%`).join(" · ")}</span>`;
+  const parts = Object.entries(n.pct || {}).filter(([, v]) => v != null).map(([f, v]) => `${f === "disc" ? "Disc" : "Digital"} −${v}%`);
+  const typical = Object.values(n.basis || {}).includes("typical") ? " (typical)" : "";
+  return `${esc(n.event)}<br><span class="muted">${n.expected ? "Expected " : ""}${fmt(n.start)}${parts.length ? " · " + parts.join(" · ") + typical : ""}</span>`;
+}
+function starBtn(g){
+  const on = pendingWish.has(g.id) ? pendingWish.get(g.id) === "add" : wish.has(g.id);
+  const pend = pendingWish.has(g.id) ? " pending" : "";
+  return `<button class="star${pend}" data-wish="${g.id}" aria-pressed="${on}" aria-label="${on ? "Remove from" : "Add to"} wishlist: ${esc(g.title)}" title="${pend ? "Waiting for GitHub" : on ? "On your wishlist" : "Add to wishlist"}">${on ? "★" : "☆"}</button>`;
+}
+const discChip = p => `<span class="chip ${p === "Yes" ? "ok" : p === "No" ? "off" : "warn"}">${p === "Yes" ? "Disc" : p === "No" ? "Digital Only" : "Unverified"}</span>`;
+const state = {tab:"catalog", sort:{key:"score", dir:-1}, f:{year:"All", scale:"All", q:"", fmt:"All"}, wishOnly:false, statFmt:"digital", toast:null};
+const curVal = k => k === "wishOnly" ? state.wishOnly : k === "statfmt" ? state.statFmt : state.f[k];
+const seg = (key, opts, label, labels) => `<span class="fg">${label ? `<span class="flabel">${label}</span>` : ""}<span class="seg" role="group" aria-label="${label || key}">${opts.map((o, i) => `<button data-f="${key}" data-v="${o}" aria-pressed="${String(curVal(key)) === String(o)}">${labels ? labels[i] : o}</button>`).join("")}</span></span>`;
+const toast = () => state.toast ? `<div class="toast" role="status">${state.toast}</div>` : "";
+const KEYS = {title:g => g.title.toLowerCase(), date:g => g.release_date || g.ps5_year + "-99", score:g => score(g) ?? -1,
+  price:g => g.ps_store && g.ps_store.current != null ? g.ps_store.current : 1e9, disc:g => g.physical, scale:g => g.scale || "", genre:g => (g.genre || "").toLowerCase(), wish:g => wish.has(g.id) ? 1 : 0};
+function sorted(rows){ const f = KEYS[state.sort.key], d = state.sort.dir; return rows.slice().sort((a, z) => { const x = f(a), y = f(z); return (x < y ? -1 : x > y ? 1 : 0) * d || a.title.localeCompare(z.title); }); }
+function head(cols){ return `<thead><tr>${cols.map(c => { if (!c.k) return `<th class="${c.cls || ""}">${c.l}</th>`; const on = state.sort.key === c.k, dir = on ? (state.sort.dir > 0 ? "ascending" : "descending") : "none";
+  return `<th class="s ${c.cls || ""}" aria-sort="${dir}"><button data-sort="${c.k}">${c.l}${on ? `<span class="arr">${state.sort.dir > 0 ? "↑" : "↓"}</span>` : ""}</button></th>`; }).join("")}</tr></thead>`; }
+const relDate = g => g.release_date ? fmt(g.release_date) : `<span class="muted">${g.ps5_year} · date pending</span>`;
+
+// ---------- Catalog
+function catalog(){
+  const f = state.f, q = f.q.trim().toLowerCase();
+  const rows = sorted(listed.filter(g => (f.year === "All" || String(g.ps5_year) === f.year) && (f.scale === "All" || g.scale === f.scale) && (!q || (g.title + " " + (g.genre || "")).toLowerCase().includes(q))));
+  const cols = [{k:"wish", l:"★", cls:"w"}, {k:"title", l:"Game"}, {k:"date", l:"Released"}, {k:"price", l:"Price (CAD)", cls:"num"}, {k:"score", l:"Score", cls:"num"},
+    {k:"disc", l:"Format"}, {k:"scale", l:"Scale"}, {k:"genre", l:"Genre"}, {l:"Next Expected Price Drop"}];
+  const body = rows.map(g => { const p = g.ps_store || {}; const s = score(g);
+    return `<tr><td class="w">${starBtn(g)}</td>
+    <td><span class="title clamp" title="${esc(g.title)}">${esc(g.title)}${isNew(g) ? '<span class="chips"><span class="chip new">New</span></span>' : ""}${g.inclusion_reason ? '<span class="chips"><span class="chip out" title="' + esc(g.inclusion_reason) + '">By Request</span></span>' : ""}</span></td>
+    <td class="nw">${relDate(g)}</td>
+    <td class="num">${p.current != null ? (p.current < (p.regular || 0) - 0.01 ? `<span class="strike">${money(p.regular)}</span> ${money(p.current)}` : money(p.current)) : (p.regular != null ? `<span class="muted" title="From the old spreadsheet, not yet checked">${money(p.regular)}*</span>` : dash)}</td>
+    <td class="num" title="${esc(scoreSrc(g))}${g.verified ? "" : " - not yet confirmed"}">${s ?? dash}${s != null && !g.verified ? '<span class="muted">*</span>' : ""}</td>
+    <td>${discChip(g.physical)}</td><td class="muted">${esc(g.scale)}</td><td><span class="clamp" title="${esc(g.genre)}">${esc(g.genre)}</span></td>
+    <td class="nw">${wish.has(g.id) ? nextDrop(g) : dash}</td></tr>`; }).join("");
+  return `${toast()}<div class="filters">${seg("year", ["All","2025","2026"], "Year")}${seg("scale", ["All","AAA","AA","Indie"], "Scale")}
+    <input class="search" type="search" placeholder="Search games or genres" aria-label="Search" value="${esc(f.q)}" id="q"></div>
+    <div class="box">${rows.length ? `<table>${head(cols)}<tbody>${body}</tbody></table>` : `<div class="empty"><b>No games match.</b>Clear the search or set the filters back to All.</div>`}</div>
+    <p class="hint">Showing ${rows.length} of ${listed.length}. Price is the PlayStation Store Canada price for non-members. Score is the Metacritic PS5 score, or another critic aggregate when Metacritic has none (hover to see which); * means not yet confirmed. Next Expected Price Drop appears for wishlist games: the next big sale and the discount the game (or similar games) got at that sale last year - an estimate, not a promise.</p>`;
+}
+
+// ---------- Price Drops
+function drops(){
+  let rows = (SALES.open || []).filter(s => byId[s.game_id] && (!state.wishOnly || wish.has(s.game_id)) && (state.f.fmt === "All" || s.format === state.f.fmt.toLowerCase()))
+    .slice().sort((a, z) => z.pct - a.pct);
+  const lowOf = (s) => ((STATS.games[s.game_id] || {}).lowest || {})[s.format];
+  const body = rows.map(s => { const g = byId[s.game_id], low = lowOf(s), isLow = low != null && s.price <= low + 0.009;
+    const alerted = s.alerted && wish.has(s.game_id) && s.changed_on !== META.baseline_date;
+    return `<tr><td class="w">${starBtn(g)}</td><td><span class="title clamp">${esc(g.title)}</span></td>
+      <td><span class="chip ${s.format === "disc" ? "ok" : "out"}">${s.format === "disc" ? "Disc" : "Digital"}</span></td><td class="nw">${esc(s.store)}</td>
+      <td class="num"><span class="strike">${money(s.baseline)}</span></td><td class="num"><b>${money(s.price)}</b></td><td class="num">−${s.pct}%${s.kind === "price_cut" ? ' <span class="chip out">Price Cut</span>' : ""}</td>
+      <td class="num">${isLow ? '<span class="chip ok">This Is It</span>' : (low != null ? money(low) : dash)}</td>
+      <td class="nw">${s.end ? fmt(s.end) : '<span class="muted">Not stated</span>'}</td>
+      <td>${alerted ? '<span class="chip warn">Alert Sent</span>' : dash}</td></tr>`; }).join("");
+  return `${toast()}<div class="filters">${seg("fmt", ["All","Digital","Disc"], "Format")}${seg("wishOnly", [false, true], "", ["All Games", "Wishlist Only"])}</div>
+    <div class="box">${rows.length ? `<table><thead><tr><th class="w">★</th><th>Game</th><th>Format</th><th>Store</th><th class="num">Regular Price</th><th class="num">Sale Price</th><th class="num">Discount</th><th class="num">Lowest Ever</th><th>Sale Ends</th><th>Alert</th></tr></thead><tbody>${body}</tbody></table>`
+      : `<div class="empty"><b>Nothing on sale here.</b>${state.wishOnly ? "None of your wishlist games are discounted right now." : "Set the filters back to All."}</div>`}</div>
+    <p class="hint">One row per deal; every price in a row is for that format at that store. Regular Price for digital is the PlayStation Store price; for disc it's the most common launch price across Best Buy, Walmart, EB Games, VGP and PNP Games. Lowest Ever is the lowest price recorded for that format; "This Is It" means today's price is the lowest ever. Wishlist games send an alert at 25%+ off or a new lowest price.</p>`;
+}
+
+// ---------- Statistics
+function statistics(){
+  const SD = S.digital, SX = S.disc;
+  if (!SD || !SD.games) return `<div class="box"><div class="empty"><b>No sale history yet.</b>Statistics appear once games have recorded discounts.</div></div>`;
+  const maxMed = Math.max(...SD.buckets.concat(SX.buckets).map(b => b.median || 0)) || 1;
+  const bar = (b, cls) => `<span class="track" title="${b.median == null ? "No data" : "Median −" + r(b.median) + "% across " + b.games + " games"}"><span class="fill ${cls}" style="width:${b.median ? b.median / maxMed * 100 : 0}%"></span></span>
+      <span class="val">${b.median == null ? dash : "−" + r(b.median) + "%"}<small>${b.games} game${b.games === 1 ? "" : "s"}</small></span>`;
+  const bars = BUCKETS.map((lbl, i) => `<span class="lbl" style="grid-row:span 2">${lbl}</span><span class="ser">Digital</span>${bar(SD.buckets[i], "")}<span class="ser">Disc</span>${bar(SX.buckets[i], "disc")}`).join("");
+  const MN = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const cal = (STATS.calendar || []).map((c, i) => `<div class="${c.special ? "sp" : c.events.length ? "on" : ""}" title="${esc(c.events.join(", ") || "No major sale recorded")}"><b>${MN[i]}</b>${c.events.map(n => `<i>${esc(n)}</i>`).join("")}</div>`).join("");
+  const evRows = (STATS.events || []).map(e => `<tr><td><span class="title">${esc(e.name)}</span>${e.special ? ' <span class="chip sp">Special Occasion</span>' : ""}${e.expected ? ' <span class="chip out">Expected</span>' : ""}</td>
+      <td class="nw">${fmt(e.start)}${e.end ? " – " + fmt(e.end) : ""}</td>
+      <td class="num">${e.digital.games || dash}</td><td class="num">${e.digital.median == null ? dash : "−" + r(e.digital.median) + "%"}</td>
+      <td class="num">${e.disc.games || dash}</td><td class="num">${e.disc.median == null ? dash : "−" + r(e.disc.median) + "%"}</td>
+      <td class="muted">${esc(e.note || "")}</td></tr>`).join("");
+  const f = state.statFmt;
+  const gameRows = listed.filter(g => { const s = STATS.games[g.id]; return s && (s.first.digital || s.first.disc || s.lowest.digital || s.lowest.disc); })
+    .sort((a, z) => (a.release_date || "") < (z.release_date || "") ? -1 : 1).map(g => {
+      const s = STATS.games[g.id], fo = s.first[f], obs = s["obs_" + f] || [];
+      const cell = i => { const v = s.buckets[f][i]; if (v == null) return `<td class="num">${dash}</td>`;
+        const o = obs.find(x => x.pct === v); const flag = o && o.us_pct;
+        return `<td class="num pctcell"><span class="${flag ? "est" : ""}" title="${esc(o ? evName(o.event) + " · " + o.store : "")}${flag ? " (US % off)" : ""}">−${v}%${flag ? "*" : ""}</span></td>`; };
+      return `<tr><td class="w">${starBtn(g)}</td><td style="min-width:170px"><span class="title clamp">${esc(g.title)}</span></td><td class="nw">${relDate(g)}</td>
+        <td class="num">${money(s.launch[f]) ?? dash}</td>
+        <td class="nw">${fo ? `${fo.age.toFixed(1)} mo · −${fo.pct}% <span class="muted">${esc(shortEv(fo.event))}${f === "disc" ? " · " + esc(fo.store) : ""}</span>` : dash}</td>
+        ${BUCKETS.map((_, i) => cell(i)).join("")}<td class="num">${money(s.lowest[f]) ?? dash}</td><td class="nw">${nextDrop(g)}</td></tr>`; }).join("");
+  const kpi = (big, label, disc) => `<div class="kpi"><b>${big}</b><span>${label}</span><em>Disc: ${disc}</em></div>`;
+  const o = (x, fn) => x == null ? "—" : fn(x);
+  return `${toast()}
+    <h2>When Games First Go on Sale</h2>
+    <p class="sub">Based on ${SD.games} games with digital sale data and ${SX.games} with disc sale data. Digital discounts are measured against the PlayStation Store launch price; disc discounts against the most common launch price across the disc stores.</p>
+    <div class="kpis">
+      ${kpi(o(SD.first_age_median, v => v.toFixed(1) + " months"), "median time to the first digital discount", o(SX.first_age_median, v => v.toFixed(1) + " months"))}
+      ${kpi(o(SD.first_pct_median, v => "−" + r(v) + "%"), "median size of the first digital discount", o(SX.first_pct_median, v => "−" + r(v) + "%"))}
+      ${kpi(SD.within_3_months + " of " + SD.games, "games with a digital discount within 3 months", SX.within_3_months + " of " + SX.games)}
+      ${kpi(SD.deepest ? "−" + SD.deepest.pct + "%" : "—", "deepest digital discount" + (SD.deepest ? " (" + esc(SD.deepest.title.split(":")[0]) + ")" : ""), SX.deepest ? "−" + SX.deepest.pct + "% (" + esc(SX.deepest.title.split(":")[0]) + ", " + esc(SX.deepest.store) + ")" : "—")}
+    </div>
+    <h2>How Deep Discounts Get as Games Age</h2>
+    <p class="sub">The biggest discount each game had in each age window, then the median across games.</p>
+    <div class="panel"><div class="bars2">${bars}</div><div class="legend"><span class="dg">Digital (PlayStation Store)</span><span class="dc">Disc (Best Buy, Walmart, EB Games, VGP, PNP)</span></div></div>
+    <h2>Sale Calendar</h2>
+    <p class="sub">Months with a store-wide sale since January 2025. Hover a month for details.</p>
+    <div class="panel"><div class="cal">${cal}</div><div class="legend"><span class="sp">Special occasion (Days of Play, Black Friday, Boxing Week, Holiday)</span><span class="on">Regular sale</span><span>No major sale recorded</span></div></div>
+    <h2>Sale Events</h2>
+    <div class="box"><table><thead><tr><th>Event</th><th>Dates</th><th class="num">Digital Games</th><th class="num">Digital Median Off</th><th class="num">Disc Games</th><th class="num">Disc Median Off</th><th>Note</th></tr></thead><tbody>${evRows}</tbody></table></div>
+    <h2>By Game</h2>
+    <div class="filters">${seg("statfmt", ["digital", "disc"], "", ["Digital", "Disc"])}</div>
+    <div class="box"><table><thead><tr><th class="w">★</th><th>Game</th><th>Released</th><th class="num">Launch Price</th><th>First Discount</th>
+      ${BUCKETS.map(b => `<th class="num">${b.replace(" Months", " Mo")}</th>`).join("")}<th class="num">Lowest Ever</th><th>Next Expected Price Drop</th></tr></thead><tbody>${gameRows}</tbody></table></div>
+    <p class="hint">* Percentages from US sale listings. History before tracking began comes from published sale lists (MobileSyrup, Tom's Guide) and Deku Deals' lowest prices, so smaller sales from that period are missing. From the first nightly run, every price change is recorded. Expected price drops are an estimate - the next big sale plus last year's discount - not a forecast.</p>`;
+}
+
+// ---------- Waiting for Scores
+function pendingTab(){
+  if (!pending.length) return `<div class="box"><div class="empty"><b>Nothing waiting.</b>Every recent release has a score.</div></div>`;
+  const rows = pending.slice().sort((a, z) => (z.release_date || z.first_seen || "") < (a.release_date || a.first_seen || "") ? -1 : 1).map(g => {
+    const start = g.release_date || g.first_seen, d = start ? daysSince(start) : null;
+    return `<tr><td class="w">${starBtn(g)}</td><td class="title">${esc(g.title)}</td><td class="nw">${relDate(g)}</td>
+      <td class="num">${d ?? dash}</td><td class="num">${d == null ? dash : Math.max(0, 30 - d)}</td><td class="muted">${esc(g.scale)}</td><td>${esc(g.genre)}</td></tr>`; }).join("");
+  return `${toast()}<div class="box"><table><thead><tr><th class="w">★</th><th>Game</th><th>Released</th><th class="num">Days Waiting</th><th class="num">Days Left</th><th>Scale</th><th>Genre</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <p class="hint">PS5 games released in the last 30 days without a 70+ score yet. Prices are tracked from release day, so launch discounts are captured. A game moves to the catalog when it reaches 70, and drops off this list after 30 days without it.</p>`;
+}
+
+function about(){
+  return `<div class="about">
+    <h3>What's on the List</h3><p>PS5 games released in 2025 or 2026 (ports and remasters count in the year the PS5 version came out) with a Metacritic PS5 score of 70+, or another critic aggregate when Metacritic has none. DLC, PS VR2-only, free-to-play and sports games are left out. Games you add by request are marked By Request.</p>
+    <h3>How a Game Gets On</h3><p>New releases are found the night they come out. A game joins the catalog the first night it has a 70+ score; its score keeps updating for 30 days after release, then locks. Once on, a game stays on.</p>
+    <h3>Prices</h3><p>Digital: PlayStation Store Canada, regular non-member price (PS Plus-only discounts are ignored). Disc: new copies at Best Buy, Walmart, EB Games, Video Games Plus and PNP Games.</p>
+    <h3>Statistics</h3><p>Digital discounts are measured against the launch price; disc discounts against the most common launch price across the disc stores. Age windows count months from the PS5 release date.</p>
+    <h3>Wishlist and Alerts</h3><p>Tap ☆ to add a game: GitHub opens with the change filled in - tap Submit and the dashboard updates in about two minutes. Wishlist games send a phone alert at 25%+ off or a new lowest price, digital and disc separately, once per sale.</p>
+    <h3>Updated</h3><p>Every night at 8 pm Toronto time.</p>
+  </div>`;
+}
+
+// ---------- tabs and events
+const TABS = [
+  {id:"catalog", label:"Catalog", n:() => listed.length},
+  {id:"drops", label:"Price Drops", n:() => (SALES.open || []).filter(s => byId[s.game_id]).length},
+  {id:"stats", label:"Statistics"},
+  {id:"pending", label:"Waiting for Scores", n:() => pending.length},
+  {id:"about", label:"How This Works"},
+];
+function renderTabs(){ $("#tabs").innerHTML = TABS.map(t => `<button role="tab" aria-selected="${t.id === state.tab}" data-tab="${t.id}">${t.label}${t.n ? `<small>${t.n()}</small>` : ""}</button>`).join(""); }
+$("#tabs").addEventListener("click", e => { const x = e.target.closest("[data-tab]"); if (x) { state.tab = x.dataset.tab; state.toast = null; try { localStorage.setItem("tab", state.tab); } catch {} renderTabs(); render(); } });
+try { const t = localStorage.getItem("tab"); if (TABS.some(x => x.id === t)) state.tab = t; } catch {}
+
+function render(){
+  $("#panel").innerHTML = ({catalog, drops, stats:statistics, pending:pendingTab, about})[state.tab]();
+  const q = $("#q"); if (q) q.addEventListener("input", e => { state.f.q = e.target.value; const pos = e.target.selectionStart; render(); const n = $("#q"); n.focus(); n.setSelectionRange(pos, pos); });
+}
+$("#panel").addEventListener("click", e => {
+  const w = e.target.closest("[data-wish]");
+  if (w) {
+    const id = w.dataset.wish, g = byId[id], on = pendingWish.has(id) ? pendingWish.get(id) === "add" : wish.has(id), action = on ? "remove" : "add";
+    const repo = META.repo;
+    if (repo && /^[\w.-]+\/[\w.-]+$/.test(repo)) {
+      const url = `https://github.com/${repo}/issues/new?title=${encodeURIComponent("wishlist: " + action + " " + id)}&body=${encodeURIComponent((action === "add" ? "Add " : "Remove ") + g.title + (action === "add" ? " to" : " from") + " the wishlist. Tap Submit; this issue closes itself.")}`;
+      window.open(url, "_blank", "noopener");
+      pendingWish.set(id, action);
+      state.toast = `<b>${action === "add" ? "Adding" : "Removing"} ${esc(g.title)}.</b> GitHub opened in a new tab with the change filled in: tap Submit. The dashboard updates in about two minutes.`;
+    } else {
+      state.toast = `<b>Wishlist editing isn't connected yet.</b> On the Mac, run <code>python3 scripts/wishlist.py ${action} ${id}</code>.`;
+    }
+    return render();
+  }
+  const fb = e.target.closest("[data-f]");
+  if (fb) { const k = fb.dataset.f, v = fb.dataset.v; if (k === "wishOnly") state.wishOnly = v === "true"; else if (k === "statfmt") state.statFmt = v; else state.f[k] = v; return render(); }
+  const sb = e.target.closest("[data-sort]");
+  if (sb) { const k = sb.dataset.sort; state.sort = {key:k, dir: state.sort.key === k ? -state.sort.dir : (["title","genre","scale","disc"].includes(k) ? 1 : -1)}; render(); }
+});
+renderTabs(); render();
+})();

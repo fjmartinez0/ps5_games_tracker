@@ -1,0 +1,54 @@
+name: Wishlist from dashboard
+
+# The dashboard's ☆ button opens a pre-filled issue ("wishlist: add PS5-0001"). When the repo owner
+# submits it, this job updates data/wishlist.json, closes the issue and republishes the dashboard.
+# Issues from anyone else are ignored.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: wishlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: startsWith(github.event.issue.title, 'wishlist:') && github.event.issue.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Apply wishlist change
+        id: apply
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          set -o pipefail
+          python3 scripts/wishlist.py --issue-title "$ISSUE_TITLE" | tee .wishlist_result
+          python3 scripts/build_stats.py
+          python3 scripts/validate.py
+      - name: Commit
+        run: |
+          git config user.name "wishlist-bot"
+          git config user.email "wishlist-bot@users.noreply.github.com"
+          git add data/wishlist.json data/stats.json
+          git diff --cached --quiet || git commit -m "Wishlist: ${{ github.event.issue.title }}"
+          git pull --rebase -q && git push -q
+      - name: Close issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }} --comment "$(cat .wishlist_result) - the dashboard updates in about a minute."
+  publish:
+    needs: update
+    uses: ./.github/workflows/pages.yml
