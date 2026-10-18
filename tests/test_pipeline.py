@@ -18,13 +18,13 @@ class Pipeline(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.tmp = Path(tempfile.mkdtemp())
-        shutil.copytree(REPO, cls.tmp / "repo", ignore=shutil.ignore_patterns(".run", "logs", ".git", "__pycache__"))
+        shutil.copytree(REPO, cls.tmp / "repo", ignore=shutil.ignore_patterns(".run", "logs", ".git", "__pycache__", "config.env"))
         cls.root = cls.tmp / "repo"
         sys.path.insert(0, str(cls.root / "scripts"))
         import common
         cls.common = common
         cls.today = common.today()
-        cls.env = {**os.environ, "FETCH_NO_SLEEP": "1"}
+        cls.env = {**{k: v for k, v in os.environ.items() if not k.startswith("NTFY_")}, "FETCH_NO_SLEEP": "1"}  # never send real alerts
 
     @classmethod
     def tearDownClass(cls):
