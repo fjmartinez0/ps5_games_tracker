@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-18",
+  "searches": [
+    "Boltgun 2 PS5 PlayStation Store Canada",
+    "PlayStation Blog this week's releases October 2026",
+    "new PS5 games released October 17 2026",
+    "PlayStation Store Canada new releases PS5 October 2026",
+    "store.playstation.com en-ca Warhammer 40,000: Boltgun 2 PS5",
+    "store.playstation.com en-ca Toy Story Retro Roundup",
+    "store.playstation.com en-ca Tales of Eternia Remastered",
+    "dekudeals Tales of Eternia Remastered",
+    "\"Boltgun 2\" playstation.com en-ca games warhammer-40000-boltgun-2",
+    "PS5 games out this week October 12-18 2026 releases",
+    "Walmart Canada flyer PS5 games deal October 2026 mobilesyrup",
+    "PlayStation Store Canada sale November 2026 Black Friday dates announced",
+    "The Talos Principle: Reawakened PS5 release date store.playstation.com en-ca",
+    "Valheim PS5 release date store.playstation.com en-ca dekudeals"
+  ],
+  "new_games": [
+    {
+      "title": "Warhammer 40,000: Boltgun 2",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Boomer shooter",
+      "release_date": "2026-10-14",
+      "ps_store_url": null,
+      "metacritic_url": "https://www.metacritic.com/game/warhammer-40000-boltgun-2/critic-reviews/?platform=playstation-5",
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": ["https://www.metacritic.com/game/warhammer-40000-boltgun-2/critic-reviews/?platform=playstation-5"],
+      "note": "No en-ca store page or Deku Deals listing found; release date from candidates.json, reviews on Metacritic start 2026-10-14."
+    },
+    {
+      "title": "Disney/Pixar Toy Story: Retro Roundup!",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Retro game compilation",
+      "release_date": "2026-10-15",
+      "ps_store_url": null,
+      "metacritic_url": "https://www.metacritic.com/game/disney-pixar-toy-story-retro-roundup/critic-reviews/?platform=playstation-5",
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": ["https://www.metacritic.com/game/disney-pixar-toy-story-retro-roundup/critic-reviews/?platform=playstation-5"],
+      "note": "Only a Double Pack (with Toy Story 3 Complete Edition) store page was found, not the standalone edition, so no store link proposed."
+    },
+    {
+      "title": "Tales of Eternia Remastered",
+      "category": "game",
+      "scale": "AA",
+      "genre": "JRPG remaster",
+      "release_date": "2026-10-16",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10014611",
+      "metacritic_url": "https://www.metacritic.com/game/tales-of-eternia-remastered/critic-reviews/?platform=playstation-5",
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10014611",
+        "https://www.metacritic.com/game/tales-of-eternia-remastered/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/tales-of-eternia-remastered?format=all&country=ca"
+      ],
+      "note": "Deku Deals page shows no PS5 price yet, so deku_url left null."
+    }
+  ],
+  "updates": [
+    {
+      "id": "PS5-0309",
+      "ps_store_url": null,
+      "deku_url": null,
+      "release_date": "2025-04-10",
+      "evidence": ["https://www.gematsu.com/2025/02/the-talos-principle-reawakened-launches-april-10"]
+    }
+  ],
+  "flyer_prices": [],
+  "events": []
+}

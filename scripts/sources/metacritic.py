@@ -67,10 +67,6 @@ def read_score(url: str) -> dict:
                 rd = _v(a, d.get("releaseDate"))
                 if isinstance(rd, str) and re.match(r"\d{4}-\d{2}-\d{2}", rd):
                     out["release_date"] = rd[:10]
-            elif _v(a, d.get("type")) == "game-title" and out["release_date"] is None:
-                rd = _v(a, d.get("releaseDate"))
-                if isinstance(rd, str) and re.match(r"\d{4}-\d{2}-\d{2}", rd):
-                    out["release_date"] = rd[:10]
         if out["strategy"]:
             return out
     # Fallback: the visible score card ("Metascore 80 out of 100"), only when the page is PS5-only

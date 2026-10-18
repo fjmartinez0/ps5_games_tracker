@@ -10,7 +10,7 @@ import zlib
 
 from common import (CHECKS, DISC_STORES, DIGITAL_STORE, PRICES, SALES, SEED_OBS, WISHLIST, FetchError, append_jsonl,
                     load_games, load_json, log_check, read_jsonl, save_games, save_json, today)
-from rules import close_expired, disc_msrp, prune_closed, update_sale
+from rules import close_expired, disc_msrp, prune_closed, set_release_date, update_sale
 from sources import deku, ps_store, retail
 
 
@@ -73,8 +73,9 @@ def main():
                     prev_regular = g["ps_store"].get("regular") if g["ps_store"].get("checked_at") else None
                     baseline = prev_regular if prev_regular and r["regular"] < prev_regular - 0.01 else r["regular"]
                     g["ps_store"].update(regular=r["regular"], current=r["current"], checked_at=on, sale_end=r["sale_end"])
-                    if r["release_date"] and not g.get("release_date"):
-                        g["release_date"] = r["release_date"]
+                    c = set_release_date(g, r["release_date"])
+                    if c:
+                        notes.append(f"{g['title']}: {c}")
                     if not ps_store.is_standard_edition(r.get("edition")):
                         notes.append(f"{g['title']}: PS Store link is a '{r['edition']}', not the standard edition")
                     record(g, "digital", DIGITAL_STORE, r["regular"], r["current"], {"sale_end": r["sale_end"]})

@@ -1,6 +1,8 @@
 """Pure decision rules (no I/O) so they can be unit-tested. The AI never decides any of these."""
 from __future__ import annotations
 
+import re
+
 from common import ALERT_PCT, MIN_SCORE, SCOPE_YEARS, SCORE_LOCK_DAYS, WAIT_DAYS, days_between
 
 
@@ -41,6 +43,22 @@ def lifecycle(g: dict, on: str) -> str | None:
         g["score_locked"], g["score_locked_at"] = True, on
         return "score locked"
     return None
+
+
+def set_release_date(g: dict, date: str | None) -> str | None:
+    """Fill a missing release date and keep ps5_year in step with it. A date outside 2025-2026 sends a
+    listed or waiting game to review instead of breaking validation. Returns the change, if any."""
+    if not date or g.get("release_date") or not re.match(r"^\d{4}-\d{2}-\d{2}$", date):
+        return None
+    g["release_date"], year = date, int(date[:4])
+    change = f"release date {date}"
+    if year != g.get("ps5_year"):
+        change += f" (year {g.get('ps5_year')} -> {year})"
+        g["ps5_year"] = year
+    if year not in SCOPE_YEARS and g.get("status") in ("listed", "pending_score"):
+        g["status"], g["review_note"] = "review", f"PS5 release date {date} is outside 2025-2026"
+        change += " - moved to review"
+    return change
 
 
 def in_scope_year(release_date: str | None) -> bool:

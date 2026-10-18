@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
-from rules import alert_due, close_expired, disc_msrp, lifecycle, score_update, update_sale  # noqa: E402
+from rules import alert_due, close_expired, disc_msrp, lifecycle, score_update, set_release_date, update_sale  # noqa: E402
 
 
 def game(**kw):
@@ -38,6 +38,17 @@ class Lifecycle(unittest.TestCase):
         self.assertEqual(score_update(g, 60, 40, "u", "2026-11-02"), [])
         self.assertEqual(g["metacritic"]["score"], 80)
         self.assertEqual(g["status"], "listed")            # once on, always on
+
+
+class ReleaseDates(unittest.TestCase):
+    def test_year_follows_date_and_out_of_scope_goes_to_review(self):
+        g = game(status="listed", release_date=None, ps5_year=2025)
+        self.assertIn("year 2025 -> 2026", set_release_date(g, "2026-03-31"))
+        self.assertEqual((g["ps5_year"], g["status"]), (2026, "listed"))
+        g = game(status="listed", release_date=None, ps5_year=2026)
+        set_release_date(g, "2024-02-01")
+        self.assertEqual(g["status"], "review")
+        self.assertIsNone(set_release_date(g, "2025-01-01"))          # never overwrites a known date
 
 
 class Sales(unittest.TestCase):

@@ -23,11 +23,14 @@ class Pipeline(unittest.TestCase):
         sys.path.insert(0, str(cls.root / "scripts"))
         import common
         cls.common = common
+        cls.real_cache = common.CACHE
+        common.CACHE = cls.root / ".run" / "cache"          # never touch the real tracker's page cache
         cls.today = common.today()
         cls.env = {**{k: v for k, v in os.environ.items() if not k.startswith("NTFY_")}, "FETCH_NO_SLEEP": "1"}  # never send real alerts
 
     @classmethod
     def tearDownClass(cls):
+        cls.common.CACHE = cls.real_cache
         shutil.rmtree(cls.tmp, ignore_errors=True)
 
     def run_script(self, *args, ok=True):
@@ -37,12 +40,10 @@ class Pipeline(unittest.TestCase):
         return p
 
     def cache(self, url, fixture):
-        """Put a sample page where fetch() looks first - in the temp repo (scripts run as subprocesses)
-        and wherever the already-imported common module points (in-process parser tests)."""
-        name = __import__("hashlib").sha1(url.encode()).hexdigest() + ".html"
-        for d in {self.root / ".run" / "cache", self.common.CACHE}:
-            d.mkdir(parents=True, exist_ok=True)
-            shutil.copy(FIX / fixture, d / name)
+        """Put a sample page where fetch() looks first - the temp repo's cache only."""
+        d = self.root / ".run" / "cache"
+        d.mkdir(parents=True, exist_ok=True)
+        shutil.copy(FIX / fixture, d / (__import__("hashlib").sha1(url.encode()).hexdigest() + ".html"))
 
     def games(self):
         return json.loads((self.root / "data/games.json").read_text())
@@ -106,7 +107,7 @@ class Pipeline(unittest.TestCase):
     def test_3_prices_sales_alerts_stats(self):
         games = self.games()
         hades = next(g for g in games if g["title"] == "Hades II")
-        hades["disc"]["deku_url"] = "https://www.dekudeals.com/items/hades-ii?format=all&country=ca"
+        hades["disc"]["deku_url"] = "https://www.dekudeals.com/items/hades-ii?format=all&country=ca&platform=all"
         (self.root / "data/games.json").write_text(json.dumps(games))
         self.run_script("scripts/wishlist.py", "add", hades["id"])
         self.run_script("scripts/prices.py", "--only", hades["id"], "--all-disc")
@@ -127,6 +128,24 @@ class Pipeline(unittest.TestCase):
         self.run_script("scripts/build_stats.py")
         stats = json.loads((self.root / "data/stats.json").read_text())
         self.assertIn("on_sale", stats["games"][hades["id"]]["next_expected"])
+
+    def test_3b_recheck_game_without_metacritic_entry(self):
+        games = self.games()
+        legacy = next(g for g in games if g.get("metacritic") is None and g["status"] == "listed")
+        url = __import__("sources.metacritic", fromlist=["x"]).game_url(legacy["title"])
+        self.cache(url, "live/metacritic_browse_2026.html")         # a page with no PS5 score on it
+        legacy["first_seen"] = self.today                            # so --new-only picks it up
+        legacy["release_date"] = None                                # start without a date
+        (self.root / "data/games.json").write_text(json.dumps(games))
+        out = self.run_script("scripts/recheck.py", "--new-only").stdout       # used to crash here
+        self.assertIn("recheck:", out)
+        g = next(x for x in self.games() if x["id"] == legacy["id"])
+        self.assertIsNone(g["release_date"])        # never borrow another game's date from the page
+
+    def test_5_real_cache_untouched(self):
+        real = REPO / ".run" / "cache"
+        fake = [p for p in real.glob("*.html") if "PPSA00000" in p.read_text(errors="ignore") or "Brand New Game" in p.read_text(errors="ignore")] if real.exists() else []
+        self.assertEqual(fake, [], "test sample pages found in the real cache")
 
     def test_4_wishlist_issue_and_validate(self):
         p = self.run_script("scripts/wishlist.py", "--issue-title", "wishlist: remove PS5-0001")

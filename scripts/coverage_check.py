@@ -1,5 +1,6 @@
 """Quietly flag a weak agent run (never blocks the pipeline)."""
 import datetime as dt
+import re
 
 from common import PROPOSALS, RUN, load_json, today
 
@@ -19,8 +20,9 @@ def main():
         missed = [c["title"] for c in cand.get("scored_new", []) if c["title"].lower() not in proposed]
         if missed:
             problems.append(f"{len(missed)} Metacritic candidates not classified: {', '.join(missed[:5])}")
-        if dt.date.fromisoformat(today()).weekday() == 6 and not prop.get("flyer_prices"):
-            problems.append("Sunday run found no Walmart/EB Games flyer prices")
+        looked = any(re.search(r"flyer|walmart|eb games", q, re.I) for q in prop.get("searches", []))
+        if dt.date.fromisoformat(today()).weekday() == 6 and not looked:
+            problems.append("Sunday run didn't look for Walmart/EB Games flyer prices")
     print("coverage: " + ("; ".join(problems) if problems else "ok"))
     (RUN / "coverage.txt").write_text("; ".join(problems))
 

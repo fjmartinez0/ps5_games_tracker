@@ -28,11 +28,16 @@ def same_game(title, page_title):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=60)
+    ap.add_argument("--retry", action="store_true", help="try again games an earlier run couldn't fill")
     args = ap.parse_args()
     games = load_games()
+    for g in games:                                   # older links lacked platform=all
+        d = g.get("disc") or {}
+        if d.get("deku_url"):
+            d["deku_url"] = deku.canonical(d["deku_url"])
     todo = [g for g in games if g["status"] in ("listed", "pending_score")
             and (not (g.get("disc") or {}).get("deku_url") or not (g.get("ps_store") or {}).get("url"))
-            and not g.get("enrich_tried")]
+            and (args.retry or not g.get("enrich_tried"))]
     todo.sort(key=lambda g: g.get("release_date") or "0", reverse=True)
     checks, filled = [], 0
     for g in todo[: args.limit]:

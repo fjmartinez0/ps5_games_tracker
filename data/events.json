@@ -95,19 +95,6 @@
   "note": "expected, based on 2025"
  },
  {
-  "id": "BOX26",
-  "name": "Boxing Week 2026",
-  "start": "2026-12-21",
-  "end": "2026-12-31",
-  "special": true,
-  "formats": [
-   "disc"
-  ],
-  "expected": true,
-  "source": null,
-  "note": "expected, based on 2025"
- },
- {
   "id": "HOL26",
   "name": "Holiday Sale 2026",
   "start": "2026-12-16",
@@ -115,6 +102,19 @@
   "special": true,
   "formats": [
    "digital"
+  ],
+  "expected": true,
+  "source": null,
+  "note": "expected, based on 2025"
+ },
+ {
+  "id": "BOX26",
+  "name": "Boxing Week 2026",
+  "start": "2026-12-21",
+  "end": "2026-12-31",
+  "special": true,
+  "formats": [
+   "disc"
   ],
   "expected": true,
   "source": null,

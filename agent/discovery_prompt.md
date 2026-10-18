@@ -35,7 +35,7 @@ Write the file early (an empty but valid proposal) and update it as you go, so a
 - `ps_store_url`: PlayStation Store **Canada**, the **standard edition** product or concept page:
   `https://store.playstation.com/en-ca/product/...` or `https://store.playstation.com/en-ca/concept/...`
 - `metacritic_url`: `https://www.metacritic.com/game/<slug>/critic-reviews/?platform=playstation-5`
-- `deku_url`: the **PS5** item on Deku Deals with Canadian prices: `https://www.dekudeals.com/items/<slug>?format=all&country=ca`
+- `deku_url`: the **PS5** item on Deku Deals with Canadian prices: `https://www.dekudeals.com/items/<slug>?format=all&country=ca&platform=all`
   (check that the page lists PS5 prices; multi-platform games sometimes default to Switch 2 or Xbox)
 - `eb_url`, `walmart_url`: leave `null`. Both stores block automated page reads, so their prices come only from
   the Sunday flyer task.

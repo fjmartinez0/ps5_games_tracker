@@ -8,7 +8,7 @@ import argparse
 import sys
 
 from common import (CHECKS, FetchError, append_jsonl, load_games, log_check, save_games, today)
-from rules import lifecycle, score_update
+from rules import lifecycle, score_update, set_release_date
 from sources import metacritic, opencritic
 
 BACKLOG_PER_NIGHT = 40
@@ -34,9 +34,10 @@ def main():
             return
         for c in score_update(g, r["score"], r["reviews"], url, on):
             changes.append(f"{g['title']}: {c}")
-        if r.get("release_date") and not g.get("release_date"):
-            g["release_date"] = r["release_date"]
-        if r["score"] is None and oc_ok and not g.get("metacritic", {}).get("score"):
+        c = set_release_date(g, r.get("release_date"))
+        if c:
+            changes.append(f"{g['title']}: {c}")
+        if r["score"] is None and oc_ok and not (g.get("metacritic") or {}).get("score"):
             try:                                          # fallback: OpenCritic, only when Metacritic has nothing
                 hits = opencritic.search(g["title"])
                 if hits and hits[0].get("id") and (hits[0].get("dist") or 0) < 0.2:

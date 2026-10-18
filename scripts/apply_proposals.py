@@ -9,7 +9,8 @@ import re
 import sys
 
 from prices import lowest_index
-from rules import update_sale
+from rules import set_release_date, update_sale
+from sources import deku
 
 from common import (CATEGORIES, EVENTS, EXCLUDED_CATEGORIES, PRICES, PROPOSALS, SALES, SCALES, SCOPE_YEARS, append_jsonl,
                     load_games, load_json, metacritic_slug, next_id, norm_title, save_games, save_json, today)
@@ -27,8 +28,8 @@ DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 def clean_url(field, v):
     if not v:
         return None
-    if field == "deku_url" and "country=ca" not in v:
-        v = v.split("?")[0] + "?format=all&country=ca"
+    if field == "deku_url":
+        v = deku.canonical(v)
     return v if re.match(URL_RULES[field], v) else False
 
 
@@ -120,7 +121,7 @@ def main():
             elif v:
                 if f == "ps_store_url" and not (g.get("ps_store") or {}).get("url"):
                     g.setdefault("ps_store", {})["url"] = v; changed.append(f)
-                elif f == "deku_url" and not g.get("disc", {}).get("deku_url"):
+                elif f == "deku_url" and not (g.get("disc") or {}).get("deku_url"):
                     g.setdefault("disc", {"stores": {}})["deku_url"] = v; changed.append(f)
                 elif f in ("eb_url", "walmart_url"):
                     store = "EB Games" if f == "eb_url" else "Walmart"
@@ -129,9 +130,9 @@ def main():
                         st["url"] = v; changed.append(f)
                 elif f == "metacritic_url" and not (g.get("metacritic") or {}).get("verified"):
                     g.setdefault("metacritic", {})["url"] = v; changed.append(f)
-        rd = it.get("release_date")
-        if rd and DATE.match(rd) and not g.get("release_date"):
-            g["release_date"] = rd; changed.append("release_date")
+        c = set_release_date(g, it.get("release_date"))
+        if c:
+            changed.append(c)
         if changed:
             accepted.append(f"update {g['id']} {g['title']}: {', '.join(changed)}")
 

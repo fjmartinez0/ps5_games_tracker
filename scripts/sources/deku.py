@@ -19,7 +19,13 @@ HEADER_RE = re.compile(r"^(?P<store>.+?) \((?:(?P<platform>[^,]+), )?(?P<fmt>dig
 
 
 def item_url(slug: str) -> str:
-    return f"https://www.dekudeals.com/items/{slug}?format=all&country=ca"
+    # platform=all: for games also on Switch 2, Deku shows only the Switch 2 version without it
+    return f"https://www.dekudeals.com/items/{slug}?format=all&country=ca&platform=all"
+
+
+def canonical(url: str) -> str:
+    m = re.match(r"^https://www\.dekudeals\.com/items/([a-z0-9-]+)", url or "")
+    return item_url(m.group(1)) if m else url
 
 
 def read(url: str) -> dict:
