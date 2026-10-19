@@ -12191,13 +12191,13 @@
   "score_locked_at": "2026-10-17",
   "physical": "Yes",
   "ps_store": {
-   "url": null,
+   "url": "https://store.playstation.com/en-ca/concept/10002861",
    "regular": null,
    "current": null,
    "checked_at": null
   },
   "disc": {
-   "deku_url": null,
+   "deku_url": "https://www.dekudeals.com/items/marvels-wolverine?format=all&country=ca&platform=all",
    "msrp": null,
    "stores": {}
   },
@@ -15382,5 +15382,135 @@
    "https://www.dekudeals.com/items/tales-of-eternia-remastered?format=all&country=ca"
   ],
   "enrich_tried": true
+ },
+ {
+  "id": "PS5-0337",
+  "title": "Clive Barker's Hellraiser: Revival",
+  "status": "pending_score",
+  "category": "game",
+  "excluded_reason": null,
+  "review_note": null,
+  "inclusion_reason": null,
+  "release_date": "2026-10-08",
+  "ps5_year": 2026,
+  "scale": "AA",
+  "genre": "Horror action",
+  "metacritic": {
+   "score": 69,
+   "url": "https://www.metacritic.com/game/clive-barkers-hellraiser-revival/critic-reviews/?platform=playstation-5",
+   "checked_at": "2026-10-18",
+   "verified": true,
+   "reviews": 40
+  },
+  "alt_score": null,
+  "score_locked": false,
+  "score_locked_at": null,
+  "physical": "Unverified",
+  "ps_store": {
+   "url": "https://store.playstation.com/en-ca/product/EP6853-PPSA25642_00-0082868685413873",
+   "regular": 53.49,
+   "current": 53.49,
+   "checked_at": "2026-10-18",
+   "sale_end": null
+  },
+  "disc": {
+   "deku_url": null,
+   "msrp": null,
+   "stores": {}
+  },
+  "first_seen": "2026-10-18",
+  "listed_on": null,
+  "source": "agent",
+  "verified": true,
+  "evidence": [
+   "https://www.playstation.com/en-ca/games/clive-barkers-hellraiser-revival/",
+   "https://onemoregame.ph/2026/06/hellraiser-revival-release-date-oct-2026/"
+  ]
+ },
+ {
+  "id": "PS5-0338",
+  "title": "Mafia III: Definitive Edition",
+  "status": "pending_score",
+  "category": "game",
+  "excluded_reason": null,
+  "review_note": null,
+  "inclusion_reason": null,
+  "release_date": "2026-10-08",
+  "ps5_year": 2026,
+  "scale": "AAA",
+  "genre": "Open-world crime",
+  "metacritic": {
+   "score": null,
+   "url": "https://www.metacritic.com/game/mafia-iii-definitive-edition/critic-reviews/?platform=playstation-5",
+   "checked_at": null,
+   "verified": false
+  },
+  "alt_score": null,
+  "score_locked": false,
+  "score_locked_at": null,
+  "physical": "Unverified",
+  "ps_store": {
+   "url": "https://store.playstation.com/en-ca/product/UP1001-PPSA36864_00-MAFIA3DEPS500000",
+   "regular": 39.99,
+   "current": 7.99,
+   "checked_at": "2026-10-18",
+   "sale_end": "2026-10-22"
+  },
+  "disc": {
+   "deku_url": null,
+   "msrp": null,
+   "stores": {}
+  },
+  "first_seen": "2026-10-18",
+  "listed_on": null,
+  "source": "agent",
+  "verified": false,
+  "evidence": [
+   "https://www.playstation.com/en-ca/games/mafia-iii/",
+   "https://www.gameinformer.com/2026/10/08/mafia-iii-gets-surprise-ps5-xbox-series-xs-60-fps-update-today-and-its-free-if-you"
+  ]
+ },
+ {
+  "id": "PS5-0339",
+  "title": "Disney/Pixar Toy Story 3 Complete Edition",
+  "status": "listed",
+  "category": "game",
+  "excluded_reason": null,
+  "review_note": null,
+  "inclusion_reason": null,
+  "release_date": "2026-10-15",
+  "ps5_year": 2026,
+  "scale": "AA",
+  "genre": "Family action-adventure",
+  "metacritic": {
+   "score": 78,
+   "url": "https://www.metacritic.com/game/disney-pixar-toy-story-3-complete-edition/critic-reviews/?platform=playstation-5",
+   "checked_at": "2026-10-18",
+   "verified": true,
+   "reviews": 5
+  },
+  "alt_score": null,
+  "score_locked": false,
+  "score_locked_at": null,
+  "physical": "Unverified",
+  "ps_store": {
+   "url": null,
+   "regular": null,
+   "current": null,
+   "checked_at": null
+  },
+  "disc": {
+   "deku_url": null,
+   "msrp": null,
+   "stores": {}
+  },
+  "first_seen": "2026-10-18",
+  "listed_on": "2026-10-18",
+  "source": "agent",
+  "verified": true,
+  "evidence": [
+   "https://store.playstation.com/en-us/concept/10017122",
+   "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026"
+  ]
  }
 ]

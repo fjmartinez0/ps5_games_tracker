@@ -2028,6 +2028,21 @@
    "changed_on": "2026-10-18",
    "change": "opened",
    "alerted": false
+  },
+  {
+   "game_id": "PS5-0338",
+   "format": "digital",
+   "store": "PlayStation Store",
+   "baseline": 39.99,
+   "price": 7.99,
+   "pct": 80,
+   "start": "2026-10-18",
+   "end": "2026-10-22",
+   "lowest_before": null,
+   "kind": "sale",
+   "changed_on": "2026-10-18",
+   "change": "opened",
+   "alerted": false
   }
  ],
  "closed": [

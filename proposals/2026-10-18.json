@@ -1,78 +1,84 @@
 {
-  "date": "2026-10-18",
-  "searches": [
-    "Boltgun 2 PS5 PlayStation Store Canada",
-    "PlayStation Blog this week's releases October 2026",
-    "new PS5 games released October 17 2026",
-    "PlayStation Store Canada new releases PS5 October 2026",
-    "store.playstation.com en-ca Warhammer 40,000: Boltgun 2 PS5",
-    "store.playstation.com en-ca Toy Story Retro Roundup",
-    "store.playstation.com en-ca Tales of Eternia Remastered",
-    "dekudeals Tales of Eternia Remastered",
-    "\"Boltgun 2\" playstation.com en-ca games warhammer-40000-boltgun-2",
-    "PS5 games out this week October 12-18 2026 releases",
-    "Walmart Canada flyer PS5 games deal October 2026 mobilesyrup",
-    "PlayStation Store Canada sale November 2026 Black Friday dates announced",
-    "The Talos Principle: Reawakened PS5 release date store.playstation.com en-ca",
-    "Valheim PS5 release date store.playstation.com en-ca dekudeals"
-  ],
-  "new_games": [
-    {
-      "title": "Warhammer 40,000: Boltgun 2",
-      "category": "game",
-      "scale": "AA",
-      "genre": "Boomer shooter",
-      "release_date": "2026-10-14",
-      "ps_store_url": null,
-      "metacritic_url": "https://www.metacritic.com/game/warhammer-40000-boltgun-2/critic-reviews/?platform=playstation-5",
-      "deku_url": null,
-      "eb_url": null,
-      "walmart_url": null,
-      "evidence": ["https://www.metacritic.com/game/warhammer-40000-boltgun-2/critic-reviews/?platform=playstation-5"],
-      "note": "No en-ca store page or Deku Deals listing found; release date from candidates.json, reviews on Metacritic start 2026-10-14."
-    },
-    {
-      "title": "Disney/Pixar Toy Story: Retro Roundup!",
-      "category": "game",
-      "scale": "AA",
-      "genre": "Retro game compilation",
-      "release_date": "2026-10-15",
-      "ps_store_url": null,
-      "metacritic_url": "https://www.metacritic.com/game/disney-pixar-toy-story-retro-roundup/critic-reviews/?platform=playstation-5",
-      "deku_url": null,
-      "eb_url": null,
-      "walmart_url": null,
-      "evidence": ["https://www.metacritic.com/game/disney-pixar-toy-story-retro-roundup/critic-reviews/?platform=playstation-5"],
-      "note": "Only a Double Pack (with Toy Story 3 Complete Edition) store page was found, not the standalone edition, so no store link proposed."
-    },
-    {
-      "title": "Tales of Eternia Remastered",
-      "category": "game",
-      "scale": "AA",
-      "genre": "JRPG remaster",
-      "release_date": "2026-10-16",
-      "ps_store_url": "https://store.playstation.com/en-ca/concept/10014611",
-      "metacritic_url": "https://www.metacritic.com/game/tales-of-eternia-remastered/critic-reviews/?platform=playstation-5",
-      "deku_url": null,
-      "eb_url": null,
-      "walmart_url": null,
-      "evidence": [
-        "https://store.playstation.com/en-ca/concept/10014611",
-        "https://www.metacritic.com/game/tales-of-eternia-remastered/critic-reviews/?platform=playstation-5",
-        "https://www.dekudeals.com/items/tales-of-eternia-remastered?format=all&country=ca"
-      ],
-      "note": "Deku Deals page shows no PS5 price yet, so deku_url left null."
-    }
-  ],
-  "updates": [
-    {
-      "id": "PS5-0309",
-      "ps_store_url": null,
-      "deku_url": null,
-      "release_date": "2025-04-10",
-      "evidence": ["https://www.gematsu.com/2025/02/the-talos-principle-reawakened-launches-april-10"]
-    }
-  ],
-  "flyer_prices": [],
-  "events": []
+ "date": "2026-10-18",
+ "searches": [
+  "PlayStation Blog this week's PS5 releases October 19 2026",
+  "new PS5 games released October 17 2026",
+  "PlayStation Store Canada new releases PS5 October 2026",
+  "Hellraiser: Revival PS5 release date PlayStation Store",
+  "Mafia III Definitive Edition PS5 October 8 2026 PlayStation Store",
+  "Toy Story 3 Complete Edition PS5 release PlayStation Store",
+  "Skin Deep PS5 release date PlayStation Store",
+  "PlayStation Store sale Black Friday 2026 dates Canada PS5",
+  "Walmart Canada flyer PS5 games deals October 2026",
+  "EB Games Canada flyer PS5 game deals this week October 2026 RedFlagDeals",
+  "Toy Story Retro Roundup PS5 PlayStation Store Canada",
+  "Marvel's Wolverine PS5 store.playstation.com en-ca"
+ ],
+ "new_games": [
+  {
+   "title": "Clive Barker's Hellraiser: Revival",
+   "category": "game",
+   "scale": "AA",
+   "genre": "Horror action",
+   "release_date": "2026-10-08",
+   "ps_store_url": "https://store.playstation.com/en-ca/product/EP6853-PPSA25642_00-0082868685413873",
+   "metacritic_url": null,
+   "deku_url": null,
+   "eb_url": null,
+   "walmart_url": null,
+   "evidence": [
+    "https://www.playstation.com/en-ca/games/clive-barkers-hellraiser-revival/",
+    "https://onemoregame.ph/2026/06/hellraiser-revival-release-date-oct-2026/"
+   ],
+   "note": "Store page shows 8/10/2026 (day/month); Oct 8 confirmed by publisher coverage."
+  },
+  {
+   "title": "Mafia III: Definitive Edition",
+   "category": "game",
+   "scale": "AAA",
+   "genre": "Open-world crime",
+   "release_date": "2026-10-08",
+   "ps_store_url": "https://store.playstation.com/en-ca/product/UP1001-PPSA36864_00-MAFIA3DEPS500000",
+   "metacritic_url": null,
+   "deku_url": null,
+   "eb_url": null,
+   "walmart_url": null,
+   "evidence": [
+    "https://www.playstation.com/en-ca/games/mafia-iii/",
+    "https://www.gameinformer.com/2026/10/08/mafia-iii-gets-surprise-ps5-xbox-series-xs-60-fps-update-today-and-its-free-if-you"
+   ],
+   "note": "PS5-native listing (PS5 Pro enhanced, 60 FPS) dated Oct 8 2026; originally a 2016/2020 PS4 game, so the checker may judge the PS5 version a re-release."
+  },
+  {
+   "title": "Disney/Pixar Toy Story 3 Complete Edition",
+   "category": "game",
+   "scale": "AA",
+   "genre": "Family action-adventure",
+   "release_date": "2026-10-15",
+   "ps_store_url": null,
+   "metacritic_url": null,
+   "deku_url": null,
+   "eb_url": null,
+   "walmart_url": null,
+   "evidence": [
+    "https://store.playstation.com/en-us/concept/10017122",
+    "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026"
+   ],
+   "note": "en-ca concept 10017122 is titled as the Retro Roundup double pack, so no standard-edition CA link was confirmed."
+  }
+ ],
+ "updates": [
+  {
+   "id": "PS5-0265",
+   "ps_store_url": "https://store.playstation.com/en-ca/concept/10002861",
+   "deku_url": "https://www.dekudeals.com/items/marvels-wolverine?format=all&country=ca&platform=all",
+   "release_date": "2026-09-15",
+   "evidence": [
+    "https://store.playstation.com/en-ca/concept/10002861",
+    "https://www.dekudeals.com/items/marvels-wolverine?format=all&country=ca&platform=all"
+   ]
+  }
+ ],
+ "flyer_prices": [],
+ "events": []
 }
