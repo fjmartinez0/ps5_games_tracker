@@ -77,7 +77,7 @@
    "kind": "sale",
    "changed_on": "2026-10-18",
    "change": "opened",
-   "alerted": false
+   "alerted": true
   },
   {
    "game_id": "PS5-0009",
