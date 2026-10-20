@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18",
+ "generated_at": "2026-10-19",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -43,10 +43,10 @@
    ]
   },
   "disc": {
-   "games": 93,
-   "first_age_median": 4.1,
-   "first_pct_median": 22,
-   "within_3_months": 32,
+   "games": 94,
+   "first_age_median": 4.0,
+   "first_pct_median": 21.5,
+   "within_3_months": 33,
    "deepest": {
     "game_id": "PS5-0100",
     "title": "Sid Meier's Civilization VII",
@@ -57,8 +57,8 @@
    "buckets": [
     {
      "label": "0–3 Months",
-     "median": 25.0,
-     "games": 32
+     "median": 25,
+     "games": 33
     },
     {
      "label": "3–6 Months",
@@ -30454,11 +30454,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 89.99,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 89.99,
     "disc": null
    },
    "obs_digital": [],
@@ -34559,6 +34559,93 @@
     "basis": {
      "digital": "typical",
      "disc": "typical"
+    }
+   }
+  },
+  "PS5-0333": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     15,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": {
+     "age": -0.0,
+     "pct": 15,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    }
+   },
+   "lowest": {
+    "digital": 46.99,
+    "disc": 54.99
+   },
+   "launch": {
+    "digital": 46.99,
+    "disc": 64.99
+   },
+   "obs_digital": [],
+   "obs_disc": [
+    {
+     "date": "2026-10-14",
+     "age": -0.0,
+     "pct": 15,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    },
+    {
+     "date": "2026-10-15",
+     "age": 0.0,
+     "pct": 15,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    },
+    {
+     "date": "2026-10-16",
+     "age": 0.0,
+     "pct": 15,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    },
+    {
+     "date": "2026-10-17",
+     "age": 0.1,
+     "pct": 15,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    },
+    {
+     "date": "2026-10-18",
+     "age": 0.1,
+     "pct": 15,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    }
+   ],
+   "next_expected": {
+    "on_sale": {
+     "disc": {
+      "pct": 15,
+      "price": 54.99,
+      "store": "PNP Games",
+      "end": null
+     }
     }
    }
   },
