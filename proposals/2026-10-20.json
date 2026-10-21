@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-20",
+  "searches": [
+    "Final Fantasy Resonance PS5 release date",
+    "PlayStation Blog new PS5 games this week October 20 2026",
+    "PS5 games released October 19 2026",
+    "PlayStation Store Canada new releases PS5 October 2026",
+    "Final Fantasy Resonance store.playstation.com en-ca",
+    "Mycopunk PS5 store.playstation.com en-ca product",
+    "Peak PS5 October 22 2026 PlayStation Store",
+    "Mycopunk PlayStation Store Canada PS5 \"store.playstation.com\"",
+    "Toy Story Retro Roundup PS5 store.playstation.com en-ca",
+    "Darksiders Warmastered Edition PS5 store.playstation.com en-ca product",
+    "Mega Man Star Force Legacy Collection PS5 PlayStation Store Canada"
+  ],
+  "new_games": [
+    {"title": "Final Fantasy Resonance", "category": "game", "scale": "AAA", "genre": "HD-2D RPG", "release_date": "2026-10-22",
+     "ps_store_url": "https://store.playstation.com/en-ca/product/JP0082-PPSA31544_00-FFRSSTDWW0000000",
+     "metacritic_url": "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5",
+     "deku_url": "https://www.dekudeals.com/items/final-fantasy-resonance?format=all&country=ca&platform=all",
+     "eb_url": null, "walmart_url": null,
+     "evidence": ["https://www.playstation.com/en-ca/games/final-fantasy-resonance/", "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5", "https://www.dekudeals.com/items/final-fantasy-resonance?format=all&country=ca&platform=all"]},
+    {"title": "Mycopunk", "category": "game", "scale": "Indie", "genre": "Co-op shooter", "release_date": "2026-10-20",
+     "ps_store_url": null, "metacritic_url": null,
+     "deku_url": "https://www.dekudeals.com/items/mycopunk?format=all&country=ca&platform=all",
+     "eb_url": null, "walmart_url": null,
+     "evidence": ["https://www.dekudeals.com/items/mycopunk?format=all&country=ca&platform=all"],
+     "note": "PS5 launch out of early access; Metacritic page is PC only so far"},
+    {"title": "Peak", "category": "game", "scale": "Indie", "genre": "Co-op climbing", "release_date": "2026-10-22",
+     "ps_store_url": null,
+     "metacritic_url": "https://www.metacritic.com/game/peak/critic-reviews/?platform=playstation-5",
+     "deku_url": null, "eb_url": null, "walmart_url": null,
+     "evidence": ["https://blog.playstation.com/2026/10/", "https://www.metacritic.com/game/peak/critic-reviews/?platform=playstation-5"],
+     "note": "PS5 release 2026-10-22; Deku page lists Steam only so far"}
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}

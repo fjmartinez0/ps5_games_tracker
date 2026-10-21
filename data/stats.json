@@ -21017,19 +21017,24 @@
      "event": null,
      "store": "Video Games Plus",
      "us_pct": false
+    },
+    {
+     "date": "2026-10-20",
+     "age": 18.8,
+     "pct": 33,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 35,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "own",
-     "disc": "typical"
+    "on_sale": {
+     "disc": {
+      "pct": 33,
+      "price": 39.99,
+      "store": "PNP Games",
+      "end": null
+     }
     }
    }
   },
@@ -26739,6 +26744,14 @@
      "event": null,
      "store": "PNP Games",
      "us_pct": false
+    },
+    {
+     "date": "2026-10-20",
+     "age": 8.4,
+     "pct": 60,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -30455,11 +30468,11 @@
    },
    "lowest": {
     "digital": 89.99,
-    "disc": null
+    "disc": 89.99
    },
    "launch": {
     "digital": 89.99,
-    "disc": null
+    "disc": 89.99
    },
    "obs_digital": [],
    "obs_disc": [],

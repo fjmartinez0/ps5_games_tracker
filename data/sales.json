@@ -2043,6 +2043,36 @@
    "changed_on": "2026-10-18",
    "change": "opened",
    "alerted": false
+  },
+  {
+   "game_id": "PS5-0155",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 59.99,
+   "price": 39.99,
+   "pct": 33,
+   "start": "2026-10-20",
+   "end": null,
+   "lowest_before": 39.99,
+   "kind": "sale",
+   "changed_on": "2026-10-20",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0188",
+   "format": "disc",
+   "store": "Video Games Plus",
+   "baseline": 99.99,
+   "price": 39.99,
+   "pct": 60,
+   "start": "2026-10-20",
+   "end": null,
+   "lowest_before": 39.99,
+   "kind": "sale",
+   "changed_on": "2026-10-20",
+   "change": "opened",
+   "alerted": false
   }
  ],
  "closed": [
