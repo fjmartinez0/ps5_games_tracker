@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-21",
+  "searches": [
+    "Final Fantasy Resonance PS5 release date PlayStation Store",
+    "PlayStation Blog new PS5 games this week October 19 2026",
+    "PS5 new releases October 20 2026",
+    "PS5 games releasing October 21 2026 launch",
+    "Mycopunk PS5 launch October 20 2026",
+    "store.playstation.com en-ca FINAL FANTASY RESONANCE PS5",
+    "Disney Pixar Toy Story Retro Roundup PS5 PlayStation Store Canada",
+    "Disney Pixar Toy Story 3 Complete Edition PS5 store.playstation.com en-ca",
+    "Darksiders Warmastered Edition PS5 store.playstation.com en-ca",
+    "Mega Man Star Force Legacy Collection PS5 store.playstation.com en-ca",
+    "Etrange Overlord PS5 PlayStation Store",
+    "Keeper Double Fine PS5 PlayStation Store en-ca"
+  ],
+  "new_games": [
+    {
+      "title": "FINAL FANTASY RESONANCE",
+      "category": "game",
+      "scale": "AAA",
+      "genre": "HD-2D turn-based RPG",
+      "release_date": "2026-10-22",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/JP0082-PPSA31544_00-FFRSSTDWW0000000",
+      "metacritic_url": "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/final-fantasy-resonance?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.dekudeals.com/items/final-fantasy-resonance?format=all&country=ca&platform=all",
+        "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5",
+        "https://www.rpgsite.net/news/20619-final-fantasy-resonance-new-hd-2d-ff-game-release-date"
+      ],
+      "note": "PS5 release 2026-10-22 per Deku Deals and RPG Site; Metacritic page lists PS5 reviews."
+    }
+  ],
+  "updates": [
+    {
+      "id": "PS5-0322",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10020501",
+      "evidence": ["https://store.playstation.com/en-ca/concept/10020501"]
+    },
+    {
+      "id": "PS5-0232",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/228188",
+      "evidence": ["https://store.playstation.com/en-ca/concept/228188"]
+    },
+    {
+      "id": "PS5-0274",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10017487",
+      "evidence": ["https://store.playstation.com/en-ca/concept/10017487"]
+    },
+    {
+      "id": "PS5-0339",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10017122",
+      "evidence": ["https://store.playstation.com/en-ca/concept/10017122"]
+    }
+  ],
+  "flyer_prices": [],
+  "events": []
+}
