@@ -2117,7 +2117,7 @@
    "kind": "sale",
    "changed_on": "2026-10-21",
    "change": "opened",
-   "alerted": false
+   "alerted": true
   },
   {
    "game_id": "PS5-0022",
@@ -2447,7 +2447,7 @@
    "kind": "sale",
    "changed_on": "2026-10-21",
    "change": "opened",
-   "alerted": false
+   "alerted": true
   },
   {
    "game_id": "PS5-0237",
