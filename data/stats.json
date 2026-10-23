@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21",
+ "generated_at": "2026-10-22",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -2632,13 +2632,16 @@
     }
    ],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 56.09,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "own",
+     "disc": "typical"
     }
    }
   },
@@ -5215,12 +5218,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 30,
-      "price": 46.89,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 22,
       "price": 69.99,
@@ -5283,13 +5280,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 50,
-      "price": 27.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -5434,13 +5434,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 20.09,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "own",
+     "disc": "typical"
     }
    }
   },
@@ -5750,13 +5753,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 30,
-      "price": 37.44,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -10650,12 +10656,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 45,
-      "price": 18.41,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 15,
       "price": 54.99,
@@ -10831,13 +10831,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 33,
-      "price": 26.79,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -12240,13 +12243,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 50,
-      "price": 34.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -12654,12 +12660,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 60,
-      "price": 26.79,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 7,
       "price": 69.99,
@@ -12857,13 +12857,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 25,
-      "price": 50.24,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 20,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "own",
+     "disc": "typical"
     }
    }
   },
@@ -13573,12 +13576,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 32.09,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 36,
       "price": 34.99,
@@ -14661,12 +14658,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 43,
-      "price": 53.28,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 30,
       "price": 69.99,
@@ -14966,13 +14957,16 @@
     }
    ],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 47.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "own",
+     "disc": "typical"
     }
    }
   },
@@ -15344,13 +15338,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 50,
-      "price": 39.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 20,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "own",
+     "disc": "typical"
     }
    }
   },
@@ -16648,12 +16645,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 50,
-      "price": 44.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 67,
       "price": 29.99,
@@ -17096,13 +17087,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 55,
-      "price": 17.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -17464,12 +17458,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 80,
-      "price": 15.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 15,
       "price": 67.98,
@@ -17572,12 +17560,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 30,
-      "price": 27.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 29,
       "price": 49.99,
@@ -19348,13 +19330,16 @@
     }
    ],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 20.09,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -19563,12 +19548,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 30,
-      "price": 46.89,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 29,
       "price": 49.99,
@@ -20189,13 +20168,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 50,
-      "price": 9.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 40,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "own",
+     "disc": "typical"
     }
    }
   },
@@ -21030,12 +21012,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 41.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 50,
       "price": 34.99,
@@ -21507,13 +21483,16 @@
     }
    ],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 60,
-      "price": 15.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 40,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "own",
+     "disc": "typical"
     }
    }
   },
@@ -24761,12 +24740,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 25,
-      "price": 29.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 28,
       "price": 64.99,
@@ -24922,13 +24895,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 20,
-      "price": 20.39,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -25163,13 +25139,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 25,
-      "price": 18.74,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -25234,13 +25213,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 30,
-      "price": 65.44,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -25379,13 +25361,16 @@
     }
    ],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 29,
-      "price": 63.89,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -27593,13 +27578,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 35,
-      "price": 21.76,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -27938,13 +27926,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 30,
-      "price": 18.89,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -28133,13 +28124,16 @@
     }
    ],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 30,
-      "price": 62.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -28818,13 +28812,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 29.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -29337,11 +29334,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 39.99,
     "disc": 44.99
    },
    "launch": {
-    "digital": null,
+    "digital": 39.99,
     "disc": 44.99
    },
    "obs_digital": [],
@@ -29405,13 +29402,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 40,
-      "price": 47.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -29460,13 +29460,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 25,
-      "price": 26.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -30089,12 +30092,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 20,
-      "price": 31.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 13,
       "price": 34.99,
@@ -30542,13 +30539,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 35,
-      "price": 12.99,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -30901,13 +30901,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 20,
-      "price": 26.79,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -31061,11 +31064,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 66.99,
     "disc": 69.99
    },
    "launch": {
-    "digital": null,
+    "digital": 66.99,
     "disc": 69.99
    },
    "obs_digital": [],
@@ -32319,12 +32322,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "digital": {
-      "pct": 25,
-      "price": 40.11,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     },
      "disc": {
       "pct": 36,
       "price": 34.99,
@@ -32656,13 +32653,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 50,
-      "price": 33.49,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -33886,13 +33886,16 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "on_sale": {
-     "digital": {
-      "pct": 65,
-      "price": 18.72,
-      "store": "PlayStation Store",
-      "end": "2026-10-22"
-     }
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
     }
    }
   },
@@ -34425,11 +34428,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 26.99,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 26.99,
     "disc": null
    },
    "obs_digital": [],
@@ -35094,12 +35097,55 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 33.49,
     "disc": null
    },
    "launch": {
+    "digital": 33.49,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0341": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
     "digital": null,
     "disc": null
+   },
+   "lowest": {
+    "digital": 66.99,
+    "disc": 66.99
+   },
+   "launch": {
+    "digital": 66.99,
+    "disc": 66.99
    },
    "obs_digital": [],
    "obs_disc": [],
