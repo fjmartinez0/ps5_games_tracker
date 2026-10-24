@@ -7426,3 +7426,10 @@
 {"date": "2026-10-22", "format": "digital", "game_id": "PS5-0343", "price": 53.49, "regular": 53.49, "sale_end": null, "store": "PlayStation Store"}
 {"date": "2026-07-31", "format": "disc", "game_id": "PS5-0343", "price": 54.99, "regular": null, "source": "deku-history", "store": "Video Games Plus"}
 {"date": "2026-07-31", "format": "disc", "game_id": "PS5-0343", "price": 54.99, "regular": null, "source": "deku-history", "store": "PNP Games"}
+{"date": "2026-10-23", "format": "digital", "game_id": "PS5-0331", "price": 19.99, "regular": 19.99, "sale_end": null, "store": "PlayStation Store"}
+{"date": "2026-10-23", "format": "digital", "game_id": "PS5-0346", "price": 89.99, "regular": 89.99, "sale_end": null, "store": "PlayStation Store"}
+{"date": "2026-05-28", "format": "disc", "game_id": "PS5-0346", "price": 89.99, "regular": null, "source": "deku-history", "store": "Video Games Plus"}
+{"date": "2026-05-28", "format": "disc", "game_id": "PS5-0346", "price": 89.99, "regular": null, "source": "deku-history", "store": "PNP Games"}
+{"date": "2026-05-28", "format": "digital", "game_id": "PS5-0346", "price": 89.99, "regular": null, "source": "deku-history", "store": "PlayStation Store"}
+{"date": "2026-05-29", "format": "disc", "game_id": "PS5-0346", "price": 89.99, "regular": null, "source": "deku-history", "store": "Best Buy"}
+{"date": "2026-10-23", "format": "digital", "game_id": "PS5-0347", "price": 53.49, "regular": 53.49, "sale_end": null, "store": "PlayStation Store"}

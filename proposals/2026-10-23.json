@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-23",
+  "searches": [
+    "Call of Duty: Modern Warfare 4 PS5 PlayStation Store Canada",
+    "Enshrouded PS5 release PlayStation Store",
+    "Ghost of Yotei Echoes of Sekigahara PS5",
+    "PlayStation Blog new PS5 games this week October 23 2026",
+    "new PS5 games released October 22 2026",
+    "PlayStation Store Canada new releases PS5 October 2026",
+    "BeamNG.drive PS5 release date PlayStation Store",
+    "PEAK Console Edition PS5 store.playstation.com en-ca",
+    "Skin Deep PS5 release date PlayStation Store",
+    "PlayStation Store sale Black Friday 2026 Canada dates",
+    "Walmart Canada flyer PS5 games deals this week October 2026",
+    "EB Games Canada PS5 game deals October 2026 MobileSyrup"
+  ],
+  "new_games": [
+    {
+      "title": "Call of Duty: Modern Warfare 4",
+      "category": "game",
+      "scale": "AAA",
+      "genre": "First-person shooter",
+      "release_date": "2026-10-23",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/UP0002-PPSA01649_00-CODMW4STANDARD01",
+      "metacritic_url": "https://www.metacritic.com/game/call-of-duty-modern-warfare-4/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/call-of-duty-modern-warfare-4?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.playstation.com/en-ca/games/call-of-duty-modern-warfare-4/",
+        "https://www.metacritic.com/game/call-of-duty-modern-warfare-4/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/call-of-duty-modern-warfare-4?format=all&country=ca&platform=all"
+      ]
+    },
+    {
+      "title": "Enshrouded",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Survival action RPG",
+      "release_date": "2026-10-15",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/EP4137-PPSA32539_00-0013250200429445",
+      "metacritic_url": "https://www.metacritic.com/game/enshrouded/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/enshrouded?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.dekudeals.com/items/enshrouded?format=all&country=ca&platform=all",
+        "https://www.metacritic.com/game/enshrouded/critic-reviews/?platform=playstation-5"
+      ],
+      "note": "PS5 1.0 launch; release date from news reports (keengamer, rpgsite), not opened"
+    },
+    {
+      "title": "Ghost of Yotei: Echoes of Sekigahara",
+      "category": "dlc",
+      "scale": "AAA",
+      "genre": "Action adventure expansion",
+      "release_date": null,
+      "ps_store_url": null,
+      "metacritic_url": "https://www.metacritic.com/game/ghost-of-yotei-echoes-of-sekigahara/critic-reviews/?platform=playstation-5",
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.metacritic.com/game/ghost-of-yotei-echoes-of-sekigahara/critic-reviews/?platform=playstation-5"
+      ],
+      "note": "Expansion needing the base game; excluded"
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
