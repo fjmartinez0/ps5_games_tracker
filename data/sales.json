@@ -1860,6 +1860,21 @@
    "changed_on": "2026-10-21",
    "change": "opened",
    "alerted": false
+  },
+  {
+   "game_id": "PS5-0004",
+   "format": "digital",
+   "store": "PlayStation Store",
+   "baseline": 66.99,
+   "price": 60.29,
+   "pct": 10,
+   "start": "2026-10-24",
+   "end": null,
+   "lowest_before": 43.54,
+   "kind": "sale",
+   "changed_on": "2026-10-24",
+   "change": "opened",
+   "alerted": false
   }
  ],
  "closed": [

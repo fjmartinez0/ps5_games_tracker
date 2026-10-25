@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23",
+ "generated_at": "2026-10-24",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -1172,16 +1172,13 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 20,
-     "disc": 15
-    },
-    "basis": {
-     "digital": "own",
-     "disc": "own"
+    "on_sale": {
+     "digital": {
+      "pct": 10,
+      "price": 60.29,
+      "store": "PlayStation Store",
+      "end": null
+     }
     }
    }
   },
@@ -27370,11 +27367,11 @@
    },
    "lowest": {
     "digital": 39.99,
-    "disc": null
+    "disc": 49.99
    },
    "launch": {
     "digital": 39.99,
-    "disc": null
+    "disc": 49.99
    },
    "obs_digital": [],
    "obs_disc": [],
