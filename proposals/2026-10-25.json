@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-25",
+  "searches": [
+    "PlayStation Blog new PS5 games this week October 2026",
+    "PS5 games released October 24 2026",
+    "new PS5 releases October 25 2026",
+    "PlayStation Store Black Friday 2026 sale dates Canada",
+    "Walmart Canada flyer PS5 games deals October 2026",
+    "Hunter's Moon PS5 release October 25 2026 PlayStation Store",
+    "Final Fantasy Resonance PS5 release date October 22 2026 PlayStation Store",
+    "store.playstation.com en-ca Hunter's Moon Twin Swans",
+    "BeamNG.drive PS5 release date console",
+    "PlayStation Store sale October 2026 Canada Halloween deals announced",
+    "redflagdeals Walmart EB Games PS5 games flyer deals this week October 23 2026"
+  ],
+  "new_games": [
+    {
+      "title": "Hunter's Moon",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Folk horror adventure",
+      "release_date": "2026-10-25",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": ["https://www.pushsquare.com/games/ps5/hunters_moon"],
+      "note": "Twin Swans; 10-25 in North America, 10-26 elsewhere; store/Metacritic/Deku links not verified."
+    },
+    {
+      "title": "FINAL FANTASY RESONANCE",
+      "category": "game",
+      "scale": "AAA",
+      "genre": "HD-2D RPG",
+      "release_date": "2026-10-22",
+      "ps_store_url": null,
+      "metacritic_url": "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5",
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5",
+        "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026",
+        "https://www.rpgsite.net/news/20619-final-fantasy-resonance-new-hd-2d-ff-game-release-date"
+      ],
+      "note": "Square Enix; Deku Deals search page did not show PS5 prices, so deku_url left null."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
