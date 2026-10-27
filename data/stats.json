@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26",
+ "generated_at": "2026-10-27",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -35231,6 +35231,49 @@
    },
    "launch": {
     "digital": 53.49,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0352": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": null,
+    "disc": null
+   },
+   "launch": {
+    "digital": null,
     "disc": null
    },
    "obs_digital": [],

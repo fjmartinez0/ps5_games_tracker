@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-27",
+  "searches": [
+    "Phantom Blade Zero PS5 PlayStation Store Canada",
+    "PlayStation Blog new PS5 games this week October 26 2026",
+    "new PS5 games released October 27 2026",
+    "PS5 releases this week Push Square October 2026",
+    "store.playstation.com en-ca Phantom Blade Zero",
+    "Village in the Shade PS5 release October 27",
+    "Hunter's Moon PS5 release date October 2026",
+    "Village in the Shade PlayStation Store NIS America PS5 launch",
+    "PS5 new releases October 26 2026 launch today",
+    "PEAK PS5 PlayStation Store release",
+    "Skin Deep PS5 release date PlayStation 5",
+    "PlayStation Store Canada sale event November 2026 Black Friday PS5 deals"
+  ],
+  "new_games": [
+    {
+      "title": "Phantom Blade Zero",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Action RPG",
+      "release_date": "2026-10-29",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/UB2134-PPSA34579_00-0622032276386943",
+      "metacritic_url": "https://www.metacritic.com/game/phantom-blade-zero/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/phantom-blade-zero?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/product/UB2134-PPSA34579_00-0622032276386943",
+        "https://www.metacritic.com/game/phantom-blade-zero/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/phantom-blade-zero",
+        "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026"
+      ],
+      "note": "Developed and published by S-GAME; Deku lists a PS5 price."
+    },
+    {
+      "title": "Village in the Shade",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Horror farming sim",
+      "release_date": "2026-10-27",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.pushsquare.com/games/ps5/village_in_the_shade",
+        "https://www.gematsu.com/2026/08/village-in-the-shade-launches-on-october-27-in-the-west"
+      ],
+      "note": "NIS America / Nippon Ichi Software; PS Store and Deku PS5 pages not found."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
