@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-28",
+  "searches": [
+    "Phantom Blade Zero PS5 PlayStation Store Canada",
+    "The Wolf Among Us Remastered PS5 release date PlayStation Store",
+    "PlayStation Blog new PS5 games this week October 26 2026",
+    "PS5 games released October 27 2026 October 28 2026",
+    "PlayStation Store Canada new releases PS5 October 2026",
+    "Remothered: Red Nun's Legacy PS5 release date",
+    "The Seance of Blake Manor PS5 release date",
+    "store.playstation.com en-ca Phantom Blade Zero product",
+    "PlayStation Store Black Friday 2026 sale dates Canada PS5 deals"
+  ],
+  "new_games": [
+    {"title": "Phantom Blade Zero", "category": "game", "scale": "AA", "genre": "Action RPG", "release_date": "2026-10-29",
+     "ps_store_url": null,
+     "metacritic_url": "https://www.metacritic.com/game/phantom-blade-zero/critic-reviews/?platform=playstation-5",
+     "deku_url": "https://www.dekudeals.com/items/phantom-blade-zero?format=all&country=ca&platform=all",
+     "eb_url": null, "walmart_url": null,
+     "evidence": ["https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026", "https://www.dekudeals.com/items/phantom-blade-zero"],
+     "note": "Deku lists Oct 28 (store unlock ~10 PM ET Oct 28); most sources say Oct 29. PS Store CA page not found."},
+    {"title": "The Wolf Among Us Remastered", "category": "game", "scale": "AA", "genre": "Episodic narrative adventure", "release_date": "2026-10-29",
+     "ps_store_url": null,
+     "metacritic_url": "https://www.metacritic.com/game/the-wolf-among-us-remastered/critic-reviews/?platform=playstation-5",
+     "deku_url": null, "eb_url": null, "walmart_url": null,
+     "evidence": ["https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026", "https://www.dekudeals.com/items/the-wolf-among-us-remastered"],
+     "note": "Deku page showed no PS5 prices, so deku_url left null."},
+    {"title": "Remothered: Red Nun's Legacy", "category": "game", "scale": "Indie", "genre": "Survival horror", "release_date": "2026-10-27",
+     "ps_store_url": null, "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+     "evidence": ["https://www.gematsu.com/2026/08/remothered-red-nuns-legacy-launches-october-27"],
+     "note": "Release date from announcement; launch not independently confirmed."},
+    {"title": "The Séance of Blake Manor", "category": "game", "scale": "Indie", "genre": "Detective adventure", "release_date": "2026-10-27",
+     "ps_store_url": null, "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+     "evidence": ["https://www.gematsu.com/2026/08/the-seance-of-blake-manor-coming-to-ps5-xbox-series-and-switch-2-on-october-27"],
+     "note": "PC version released 2025; PS5 version Oct 27, 2026. Launch not independently confirmed."}
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}

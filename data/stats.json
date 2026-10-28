@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27",
+ "generated_at": "2026-10-28",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -2860,6 +2860,14 @@
      "date": "2026-10-07",
      "age": 20.0,
      "pct": 65,
+     "event": null,
+     "store": "PlayStation Store",
+     "us_pct": false
+    },
+    {
+     "date": "2026-10-28",
+     "age": 20.7,
+     "pct": 5,
      "event": null,
      "store": "PlayStation Store",
      "us_pct": false
@@ -14786,6 +14794,12 @@
       "price": 16.19,
       "store": "PlayStation Store",
       "end": "2026-11-05"
+     },
+     "disc": {
+      "pct": 27,
+      "price": 39.99,
+      "store": "Video Games Plus",
+      "end": null
      }
     }
    }
@@ -35250,6 +35264,49 @@
    }
   },
   "PS5-0352": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": null,
+    "disc": null
+   },
+   "launch": {
+    "digital": null,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0353": {
    "buckets": {
     "digital": [
      null,

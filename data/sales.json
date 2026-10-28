@@ -1875,6 +1875,21 @@
    "changed_on": "2026-10-24",
    "change": "opened",
    "alerted": false
+  },
+  {
+   "game_id": "PS5-0089",
+   "format": "disc",
+   "store": "Video Games Plus",
+   "baseline": 54.99,
+   "price": 39.99,
+   "pct": 27,
+   "start": "2026-10-28",
+   "end": null,
+   "lowest_before": 39.99,
+   "kind": "sale",
+   "changed_on": "2026-10-28",
+   "change": "opened",
+   "alerted": false
   }
  ],
  "closed": [
