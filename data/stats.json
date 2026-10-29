@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28",
+ "generated_at": "2026-10-29",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -35307,6 +35307,92 @@
    }
   },
   "PS5-0353": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": 39.99,
+    "disc": 54.99
+   },
+   "launch": {
+    "digital": 39.99,
+    "disc": 54.99
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0355": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": 79.99,
+    "disc": null
+   },
+   "launch": {
+    "digital": 79.99,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0356": {
    "buckets": {
     "digital": [
      null,
