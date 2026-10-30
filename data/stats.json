@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29",
+ "generated_at": "2026-10-30",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -11660,6 +11660,14 @@
      "pct": 45,
      "event": null,
      "store": "Video Games Plus",
+     "us_pct": false
+    },
+    {
+     "date": "2026-10-30",
+     "age": 13.1,
+     "pct": 40,
+     "event": null,
+     "store": "Best Buy",
      "us_pct": false
     }
    ],
@@ -28859,11 +28867,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 34.99,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 34.99,
     "disc": null
    },
    "obs_digital": [],
@@ -35412,11 +35420,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 33.49,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 33.49,
     "disc": null
    },
    "obs_digital": [],

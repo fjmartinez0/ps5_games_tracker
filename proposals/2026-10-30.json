@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-30",
+  "searches": [
+    "PlayStation Blog new PS5 games this week October 30 2026",
+    "new PS5 games released October 29 2026",
+    "PS5 releases this week Push Square October 30 2026",
+    "Phantom Blade Zero PS5 release October 29 PlayStation Store Canada",
+    "Metro Redux PS5 release date October 29 2026 PlayStation Store",
+    "Queen's Domain PS5 release October 30 2026",
+    "The Cat in the Hat: Rainy Day Mayhem PS5 release date",
+    "store.playstation.com en-ca Queen's Domain PS5",
+    "\"Village in the Shade\" PS5 store.playstation.com en-ca",
+    "\"The Séance of Blake Manor\" PS5 PlayStation Store",
+    "PEAK game PS5 PlayStation Store Canada"
+  ],
+  "new_games": [
+    {
+      "title": "The Cat in the Hat: Rainy Day Mayhem",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Party platformer",
+      "release_date": "2026-10-30",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10013983",
+      "metacritic_url": "https://www.metacritic.com/game/the-cat-in-the-hat-rainy-day-mayhem/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/the-cat-in-the-hat-rainy-day-mayhem?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10013983",
+        "https://www.dekudeals.com/items/the-cat-in-the-hat-rainy-day-mayhem?format=all&country=ca&platform=all",
+        "https://www.metacritic.com/game/the-cat-in-the-hat-rainy-day-mayhem/critic-reviews/?platform=playstation-5",
+        "https://dnyuz.com/2026/10/11/ps5-upcoming-game-releases-october-2026-all-games-and-release-dates/"
+      ],
+      "note": "Outright Games; also on PS4. Deku page lists PS5 physical and digital prices."
+    },
+    {
+      "title": "Queen's Domain",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "First-person action RPG",
+      "release_date": "2026-10-30",
+      "ps_store_url": null,
+      "metacritic_url": "https://www.metacritic.com/game/queens-domain/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/queens-domain?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.playnews.gg/en/release-dates/queen-s-domain-release-date-set-for-october-30-2026-on-pc-ps5-xbox-series-and-switch-2",
+        "https://www.dekudeals.com/items/queens-domain?format=all&country=ca&platform=all",
+        "https://www.metacritic.com/game/queens-domain/critic-reviews/?platform=playstation-5",
+        "https://dnyuz.com/2026/10/11/ps5-upcoming-game-releases-october-2026-all-games-and-release-dates/"
+      ],
+      "note": "No en-ca PS Store page found yet. Deku lists a PS5 digital entry with no price yet."
+    }
+  ],
+  "updates": [
+    {
+      "id": "PS5-0352",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10015979",
+      "evidence": ["https://store.playstation.com/en-ca/concept/10015979"]
+    },
+    {
+      "id": "PS5-0354",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10018028",
+      "evidence": ["https://store.playstation.com/en-ca/concept/10018028"]
+    }
+  ],
+  "flyer_prices": [],
+  "events": []
+}
