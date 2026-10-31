@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-31",
+  "searches": [
+    "PlayStation Blog new PS5 games this week October 2026",
+    "PS5 games released October 30 2026",
+    "PlayStation Store Canada new releases PS5 October 31 2026",
+    "PlayStation Store Black Friday 2026 sale dates Canada",
+    "Walmart Canada EB Games PS5 game deals flyer this week MobileSyrup",
+    "store.playstation.com en-ca Mouthwashing PS5",
+    "store.playstation.com en-ca The Wolf Among Us Remastered PS5",
+    "store.playstation.com en-ca Look Outside PS5",
+    "store.playstation.com en-ca Croc 2 Kingdom of the Gobbos PS5",
+    "Resonance of Fate Enhanced Remaster PS5 October 30 2026 PlayStation Store",
+    "Look Outside PS5 release October 30 2026"
+  ],
+  "new_games": [
+    {
+      "title": "The Wolf Among Us Remastered",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Narrative adventure",
+      "release_date": "2026-10-29",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10018232",
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10018232",
+        "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026"
+      ],
+      "note": "Telltale remaster of the 2013 episodic game; all five episodes included."
+    },
+    {
+      "title": "Croc 2 Kingdom of the Gobbos",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "3D platformer",
+      "release_date": "2026-10-29",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10017913",
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10017913",
+        "https://www.gematsu.com/2026/10/croc-2-kingdom-of-the-gobbos-remaster-launches-october-29"
+      ],
+      "note": "Remaster of the 1999 PS1 sequel; digital launch on PS5 and PS4."
+    },
+    {
+      "title": "Mouthwashing",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Psychological horror",
+      "release_date": "2026-10-29",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.pushsquare.com/news/2026/10/acclaimed-low-poly-horror-mouthwashing-spits-out-a-ps5-release-next-week",
+        "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026"
+      ],
+      "note": "PC game from 2024; PS5 version released 2026-10-29. No en-ca store page found."
+    },
+    {
+      "title": "Look Outside",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Survival horror RPG",
+      "release_date": "2026-10-30",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026"
+      ],
+      "note": "PC game from 2025 (Devolver Digital); PS5 port dated 2026-10-30. No en-ca store page found."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
