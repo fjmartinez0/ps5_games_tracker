@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "searches": [
+    "PlayStation Blog new PS5 games this week November 2 2026",
+    "new PS5 games released October 31 2026",
+    "PS5 games releasing November 1 2026 PlayStation Store Canada new releases",
+    "PlayStation Store Black Friday 2026 sale dates Canada",
+    "Walmart Canada EB Games flyer PS5 games deals this week November 2026",
+    "Resonance of Fate Enhanced Remaster PS5 store.playstation.com en-ca",
+    "Final Fantasy Resonance PS5 release October 22 2026",
+    "Crimson Desert Charting the Unknown PS5 October 29 2026"
+  ],
+  "new_games": [
+    {
+      "title": "FINAL FANTASY RESONANCE",
+      "category": "game",
+      "scale": "AAA",
+      "genre": "HD-2D turn-based RPG",
+      "release_date": "2026-10-22",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10015961",
+      "metacritic_url": "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/final-fantasy-resonance?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10015961",
+        "https://www.metacritic.com/game/final-fantasy-resonance/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/final-fantasy-resonance?format=all&country=ca&platform=all",
+        "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026"
+      ],
+      "note": "Catch-up: released Oct 22, not yet tracked; Square Enix."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31",
+ "generated_at": "2026-11-01",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -11377,12 +11377,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "disc": {
-      "pct": 19,
-      "price": 64.99,
-      "store": "PNP Games",
-      "end": null
-     },
      "digital": {
       "pct": 30,
       "price": 55.99,

@@ -272,21 +272,6 @@
    "alerted": false
   },
   {
-   "game_id": "PS5-0045",
-   "format": "disc",
-   "store": "PNP Games",
-   "baseline": 79.99,
-   "price": 64.99,
-   "pct": 19,
-   "start": "2026-10-18",
-   "end": null,
-   "lowest_before": 64.99,
-   "kind": "sale",
-   "changed_on": "2026-10-18",
-   "change": "opened",
-   "alerted": false
-  },
-  {
    "game_id": "PS5-0051",
    "format": "disc",
    "store": "PNP Games",
@@ -1088,21 +1073,6 @@
    "baseline": 69.99,
    "price": 49.99,
    "pct": 29,
-   "start": "2026-10-18",
-   "end": null,
-   "lowest_before": 49.99,
-   "kind": "sale",
-   "changed_on": "2026-10-18",
-   "change": "opened",
-   "alerted": false
-  },
-  {
-   "game_id": "PS5-0255",
-   "format": "disc",
-   "store": "PNP Games",
-   "baseline": 69.99,
-   "price": 54.99,
-   "pct": 21,
    "start": "2026-10-18",
    "end": null,
    "lowest_before": 49.99,
@@ -2673,6 +2643,38 @@
    "change": "opened",
    "alerted": false,
    "ended": "2026-10-31"
+  },
+  {
+   "game_id": "PS5-0045",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 79.99,
+   "price": 64.99,
+   "pct": 19,
+   "start": "2026-10-18",
+   "end": null,
+   "lowest_before": 64.99,
+   "kind": "sale",
+   "changed_on": "2026-10-18",
+   "change": "opened",
+   "alerted": false,
+   "ended": "2026-11-01"
+  },
+  {
+   "game_id": "PS5-0255",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 69.99,
+   "price": 54.99,
+   "pct": 21,
+   "start": "2026-10-18",
+   "end": null,
+   "lowest_before": 49.99,
+   "kind": "sale",
+   "changed_on": "2026-10-18",
+   "change": "opened",
+   "alerted": false,
+   "ended": "2026-11-01"
   }
  ]
 }

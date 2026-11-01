@@ -7477,3 +7477,6 @@
 {"date": "2026-10-31", "format": "digital", "game_id": "PS5-0354", "price": 26.99, "regular": 26.99, "sale_end": null, "store": "PlayStation Store"}
 {"date": "2026-10-31", "format": "digital", "game_id": "PS5-0362", "price": 26.99, "regular": 26.99, "sale_end": null, "store": "PlayStation Store"}
 {"date": "2026-10-31", "format": "digital", "game_id": "PS5-0363", "price": 39.99, "regular": 39.99, "sale_end": null, "store": "PlayStation Store"}
+{"date": "2026-11-01", "format": "disc", "game_id": "PS5-0045", "price": 79.99, "regular": 79.99, "store": "PNP Games"}
+{"date": "2026-11-01", "format": "disc", "game_id": "PS5-0255", "price": 69.99, "regular": 69.99, "store": "PNP Games"}
+{"date": "2026-11-01", "format": "digital", "game_id": "PS5-0364", "price": 17.49, "regular": 17.49, "sale_end": null, "store": "PlayStation Store"}
