@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-03",
+  "searches": [
+    "Godzilla: Destroy All Monsters Melee Remastered PS5 PlayStation Store",
+    "PlayStation Blog new PS5 games this week November 2 2026",
+    "new PS5 games released November 3 2026",
+    "PS5 games out November 2 2026 release",
+    "Solo Leveling: Arise Overdrive PS5 release November 3 free-to-play or premium",
+    "Zero Parades: Director's Cut PS5 November 3 store.playstation.com en-ca",
+    "Crymelight PS5 release date PlayStation Store Canada",
+    "ZERO PARADES: Director's Cut store.playstation.com concept PS5",
+    "Skin Deep PS5 release date PlayStation Store dekudeals",
+    "Look Outside PS5 store.playstation.com concept",
+    "Cotton Reboot! High Tension! PS5 store.playstation.com",
+    "Toy Story: Retro Roundup PS5 store.playstation.com",
+    "Keeper Double Fine PS5 dekudeals",
+    "Dragon Quest Heroes Torneko's Mystery Dungeon Classic HD PS5 store.playstation.com dekudeals"
+  ],
+  "new_games": [
+    {
+      "title": "Godzilla: Destroy All Monsters Melee Remastered",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Kaiju fighting",
+      "release_date": "2026-11-03",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10018112",
+      "metacritic_url": "https://www.metacritic.com/game/godzilla-destroy-all-monsters-melee-remastered/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/godzilla-destroy-all-monsters-melee-remastered?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10018112",
+        "https://www.metacritic.com/game/godzilla-destroy-all-monsters-melee-remastered/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/godzilla-destroy-all-monsters-melee-remastered?format=all&country=ca&platform=all"
+      ],
+      "note": "Atari / Pipeworks; remake of the 2002 fighter."
+    },
+    {
+      "title": "ZERO PARADES: Director's Cut",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Narrative spy RPG",
+      "release_date": "2026-11-03",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10016673",
+      "metacritic_url": "https://www.metacritic.com/game/zero-parades-directors-cut/critic-reviews/?platform=playstation-5",
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10016673",
+        "https://www.metacritic.com/game/zero-parades-directors-cut/critic-reviews/?platform=playstation-5",
+        "https://www.gematsu.com/2026/09/zero-parades-for-dead-spies-for-ps5-launches-november-3-alongside-directors-cut-update"
+      ],
+      "note": "ZA/UM; first PS5 release of Zero Parades: For Dead Spies (PC 2026), ships as the Director's Cut. Deku Deals item page not found."
+    }
+  ],
+  "updates": [
+    {
+      "id": "PS5-0308",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10018333",
+      "deku_url": "https://www.dekudeals.com/items/tornekos-mystery-dungeon?format=all&country=ca&platform=all",
+      "release_date": "2026-09-09",
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10018333",
+        "https://www.dekudeals.com/items/tornekos-mystery-dungeon?format=all&country=ca&platform=all"
+      ]
+    },
+    {
+      "id": "PS5-0335",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10017120",
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10017120"
+      ]
+    },
+    {
+      "id": "PS5-0345",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/EP6027-PPSA39849_00-COTTONTENSIONCRG",
+      "release_date": "2026-10-22",
+      "evidence": [
+        "https://store.playstation.com/en-ca/product/EP6027-PPSA39849_00-COTTONTENSIONCRG",
+        "https://www.dekudeals.com/items/cotton-reboot-high-tension?format=all&country=ca&platform=all"
+      ]
+    }
+  ],
+  "flyer_prices": [],
+  "events": []
+}
