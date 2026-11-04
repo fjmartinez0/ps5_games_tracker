@@ -947,21 +947,6 @@
    "alerted": false
   },
   {
-   "game_id": "PS5-0252",
-   "format": "disc",
-   "store": "Video Games Plus",
-   "baseline": 39.99,
-   "price": 34.99,
-   "pct": 13,
-   "start": "2026-10-18",
-   "end": null,
-   "lowest_before": 34.99,
-   "kind": "sale",
-   "changed_on": "2026-10-18",
-   "change": "opened",
-   "alerted": false
-  },
-  {
    "game_id": "PS5-0253",
    "format": "disc",
    "store": "PNP Games",
@@ -1678,6 +1663,66 @@
    "lowest_before": 64.99,
    "kind": "sale",
    "changed_on": "2026-11-02",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0193",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 79.99,
+   "price": 69.99,
+   "pct": 13,
+   "start": "2026-11-04",
+   "end": null,
+   "lowest_before": 69.99,
+   "kind": "sale",
+   "changed_on": "2026-11-04",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0193",
+   "format": "disc",
+   "store": "Video Games Plus",
+   "baseline": 79.99,
+   "price": 69.99,
+   "pct": 13,
+   "start": "2026-11-04",
+   "end": null,
+   "lowest_before": 69.99,
+   "kind": "sale",
+   "changed_on": "2026-11-04",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0224",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 64.99,
+   "price": 54.99,
+   "pct": 15,
+   "start": "2026-11-04",
+   "end": null,
+   "lowest_before": 54.99,
+   "kind": "sale",
+   "changed_on": "2026-11-04",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0224",
+   "format": "disc",
+   "store": "Video Games Plus",
+   "baseline": 64.99,
+   "price": 54.99,
+   "pct": 15,
+   "start": "2026-11-04",
+   "end": null,
+   "lowest_before": 54.99,
+   "kind": "sale",
+   "changed_on": "2026-11-04",
    "change": "opened",
    "alerted": false
   }
@@ -2694,6 +2739,22 @@
    "change": "opened",
    "alerted": false,
    "ended": "2026-11-02"
+  },
+  {
+   "game_id": "PS5-0252",
+   "format": "disc",
+   "store": "Video Games Plus",
+   "baseline": 39.99,
+   "price": 34.99,
+   "pct": 13,
+   "start": "2026-10-18",
+   "end": null,
+   "lowest_before": 34.99,
+   "kind": "sale",
+   "changed_on": "2026-10-18",
+   "change": "opened",
+   "alerted": false,
+   "ended": "2026-11-04"
   }
  ]
 }

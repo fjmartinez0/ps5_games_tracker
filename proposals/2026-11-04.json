@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "searches": [
+    "PlayStation Blog this week's PS5 game releases November 2-8 2026",
+    "new PS5 games released November 4 2026",
+    "PS5 new releases November 3 2026 PlayStation Store",
+    "Void/Breaker PS5 PlayStation Store release",
+    "Void/Breaker metacritic dekudeals",
+    "Look Outside PS5 store.playstation.com en-ca",
+    "Skin Deep PS5 release date PlayStation Store"
+  ],
+  "new_games": [
+    {
+      "title": "VOID/BREAKER",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Roguelite first-person shooter",
+      "release_date": "2026-11-04",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10013733",
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://gamingpromax.com/new-ps5-games-november-2026-gta-6-release-date/",
+        "https://www.playnews.gg/en/release-dates/void-breaker-leaves-early-access-on-november-4-2026-on-ps5-xbox-series-and-pc",
+        "https://store.playstation.com/en-ca/concept/10013733"
+      ],
+      "note": "Leaves Early Access on PS5/Xbox/PC 2026-11-04 (Playstack, by Stubby Games). The en-ca concept page showed 'Not available for purchase' when read; no Metacritic PS5 page or Deku Deals page found yet."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
