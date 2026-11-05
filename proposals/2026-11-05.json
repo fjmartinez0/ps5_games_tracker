@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-05",
+  "searches": [
+    "PlayStation Blog new PS5 games this week November 2026",
+    "PS5 new releases November 5 2026",
+    "PlayStation Store Canada new releases PS5 November 4 2026",
+    "Light: Black Cat & Amnesia Girl PS5 PlayStation Store",
+    "Skin Deep PS5 release date store.playstation.com en-ca"
+  ],
+  "new_games": [
+    {
+      "title": "LIGHT: Black Cat & Amnesia Girl",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Puzzle adventure",
+      "release_date": "2026-11-05",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/UP0837-PPSA27564_00-0872887840631803",
+      "metacritic_url": null,
+      "deku_url": "https://www.dekudeals.com/items/light-black-cat-and-amnesia-girl?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://gematsu.com/2026/06/puzzle-adventure-game-light-black-cat-amnesia-girl-coming-to-ps5-on-november-5",
+        "https://www.dekudeals.com/items/light-black-cat-and-amnesia-girl"
+      ],
+      "note": "PS5 store link taken from the Deku Deals page; I did not open the store page itself."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
