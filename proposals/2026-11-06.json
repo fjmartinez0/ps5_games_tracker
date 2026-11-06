@@ -1,0 +1,51 @@
+{
+ "date": "2026-11-06",
+ "searches": [
+  "PlayStation Blog new PS5 games this week November 2026",
+  "PS5 new releases November 6 2026",
+  "PS5 games released November 5 2026 launch",
+  "CRYMELIGHT PS5 PlayStation Store",
+  "Hasbro Games Junior Collection PS5 release date",
+  "Yomawari The Long Night Collection PS5 PlayStation Store Canada",
+  "Kingdom of Night PS5 release November 5 2026 store.playstation.com en-ca",
+  "Escape Academy 2: Back 2 School PS5 store.playstation.com en-ca",
+  "VOID/BREAKER PS5 dekudeals",
+  "Mega Man Star Force Legacy Collection PS5 store.playstation.com en-ca",
+  "Legacy of Kain Defiance Remastered PS5 dekudeals",
+  "Planet of Lana II PS5 dekudeals"
+ ],
+ "new_games": [
+  {"title": "Hasbro Games Junior Collection", "category": "game", "scale": "AA", "genre": "Kids board games", "release_date": "2026-11-06",
+   "ps_store_url": "https://store.playstation.com/en-ca/concept/10018611", "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+   "evidence": ["https://store.playstation.com/en-ca/concept/10018611", "https://donatov.blog/post/relizy-playstation-na-28-noyabrya"],
+   "note": "Deku page showed no PS5 prices, so deku_url left null"},
+  {"title": "CRYMELIGHT", "category": "game", "scale": "AA", "genre": "Roguelike action", "release_date": "2026-11-04",
+   "ps_store_url": "https://store.playstation.com/en-ca/concept/10019084",
+   "metacritic_url": "https://www.metacritic.com/game/crymelight/critic-reviews/?platform=playstation-5",
+   "deku_url": "https://www.dekudeals.com/items/crymelight?format=all&country=ca&platform=all", "eb_url": null, "walmart_url": null,
+   "evidence": ["https://store.playstation.com/en-ca/concept/10019084", "https://www.dekudeals.com/items/crymelight?format=all&country=ca&platform=all", "https://www.metacritic.com/game/crymelight/critic-reviews/?platform=playstation-5"],
+   "note": "PS Store CA lists 2026-11-04; some sources say Nov 5"},
+  {"title": "Yomawari: The Long Night Collection", "category": "game", "scale": "AA", "genre": "Horror adventure", "release_date": "2026-11-05",
+   "ps_store_url": "https://store.playstation.com/en-ca/product/UP1063-PPSA39007_00-YOMAWARI12000000", "metacritic_url": null,
+   "deku_url": "https://www.dekudeals.com/items/yomawari-the-long-night-collection?format=all&country=ca&platform=all", "eb_url": null, "walmart_url": null,
+   "evidence": ["https://www.dekudeals.com/items/yomawari-the-long-night-collection?format=all&country=ca&platform=all", "https://donatov.blog/post/relizy-playstation-na-28-noyabrya"],
+   "note": "Western PS5 release; Japan release was May 2026"},
+  {"title": "Kingdom of Night", "category": "game", "scale": "Indie", "genre": "Isometric action RPG", "release_date": "2026-11-05",
+   "ps_store_url": "https://store.playstation.com/en-ca/product/JP4108-PPSA35020_00-KONGLOBAL0000000", "metacritic_url": null,
+   "deku_url": "https://www.dekudeals.com/items/kingdom-of-night?format=all&country=ca&platform=all", "eb_url": null, "walmart_url": null,
+   "evidence": ["https://www.dekudeals.com/items/kingdom-of-night?format=all&country=ca&platform=all", "https://donatov.blog/post/relizy-playstation-na-28-noyabrya"],
+   "note": "Gematsu and others say PS5 launch Nov 5; Deku shows Oct 8 for PS5, so date is uncertain"},
+  {"title": "Escape Academy 2: Back 2 School", "category": "game", "scale": "Indie", "genre": "Escape room puzzle", "release_date": "2026-11-05",
+   "ps_store_url": "https://store.playstation.com/en-ca/product/HB2473-PPSA37577_00-EABACK2SCHOOLPS5",
+   "metacritic_url": "https://www.metacritic.com/game/escape-academy-2-back-2-school/critic-reviews/?platform=playstation-5",
+   "deku_url": "https://www.dekudeals.com/items/escape-academy-2-back-2-school?format=all&country=ca&platform=all", "eb_url": null, "walmart_url": null,
+   "evidence": ["https://www.dekudeals.com/items/escape-academy-2-back-2-school?format=all&country=ca&platform=all", "https://www.metacritic.com/game/escape-academy-2-back-2-school/critic-reviews/?platform=playstation-5"]}
+ ],
+ "updates": [
+  {"id": "PS5-0365", "ps_store_url": "https://store.playstation.com/en-ca/product/UP3643-PPSA38815_00-0954489891441725", "evidence": ["https://www.dekudeals.com/items/look-outside?format=all&country=ca&platform=all"]},
+  {"id": "PS5-0305", "ps_store_url": "https://store.playstation.com/en-ca/concept/10016155", "deku_url": "https://www.dekudeals.com/items/legacy-of-kain-defiance-remastered?format=all&country=ca&platform=all", "release_date": "2026-03-03",
+   "evidence": ["https://store.playstation.com/en-ca/concept/10016155", "https://www.dekudeals.com/items/legacy-of-kain-defiance-remastered?format=all&country=ca&platform=all"]}
+ ],
+ "flyer_prices": [],
+ "events": []
+}
