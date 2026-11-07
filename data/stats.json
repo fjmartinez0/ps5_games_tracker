@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06",
+ "generated_at": "2026-11-07",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -228,6 +228,27 @@
    }
   },
   {
+   "id": "PLAYSTATIONS",
+   "name": "PlayStation Store Black Friday 2026",
+   "start": "2026-11-04",
+   "end": "2026-11-30",
+   "special": true,
+   "expected": false,
+   "note": null,
+   "source": "https://beebom.com/playstation-stores-black-friday-2026-deals-revealed/",
+   "formats": [
+    "digital"
+   ],
+   "digital": {
+    "games": 62,
+    "median": 33.0
+   },
+   "disc": {
+    "games": 0,
+    "median": null
+   }
+  },
+  {
    "id": "BF26",
    "name": "Black Friday 2026",
    "start": "2026-11-20",
@@ -356,7 +377,8 @@
   {
    "month": 11,
    "events": [
-    "Black Friday"
+    "Black Friday",
+    "PlayStation Store Black Friday"
    ],
    "special": true
   },
@@ -1502,7 +1524,7 @@
      "date": "2026-11-05",
      "age": 16.3,
      "pct": 43,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -1822,7 +1844,7 @@
      "date": "2026-11-05",
      "age": 12.7,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -2084,7 +2106,7 @@
      "date": "2026-11-06",
      "age": 20.2,
      "pct": 43,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -3141,7 +3163,7 @@
      "date": "2026-11-05",
      "age": 13.5,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -4549,7 +4571,7 @@
     "digital": {
      "age": 11.8,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -4568,7 +4590,7 @@
      "date": "2026-11-05",
      "age": 11.8,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -4846,7 +4868,7 @@
      "date": "2026-11-05",
      "age": 13.3,
      "pct": 72,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -6638,7 +6660,7 @@
      "date": "2026-11-05",
      "age": 16.8,
      "pct": 55,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -10835,7 +10857,7 @@
      "date": "2026-11-05",
      "age": 11.7,
      "pct": 40,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -11310,7 +11332,7 @@
      "date": "2026-11-06",
      "age": 12.5,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -11545,7 +11567,7 @@
     "digital": {
      "age": 12.4,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -11564,7 +11586,7 @@
      "date": "2026-11-05",
      "age": 12.4,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -12470,7 +12492,7 @@
      "date": "2026-11-05",
      "age": 13.6,
      "pct": 55,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -14035,7 +14057,7 @@
      "date": "2026-11-05",
      "age": 21.6,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -14563,7 +14585,7 @@
      "date": "2026-11-05",
      "age": 19.8,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -14599,7 +14621,7 @@
     "digital": {
      "age": 20.7,
      "pct": 55,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -14618,7 +14640,7 @@
      "date": "2026-11-05",
      "age": 20.7,
      "pct": 55,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -15282,7 +15304,7 @@
      "date": "2026-11-05",
      "age": 12.4,
      "pct": 35,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -18169,7 +18191,7 @@
     "digital": {
      "age": 11.6,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -18188,7 +18210,7 @@
      "date": "2026-11-05",
      "age": 11.6,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -18528,7 +18550,7 @@
      "date": "2026-11-05",
      "age": 13.3,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -18564,7 +18586,7 @@
     "digital": {
      "age": 13.4,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -18583,7 +18605,7 @@
      "date": "2026-11-05",
      "age": 13.4,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -18662,7 +18684,7 @@
     "digital": {
      "age": 17.4,
      "pct": 60,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -18681,7 +18703,7 @@
      "date": "2026-11-05",
      "age": 17.4,
      "pct": 60,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -19199,7 +19221,7 @@
      "date": "2026-11-05",
      "age": 16.6,
      "pct": 60,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -19927,7 +19949,7 @@
     "digital": {
      "age": 12.4,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -19946,7 +19968,7 @@
      "date": "2026-11-05",
      "age": 12.4,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -20625,7 +20647,7 @@
     "digital": {
      "age": 18.7,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -20644,7 +20666,7 @@
      "date": "2026-11-05",
      "age": 18.7,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -21273,6 +21295,22 @@
      "event": null,
      "store": "Best Buy",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-07",
+     "age": 15.0,
+     "pct": 29,
+     "event": null,
+     "store": "Best Buy",
+     "us_pct": false
+    },
+    {
+     "date": "2026-11-07",
+     "age": 15.0,
+     "pct": 29,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -21506,7 +21544,7 @@
      "date": "2026-11-05",
      "age": 21.2,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -21609,7 +21647,7 @@
      "date": "2026-11-05",
      "age": 11.6,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -22340,7 +22378,7 @@
      "date": "2026-11-06",
      "age": 17.5,
      "pct": 33,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -22799,7 +22837,7 @@
     "digital": {
      "age": 17.3,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -22818,7 +22856,7 @@
      "date": "2026-11-05",
      "age": 17.3,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -25690,7 +25728,7 @@
     "digital": {
      "age": 6.0,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -25709,7 +25747,7 @@
      "date": "2026-11-05",
      "age": 6.0,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -27423,7 +27461,7 @@
      "date": "2026-11-05",
      "age": 8.7,
      "pct": 45,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -27512,6 +27550,14 @@
      "pct": 13,
      "event": null,
      "store": "Video Games Plus",
+     "us_pct": false
+    },
+    {
+     "date": "2026-11-07",
+     "age": 6.7,
+     "pct": 13,
+     "event": null,
+     "store": "Best Buy",
      "us_pct": false
     }
    ],
@@ -27791,7 +27837,7 @@
     "digital": {
      "age": 1.4,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -27810,7 +27856,7 @@
      "date": "2026-11-05",
      "age": 1.4,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -27962,7 +28008,7 @@
     "digital": {
      "age": 2.5,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -27981,7 +28027,7 @@
      "date": "2026-11-05",
      "age": 2.5,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -28578,7 +28624,7 @@
     "digital": {
      "age": 9.2,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -28597,7 +28643,7 @@
      "date": "2026-11-05",
      "age": 9.2,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -29057,7 +29103,7 @@
      "date": "2026-11-05",
      "age": 7.2,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -29136,7 +29182,7 @@
      "date": "2026-11-05",
      "age": 5.5,
      "pct": 33,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -29457,7 +29503,7 @@
     "digital": {
      "age": 1.4,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -29476,7 +29522,7 @@
      "date": "2026-11-05",
      "age": 1.4,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -29602,7 +29648,7 @@
     "digital": {
      "age": 7.0,
      "pct": 35,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -29621,7 +29667,7 @@
      "date": "2026-11-05",
      "age": 7.0,
      "pct": 35,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -29657,7 +29703,7 @@
     "digital": {
      "age": 6.2,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -29676,7 +29722,7 @@
      "date": "2026-11-05",
      "age": 6.2,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -29755,7 +29801,7 @@
     "digital": {
      "age": 5.6,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -29774,7 +29820,7 @@
      "date": "2026-11-05",
      "age": 5.6,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -30091,7 +30137,7 @@
      "date": "2026-11-05",
      "age": 4.6,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -30158,7 +30204,7 @@
     "digital": {
      "age": 2.6,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -30177,7 +30223,7 @@
      "date": "2026-11-05",
      "age": 2.6,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -30213,7 +30259,7 @@
     "digital": {
      "age": 6.0,
      "pct": 10,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -30232,7 +30278,7 @@
      "date": "2026-11-05",
      "age": 6.0,
      "pct": 10,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -30369,7 +30415,7 @@
     "digital": {
      "age": 3.4,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -30388,7 +30434,7 @@
      "date": "2026-11-05",
      "age": 3.4,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -30473,7 +30519,7 @@
      "date": "2026-11-05",
      "age": 7.4,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -30733,7 +30779,7 @@
     "digital": {
      "age": 3.4,
      "pct": 33,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -30758,7 +30804,7 @@
      "date": "2026-11-05",
      "age": 3.4,
      "pct": 33,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -31130,7 +31176,7 @@
      "date": "2026-11-05",
      "age": 5.8,
      "pct": 33,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -31267,7 +31313,7 @@
     "digital": {
      "age": 3.7,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -31286,7 +31332,7 @@
      "date": "2026-11-05",
      "age": 3.7,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -31322,7 +31368,7 @@
     "digital": {
      "age": 3.2,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -31341,7 +31387,7 @@
      "date": "2026-11-05",
      "age": 3.2,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -31623,7 +31669,7 @@
     "digital": {
      "age": 7.4,
      "pct": 40,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -31642,7 +31688,7 @@
      "date": "2026-11-05",
      "age": 7.4,
      "pct": 40,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -31994,7 +32040,7 @@
     "digital": {
      "age": 7.1,
      "pct": 60,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -32013,7 +32059,7 @@
      "date": "2026-11-05",
      "age": 7.1,
      "pct": 60,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -32178,7 +32224,7 @@
      "date": "2026-11-05",
      "age": 6.2,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -32263,7 +32309,7 @@
      "date": "2026-11-05",
      "age": 8.7,
      "pct": 40,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -32288,12 +32334,6 @@
    ],
    "next_expected": {
     "on_sale": {
-     "disc": {
-      "pct": 13,
-      "price": 34.99,
-      "store": "PNP Games",
-      "end": null
-     },
      "digital": {
       "pct": 40,
       "price": 16.19,
@@ -32552,7 +32592,7 @@
     "digital": {
      "age": 6.7,
      "pct": 40,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -32571,7 +32611,7 @@
      "date": "2026-11-05",
      "age": 6.7,
      "pct": 40,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -32766,7 +32806,7 @@
      "date": "2026-11-05",
      "age": 3.1,
      "pct": 25,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -33091,7 +33131,7 @@
      "date": "2026-11-05",
      "age": 7.7,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -33184,7 +33224,7 @@
      "date": "2026-11-05",
      "age": 8.7,
      "pct": 43,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -33328,11 +33368,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 33.49,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 33.49,
     "disc": null
    },
    "obs_digital": [],
@@ -33427,7 +33467,7 @@
      "date": "2026-11-05",
      "age": 9.2,
      "pct": 50,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -34617,7 +34657,7 @@
     "digital": {
      "age": 15.5,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -34636,7 +34676,7 @@
      "date": "2026-11-05",
      "age": 15.5,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -34780,7 +34820,7 @@
      "date": "2026-11-05",
      "age": 17.3,
      "pct": 30,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -34940,7 +34980,7 @@
     "digital": {
      "age": 1.9,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -34959,7 +34999,7 @@
      "date": "2026-11-05",
      "age": 1.9,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -34995,7 +35035,7 @@
     "digital": {
      "age": 1.9,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -35014,7 +35054,7 @@
      "date": "2026-11-05",
      "age": 1.9,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -35245,7 +35285,7 @@
     "digital": {
      "age": 1.6,
      "pct": 35,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -35264,7 +35304,7 @@
      "date": "2026-11-05",
      "age": 1.6,
      "pct": 35,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -35300,7 +35340,7 @@
     "digital": {
      "age": 1.2,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -35319,7 +35359,7 @@
      "date": "2026-11-05",
      "age": 1.2,
      "pct": 20,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }
@@ -35484,7 +35524,7 @@
     "digital": {
      "age": 0.9,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     },
@@ -35503,7 +35543,7 @@
      "date": "2026-11-05",
      "age": 0.9,
      "pct": 15,
-     "event": null,
+     "event": "PLAYSTATIONS",
      "store": "PlayStation Store",
      "us_pct": false
     }

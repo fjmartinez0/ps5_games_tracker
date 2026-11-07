@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-07",
+  "searches": [
+    "PlayStation Blog new PS5 games this week November 2026",
+    "new PS5 games released November 6 2026",
+    "PlayStation Store Canada new releases PS5 November 7 2026",
+    "PlayStation Store Black Friday 2026 sale dates Canada",
+    "Solo Leveling: Arise Overdrive PS5 free-to-play or paid PlayStation Store",
+    "Where the Seeds Fall PS5 November 5 2026 store.playstation.com",
+    "Metro Redux PS5 release October 29 2026",
+    "Solo Leveling: ARISE OVERDRIVE store.playstation.com en-ca",
+    "Faraway PS5 November 5 2026 release",
+    "K-Pop Rising: Dream to Shine PS5 November 5 2026"
+  ],
+  "new_games": [
+    {
+      "title": "Solo Leveling: ARISE OVERDRIVE",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Co-op action RPG",
+      "release_date": "2026-11-03",
+      "ps_store_url": null,
+      "metacritic_url": "https://www.metacritic.com/game/solo-leveling-arise-overdrive/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/solo-leveling-arise?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.pushsquare.com/guides/new-ps5-games-release-dates-in-2026",
+        "https://www.dekudeals.com/items/solo-leveling-arise?format=all&country=ca&platform=all",
+        "https://www.metacritic.com/game/solo-leveling-arise-overdrive/critic-reviews/?platform=playstation-5"
+      ],
+      "note": "Premium (not gacha, not F2P) per press coverage; PS Store CA URL not found."
+    },
+    {
+      "title": "Where the Seeds Fall",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Narrative puzzle adventure",
+      "release_date": "2026-11-05",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10019729",
+      "metacritic_url": "https://www.metacritic.com/game/where-the-seeds-fall/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/where-the-seeds-fall?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10019729",
+        "https://www.dekudeals.com/items/where-the-seeds-fall?format=all&country=ca&platform=all",
+        "https://www.metacritic.com/game/where-the-seeds-fall/critic-reviews/?platform=playstation-5"
+      ],
+      "note": "Cygames; CA$13.49; about 3 hours long, so short. Genre label is a guess from the store blurb."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": [
+    {
+      "name": "PlayStation Store Black Friday 2026",
+      "start": "2026-11-04",
+      "end": "2026-11-30",
+      "formats": ["digital"],
+      "special": true,
+      "evidence": ["https://beebom.com/playstation-stores-black-friday-2026-deals-revealed/"]
+    }
+  ]
+}
