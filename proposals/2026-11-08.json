@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-08",
+  "searches": [
+    "PlayStation Blog this week's PS5 game releases November 2026",
+    "new PS5 games released November 7 2026",
+    "PlayStation Store Canada new PS5 releases November 2026",
+    "PlayStation Store Black Friday 2026 sale dates Canada",
+    "Walmart Canada flyer PS5 games deals November 2026 MobileSyrup",
+    "Phantom Blade Zero PS5 release PlayStation Store Canada",
+    "Metro Redux PS5 release date October 29 2026",
+    "Faraway PS5 November 5 2026 K-Pop Rising Dream to Shine",
+    "Resonance of Fate Enhanced Remaster PS5 release date",
+    "Faraway PS5 release November 5 2026 game",
+    "Skin Deep PS5 release date PlayStation Store",
+    "dekudeals Yakuza Kiwami 3 & Dark Ties PS5",
+    "RedFlagDeals Walmart Canada EB Games flyer PS5 games week of November 6 2026"
+  ],
+  "new_games": [
+    {
+      "title": "K-Pop Rising: Dream to Shine",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Rhythm life-sim",
+      "release_date": "2026-11-05",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/EP4295-PPSA37453_00-KPOPRISING0PS5WW",
+      "metacritic_url": null,
+      "deku_url": "https://www.dekudeals.com/items/k-pop-rising-dream-to-shine?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.dekudeals.com/items/k-pop-rising-dream-to-shine?format=all&country=ca&platform=all"
+      ],
+      "note": "Deku lists PS5 digital at CAD 46.99; Microids/Old Skull Games."
+    },
+    {
+      "title": "Resonance of Fate ENHANCED REMASTER",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Action JRPG remaster",
+      "release_date": "2026-10-30",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/232879",
+      "metacritic_url": null,
+      "deku_url": "https://www.dekudeals.com/items/resonance-of-fate-enhanced-remaster?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/232879",
+        "https://www.dekudeals.com/items/resonance-of-fate-enhanced-remaster?format=all&country=ca&platform=all"
+      ],
+      "note": "PS Store Canada says 2026-10-30; Deku says 2026-10-29 (likely time zone). Sold standalone on PS5."
+    },
+    {
+      "title": "Metro Redux",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Story first-person shooter",
+      "release_date": "2026-10-29",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/EP4062-PPSA40653_00-METRORDXGEN9BDLE",
+      "metacritic_url": null,
+      "deku_url": "https://www.dekudeals.com/items/metro-redux?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.dekudeals.com/items/metro-redux?format=all&country=ca&platform=all",
+        "https://www.gematsu.com/2026/10/metro-redux-coming-to-ps5-xbox-series-on-october-29"
+      ],
+      "note": "Next-gen PS5 version (free upgrade for PS4 owners); PS Store lists it as PS5/PS4 at CAD 39.99. Deku page showed PS5 release date but no separate PS5 price, so check the Deku link."
+    },
+    {
+      "title": "Faraway",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Arcade puzzle",
+      "release_date": "2026-11-05",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.gematsu.com/?p=1085255"
+      ],
+      "note": "Annapurna Interactive / Steph Thirion; PS5 date from Gematsu announcement, store link not found."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": [
+    {
+      "name": "PlayStation Store Black Friday Sale 2026",
+      "start": "2026-11-04",
+      "end": "2026-11-30",
+      "formats": ["digital"],
+      "special": true,
+      "evidence": [
+        "https://beebom.com/playstation-stores-black-friday-2026-deals-revealed/"
+      ]
+    }
+  ]
+}
