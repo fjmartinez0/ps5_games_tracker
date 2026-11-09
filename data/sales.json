@@ -2160,6 +2160,21 @@
    "changed_on": "2026-11-07",
    "change": "opened",
    "alerted": false
+  },
+  {
+   "game_id": "PS5-0044",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 49.99,
+   "price": 44.99,
+   "pct": 10,
+   "start": "2026-11-09",
+   "end": null,
+   "lowest_before": 34.99,
+   "kind": "sale",
+   "changed_on": "2026-11-09",
+   "change": "opened",
+   "alerted": false
   }
  ],
  "closed": [

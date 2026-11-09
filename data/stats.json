@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08",
+ "generated_at": "2026-11-09",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -72,8 +72,8 @@
     },
     {
      "label": "12+ Months",
-     "median": 28.5,
-     "games": 32
+     "median": 28,
+     "games": 33
     }
    ]
   }
@@ -11049,7 +11049,7 @@
      null,
      null,
      30,
-     null
+     10
     ]
    },
    "first": {
@@ -11174,19 +11174,24 @@
      "event": null,
      "store": "Video Games Plus",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-09",
+     "age": 14.7,
+     "pct": 10,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 25,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "own",
-     "disc": "typical"
+    "on_sale": {
+     "disc": {
+      "pct": 10,
+      "price": 44.99,
+      "store": "PNP Games",
+      "end": null
+     }
     }
    }
   },
@@ -36211,49 +36216,6 @@
    "launch": {
     "digital": 33.49,
     "disc": null
-   },
-   "obs_digital": [],
-   "obs_disc": [],
-   "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
-    }
-   }
-  },
-  "PS5-0363": {
-   "buckets": {
-    "digital": [
-     null,
-     null,
-     null,
-     null
-    ],
-    "disc": [
-     null,
-     null,
-     null,
-     null
-    ]
-   },
-   "first": {
-    "digital": null,
-    "disc": null
-   },
-   "lowest": {
-    "digital": 39.99,
-    "disc": 69.99
-   },
-   "launch": {
-    "digital": 39.99,
-    "disc": 69.99
    },
    "obs_digital": [],
    "obs_disc": [],
