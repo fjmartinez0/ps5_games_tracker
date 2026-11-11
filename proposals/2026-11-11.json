@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-11",
+  "searches": [
+    "Tenebris Somnia PS5 PlayStation Store",
+    "Just Dance: Decades of Hits PS5 release",
+    "Warhammer Survivors PS5 release November 2026",
+    "PlayStation Blog this week's PS5 releases November 2026",
+    "new PS5 games released November 10 2026",
+    "new PS5 games released November 11 2026 PlayStation Store Canada",
+    "store.playstation.com en-ca Just Dance: Decades of Hits PS5",
+    "Mega Man Star Force Legacy Collection PS5 store.playstation.com en-ca",
+    "Planet of Lana II PlayStation Store concept",
+    "Toxic Commando PS5 PlayStation Store concept"
+  ],
+  "new_games": [
+    {
+      "title": "Tenebris Somnia",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Retro survival horror",
+      "release_date": "2026-10-16",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10019514",
+      "metacritic_url": "https://www.metacritic.com/game/tenebris-somnia/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/tenebris-somnia?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10019514",
+        "https://www.metacritic.com/game/tenebris-somnia/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/tenebris-somnia?format=all&country=ca&platform=all"
+      ],
+      "note": "Published by New Blood Interactive; PS Store Canada $33.49."
+    },
+    {
+      "title": "Just Dance: Decades of Hits",
+      "category": "game",
+      "scale": "AAA",
+      "genre": "Dance rhythm party",
+      "release_date": "2026-10-13",
+      "ps_store_url": null,
+      "metacritic_url": "https://www.metacritic.com/game/just-dance-decades-of-hits/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/just-dance-decades-of-hits?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.metacritic.com/game/just-dance-decades-of-hits/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/just-dance-decades-of-hits?format=all&country=ca&platform=all"
+      ],
+      "note": "No en-ca PS Store page found (only en-ae); store link left null."
+    },
+    {
+      "title": "Warhammer Survivors",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Survivors-like roguelite",
+      "release_date": "2026-11-10",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10016825",
+      "metacritic_url": "https://www.metacritic.com/game/warhammer-survivors/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/warhammer-survivors?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://store.playstation.com/en-ca/concept/10016825",
+        "https://www.metacritic.com/game/warhammer-survivors/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/warhammer-survivors?format=all&country=ca&platform=all"
+      ],
+      "note": "Developed by Auroch Digital; PS Store Canada $10.99."
+    }
+  ],
+  "updates": [
+    {
+      "id": "PS5-0269",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10016383",
+      "evidence": ["https://store.playstation.com/en-ca/concept/10016383"]
+    },
+    {
+      "id": "PS5-0284",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/UP4133-PPSA08267_00-TOXICCOMMANDO000",
+      "evidence": ["https://store.playstation.com/en-ca/product/UP4133-PPSA08267_00-TOXICCOMMANDO000"]
+    },
+    {
+      "id": "PS5-0214",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10011317",
+      "evidence": ["https://store.playstation.com/en-ca/concept/10011317"]
+    }
+  ],
+  "flyer_prices": [],
+  "events": []
+}

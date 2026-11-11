@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10",
+ "generated_at": "2026-11-11",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -36147,6 +36147,49 @@
     }
    }
   },
+  "PS5-0354": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": 26.99,
+    "disc": 49.99
+   },
+   "launch": {
+    "digital": 26.99,
+    "disc": 49.99
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
   "PS5-0355": {
    "buckets": {
     "digital": [
@@ -36344,6 +36387,135 @@
    },
    "launch": {
     "digital": null,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0381": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": 33.49,
+    "disc": 49.99
+   },
+   "launch": {
+    "digital": 33.49,
+    "disc": 49.99
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0382": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": null,
+    "disc": null
+   },
+   "launch": {
+    "digital": null,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0383": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": 10.99,
+    "disc": null
+   },
+   "launch": {
+    "digital": 10.99,
     "disc": null
    },
    "obs_digital": [],
