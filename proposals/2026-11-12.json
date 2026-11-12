@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-12",
+  "searches": [
+    "PlayStation Blog new PS5 games this week November 2026",
+    "new PS5 releases November 12 2026",
+    "PS5 games released November 11 2026",
+    "Barbie Rewind PS5 release date PlayStation Store",
+    "Sonic Pico Park PS5 November 12"
+  ],
+  "new_games": [
+    {
+      "title": "Barbie Rewind",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Retro game collection",
+      "release_date": "2026-11-12",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": ["https://www.pushsquare.com/games/ps5/barbie_rewind"],
+      "note": "Atari/Digital Eclipse 16-game collection; PS5 date 2026-11-12 per Push Square. No PS Store CA link found."
+    },
+    {
+      "title": "SONIC PICO PARK",
+      "category": "game",
+      "scale": "AA",
+      "genre": "Co-op puzzle platformer",
+      "release_date": "2026-11-12",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.timeextension.com/games/ps5/sonic_pico_park",
+        "https://www.dekudeals.com/items/sonic-pico-park?format=all&country=ca&platform=all"
+      ],
+      "note": "Deku page shows PS5 digital as unavailable (no price yet); PS Store link there is a region-less concept/10020345, not en-ca, so left null."
+    }
+  ],
+  "updates": [
+    {
+      "id": "PS5-0284",
+      "ps_store_url": null,
+      "deku_url": "https://www.dekudeals.com/items/john-carpenters-toxic-commando?format=all&country=ca&platform=all",
+      "release_date": null,
+      "evidence": ["https://www.dekudeals.com/items/john-carpenters-toxic-commando?format=all&country=ca&platform=all"]
+    }
+  ],
+  "flyer_prices": [],
+  "events": []
+}

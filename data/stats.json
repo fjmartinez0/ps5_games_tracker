@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11",
+ "generated_at": "2026-11-12",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -8,10 +8,10 @@
  ],
  "summary": {
   "digital": {
-   "games": 171,
+   "games": 172,
    "first_age_median": 2.7,
-   "first_pct_median": 20,
-   "within_3_months": 90,
+   "first_pct_median": 20.0,
+   "within_3_months": 91,
    "deepest": {
     "game_id": "PS5-0164",
     "title": "The Knightling",
@@ -22,18 +22,18 @@
    "buckets": [
     {
      "label": "0–3 Months",
-     "median": 20.0,
-     "games": 90
+     "median": 20,
+     "games": 91
     },
     {
      "label": "3–6 Months",
-     "median": 30.0,
-     "games": 108
+     "median": 30,
+     "games": 109
     },
     {
      "label": "6–12 Months",
-     "median": 39.0,
-     "games": 110
+     "median": 38,
+     "games": 111
     },
     {
      "label": "12+ Months",
@@ -156,8 +156,8 @@
     "digital"
    ],
    "digital": {
-    "games": 54,
-    "median": 30.0
+    "games": 55,
+    "median": 30
    },
    "disc": {
     "games": 0,
@@ -22538,9 +22538,9 @@
   "PS5-0168": {
    "buckets": {
     "digital": [
-     null,
-     null,
-     null,
+     20,
+     30,
+     30,
      null
     ],
     "disc": [
@@ -22551,18 +22551,73 @@
     ]
    },
    "first": {
-    "digital": null,
+    "digital": {
+     "age": 1.2,
+     "pct": 20,
+     "event": null,
+     "store": "PlayStation Store",
+     "us_pct": false
+    },
     "disc": null
    },
    "lowest": {
-    "digital": 39.99,
-    "disc": null
+    "digital": 27.99,
+    "disc": 84.99
    },
    "launch": {
     "digital": 39.99,
-    "disc": null
+    "disc": 84.99
    },
-   "obs_digital": [],
+   "obs_digital": [
+    {
+     "date": "2025-11-05",
+     "age": 1.2,
+     "pct": 20,
+     "event": null,
+     "store": "PlayStation Store",
+     "us_pct": false
+    },
+    {
+     "date": "2025-12-22",
+     "age": 2.7,
+     "pct": 20,
+     "event": "HOL25",
+     "store": "PlayStation Store",
+     "us_pct": false
+    },
+    {
+     "date": "2026-02-04",
+     "age": 4.2,
+     "pct": 30,
+     "event": null,
+     "store": "PlayStation Store",
+     "us_pct": false
+    },
+    {
+     "date": "2026-03-25",
+     "age": 5.8,
+     "pct": 30,
+     "event": null,
+     "store": "PlayStation Store",
+     "us_pct": false
+    },
+    {
+     "date": "2026-05-13",
+     "age": 7.4,
+     "pct": 30,
+     "event": null,
+     "store": "PlayStation Store",
+     "us_pct": false
+    },
+    {
+     "date": "2026-07-15",
+     "age": 9.5,
+     "pct": 30,
+     "event": null,
+     "store": "PlayStation Store",
+     "us_pct": false
+    }
+   ],
    "obs_disc": [],
    "next_expected": {
     "event": "Black Friday 2026",
@@ -28707,11 +28762,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 26.99,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 26.99,
     "disc": null
    },
    "obs_digital": [],
@@ -31451,11 +31506,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 49.99,
     "disc": 54.99
    },
    "launch": {
-    "digital": null,
+    "digital": 49.99,
     "disc": 54.99
    },
    "obs_digital": [],
@@ -32025,11 +32080,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 53.49,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 53.49,
     "disc": null
    },
    "obs_digital": [],
@@ -36468,11 +36523,11 @@
     "disc": null
    },
    "lowest": {
-    "digital": null,
+    "digital": 54.99,
     "disc": null
    },
    "launch": {
-    "digital": null,
+    "digital": 54.99,
     "disc": null
    },
    "obs_digital": [],
@@ -36516,6 +36571,49 @@
    },
    "launch": {
     "digital": 10.99,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0385": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": null,
+    "disc": null
+   },
+   "launch": {
+    "digital": null,
     "disc": null
    },
    "obs_digital": [],
