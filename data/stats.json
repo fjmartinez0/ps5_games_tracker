@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12",
+ "generated_at": "2026-11-13",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -240,8 +240,8 @@
     "digital"
    ],
    "digital": {
-    "games": 62,
-    "median": 33.0
+    "games": 63,
+    "median": 33
    },
    "disc": {
     "games": 0,
@@ -261,8 +261,8 @@
     "digital"
    ],
    "digital": {
-    "games": 62,
-    "median": 33.0
+    "games": 63,
+    "median": 33
    },
    "disc": {
     "games": 0,
@@ -21338,6 +21338,14 @@
      "event": null,
      "store": "Video Games Plus",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-13",
+     "age": 15.2,
+     "pct": 29,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -25573,7 +25581,7 @@
    "buckets": {
     "digital": [
      null,
-     30,
+     50,
      null,
      null
     ],
@@ -25595,7 +25603,7 @@
     "disc": null
    },
    "lowest": {
-    "digital": 65.44,
+    "digital": 46.74,
     "disc": 89.99
    },
    "launch": {
@@ -25626,20 +25634,25 @@
      "event": "OCT26",
      "store": "PlayStation Store",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-13",
+     "age": 5.6,
+     "pct": 50,
+     "event": "PLAYSTATIONS",
+     "store": "PlayStation Store",
+     "us_pct": false
     }
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
+    "on_sale": {
+     "digital": {
+      "pct": 50,
+      "price": 46.74,
+      "store": "PlayStation Store",
+      "end": "2026-12-01"
+     }
     }
    }
   },
@@ -36331,6 +36344,49 @@
     }
    }
   },
+  "PS5-0362": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": 26.99,
+    "disc": null
+   },
+   "launch": {
+    "digital": 26.99,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
   "PS5-0366": {
    "buckets": {
     "digital": [
@@ -36589,7 +36645,7 @@
     }
    }
   },
-  "PS5-0385": {
+  "PS5-0384": {
    "buckets": {
     "digital": [
      null,
@@ -36614,6 +36670,49 @@
    },
    "launch": {
     "digital": null,
+    "disc": null
+   },
+   "obs_digital": [],
+   "obs_disc": [],
+   "next_expected": {
+    "event": "Black Friday 2026",
+    "start": "2026-11-20",
+    "expected": true,
+    "pct": {
+     "digital": 30,
+     "disc": 27
+    },
+    "basis": {
+     "digital": "typical",
+     "disc": "typical"
+    }
+   }
+  },
+  "PS5-0385": {
+   "buckets": {
+    "digital": [
+     null,
+     null,
+     null,
+     null
+    ],
+    "disc": [
+     null,
+     null,
+     null,
+     null
+    ]
+   },
+   "first": {
+    "digital": null,
+    "disc": null
+   },
+   "lowest": {
+    "digital": 11.99,
+    "disc": null
+   },
+   "launch": {
+    "digital": 11.99,
     "disc": null
    },
    "obs_digital": [],

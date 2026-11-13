@@ -2175,6 +2175,21 @@
    "changed_on": "2026-11-09",
    "change": "opened",
    "alerted": false
+  },
+  {
+   "game_id": "PS5-0183",
+   "format": "digital",
+   "store": "PlayStation Store",
+   "baseline": 93.49,
+   "price": 46.74,
+   "pct": 50,
+   "start": "2026-11-13",
+   "end": "2026-12-01",
+   "lowest_before": 65.44,
+   "kind": "sale",
+   "changed_on": "2026-11-13",
+   "change": "opened",
+   "alerted": false
   }
  ],
  "closed": [
