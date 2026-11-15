@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-15",
+  "searches": [
+    "PlayStation Blog new PS5 games this week November 2026",
+    "PS5 games released November 14 2026",
+    "PlayStation Store Black Friday 2026 sale Canada dates",
+    "Walmart Canada flyer PS5 games deals this week November 2026",
+    "Push Square \"PS5 Games Are Coming Out This Week\" 9th-15th November",
+    "new PS5 games out this week November 9-15 2026 releases",
+    "store.playstation.com en-ca Thronefall PS5",
+    "store.playstation.com en-ca Shrek 2 Remastered PS5",
+    "store.playstation.com en-ca Supermarket Simulator PS5",
+    "dekudeals.com items Keeper Double Fine PS5",
+    "mobilesyrup Walmart Canada Black Friday 2026 deals week 1"
+  ],
+  "new_games": [
+    {"title": "Shrek 2 Remastered", "category": "game", "scale": "AA", "genre": "Action-adventure remaster", "release_date": "2026-11-10",
+     "ps_store_url": "https://store.playstation.com/en-ca/concept/10015844", "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+     "evidence": ["https://store.playstation.com/en-ca/concept/10015844", "https://www.pushsquare.com/guides/these-13plus-ps5-games-are-coming-out-this-week-9th-15th-november"],
+     "note": "Aspyr remaster; listed 10/11/2026 on store, Push Square confirms 10 November."},
+    {"title": "Thronefall", "category": "game", "scale": "Indie", "genre": "Tower defense strategy", "release_date": "2026-11-11",
+     "ps_store_url": "https://store.playstation.com/en-ca/concept/10018202", "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+     "evidence": ["https://store.playstation.com/en-ca/concept/10018202", "https://www.pushsquare.com/guides/these-13plus-ps5-games-are-coming-out-this-week-9th-15th-november"]},
+    {"title": "Football Manager 27 Console", "category": "sports", "scale": "AA", "genre": "Football management", "release_date": "2026-11-10",
+     "ps_store_url": null, "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+     "evidence": ["https://www.pushsquare.com/guides/these-13plus-ps5-games-are-coming-out-this-week-9th-15th-november"]}
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
