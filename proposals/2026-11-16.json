@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-16",
+  "searches": [
+    "PlayStation Blog new PS5 games releasing this week November 16 2026",
+    "PS5 games released November 14 2026 OR November 15 2026 OR November 16 2026",
+    "PlayStation Store Canada new releases PS5 November 2026",
+    "PlayStation Store Black Friday 2026 sale dates Canada",
+    "Walmart Canada EB Games flyer PS5 games deals this week November 2026",
+    "Supermarket Simulator PS5 store.playstation.com en-ca",
+    "Skin Deep PS5 release date PlayStation Store"
+  ],
+  "new_games": [],
+  "updates": [],
+  "flyer_prices": [],
+  "events": [
+    {
+      "name": "PlayStation Store Black Friday 2026",
+      "start": "2026-11-04",
+      "end": "2026-11-30",
+      "formats": ["digital"],
+      "special": true,
+      "evidence": ["https://beebom.com/playstation-stores-black-friday-2026-deals-revealed/"]
+    }
+  ]
+}

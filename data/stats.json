@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15",
+ "generated_at": "2026-11-16",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -43,10 +43,10 @@
    ]
   },
   "disc": {
-   "games": 96,
+   "games": 98,
    "first_age_median": 4.1,
    "first_pct_median": 21.0,
-   "within_3_months": 33,
+   "within_3_months": 34,
    "deepest": {
     "game_id": "PS5-0100",
     "title": "Sid Meier's Civilization VII",
@@ -57,8 +57,8 @@
    "buckets": [
     {
      "label": "0–3 Months",
-     "median": 25,
-     "games": 33
+     "median": 25.0,
+     "games": 34
     },
     {
      "label": "3–6 Months",
@@ -68,7 +68,7 @@
     {
      "label": "6–12 Months",
      "median": 30.5,
-     "games": 76
+     "games": 78
     },
     {
      "label": "12+ Months",
@@ -229,7 +229,7 @@
   },
   {
    "id": "PLAYSTATIONS",
-   "name": "PlayStation Store Black Friday 2026",
+   "name": "PlayStation Store Black Friday Sale 2026",
    "start": "2026-11-04",
    "end": "2026-11-30",
    "special": true,
@@ -250,7 +250,7 @@
   },
   {
    "id": "PLAYSTATIONS",
-   "name": "PlayStation Store Black Friday Sale 2026",
+   "name": "PlayStation Store Black Friday 2026",
    "start": "2026-11-04",
    "end": "2026-11-30",
    "special": true,
@@ -25726,7 +25726,7 @@
     "disc": [
      null,
      28,
-     null,
+     44,
      null
     ]
    },
@@ -25748,7 +25748,7 @@
    },
    "lowest": {
     "digital": 63.89,
-    "disc": 64.99
+    "disc": 49.99
    },
    "launch": {
     "digital": 89.99,
@@ -25804,19 +25804,24 @@
      "event": null,
      "store": "Best Buy",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-16",
+     "age": 6.6,
+     "pct": 44,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
+    "on_sale": {
+     "disc": {
+      "pct": 44,
+      "price": 49.99,
+      "store": "Video Games Plus",
+      "end": null
+     }
     }
    }
   },
@@ -30075,7 +30080,7 @@
     "disc": [
      null,
      null,
-     null,
+     18,
      null
     ]
    },
@@ -30087,11 +30092,17 @@
      "store": "PlayStation Store",
      "us_pct": false
     },
-    "disc": null
+    "disc": {
+     "age": 7.3,
+     "pct": 18,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
+    }
    },
    "lowest": {
     "digital": 40.19,
-    "disc": 66.99
+    "disc": 54.99
    },
    "launch": {
     "digital": 66.99,
@@ -30123,18 +30134,24 @@
      "us_pct": false
     }
    ],
-   "obs_disc": [],
+   "obs_disc": [
+    {
+     "date": "2026-11-16",
+     "age": 7.3,
+     "pct": 18,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
+    }
+   ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
+    "on_sale": {
+     "disc": {
+      "pct": 18,
+      "price": 54.99,
+      "store": "PNP Games",
+      "end": null
+     }
     }
    }
   },
@@ -31053,12 +31070,6 @@
       "price": 49.99,
       "store": "Video Games Plus",
       "end": null
-     },
-     "digital": {
-      "pct": 40,
-      "price": 39.99,
-      "store": "PlayStation Store",
-      "end": null
      }
     }
    }
@@ -31385,7 +31396,7 @@
      null
     ],
     "disc": [
-     null,
+     28,
      null,
      null,
      null
@@ -31393,29 +31404,49 @@
    },
    "first": {
     "digital": null,
-    "disc": null
+    "disc": {
+     "age": 2.0,
+     "pct": 28,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
+    }
    },
    "lowest": {
     "digital": 89.99,
-    "disc": 89.99
+    "disc": 64.99
    },
    "launch": {
     "digital": 89.99,
     "disc": 89.99
    },
    "obs_digital": [],
-   "obs_disc": [],
-   "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
+   "obs_disc": [
+    {
+     "date": "2026-11-16",
+     "age": 2.0,
+     "pct": 28,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
+    {
+     "date": "2026-11-16",
+     "age": 2.0,
+     "pct": 28,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    }
+   ],
+   "next_expected": {
+    "on_sale": {
+     "disc": {
+      "pct": 28,
+      "price": 64.99,
+      "store": "PNP Games",
+      "end": null
+     }
     }
    }
   },

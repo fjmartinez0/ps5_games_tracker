@@ -2192,21 +2192,6 @@
    "alerted": false
   },
   {
-   "game_id": "PS5-0255",
-   "format": "digital",
-   "store": "PlayStation Store",
-   "baseline": 66.99,
-   "price": 39.99,
-   "pct": 40,
-   "start": "2026-11-15",
-   "end": null,
-   "lowest_before": 40.19,
-   "kind": "price_cut",
-   "changed_on": "2026-11-15",
-   "change": "opened",
-   "alerted": false
-  },
-  {
    "game_id": "PS5-0358",
    "format": "disc",
    "store": "Video Games Plus",
@@ -2218,6 +2203,66 @@
    "lowest_before": 74.99,
    "kind": "sale",
    "changed_on": "2026-11-15",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0185",
+   "format": "disc",
+   "store": "Video Games Plus",
+   "baseline": 89.99,
+   "price": 49.99,
+   "pct": 44,
+   "start": "2026-11-16",
+   "end": null,
+   "lowest_before": 49.99,
+   "kind": "sale",
+   "changed_on": "2026-11-16",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0236",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 66.99,
+   "price": 54.99,
+   "pct": 18,
+   "start": "2026-11-16",
+   "end": null,
+   "lowest_before": 54.99,
+   "kind": "sale",
+   "changed_on": "2026-11-16",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0265",
+   "format": "disc",
+   "store": "PNP Games",
+   "baseline": 89.99,
+   "price": 64.99,
+   "pct": 28,
+   "start": "2026-11-16",
+   "end": null,
+   "lowest_before": 64.99,
+   "kind": "sale",
+   "changed_on": "2026-11-16",
+   "change": "opened",
+   "alerted": false
+  },
+  {
+   "game_id": "PS5-0265",
+   "format": "disc",
+   "store": "Video Games Plus",
+   "baseline": 89.99,
+   "price": 64.99,
+   "pct": 28,
+   "start": "2026-11-16",
+   "end": null,
+   "lowest_before": 64.99,
+   "kind": "sale",
+   "changed_on": "2026-11-16",
    "change": "opened",
    "alerted": false
   }
@@ -3762,6 +3807,22 @@
    "change": "opened",
    "alerted": false,
    "ended": "2026-11-07"
+  },
+  {
+   "game_id": "PS5-0255",
+   "format": "digital",
+   "store": "PlayStation Store",
+   "baseline": 66.99,
+   "price": 39.99,
+   "pct": 40,
+   "start": "2026-11-15",
+   "end": null,
+   "lowest_before": 40.19,
+   "kind": "price_cut",
+   "changed_on": "2026-11-15",
+   "change": "opened",
+   "alerted": false,
+   "ended": "2026-11-16"
   }
  ]
 }
