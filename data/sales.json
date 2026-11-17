@@ -1109,7 +1109,7 @@
    "kind": "sale",
    "changed_on": "2026-11-17",
    "change": "deeper",
-   "alerted": false
+   "alerted": true
   },
   {
    "game_id": "PS5-0089",
@@ -2429,7 +2429,7 @@
    "kind": "sale",
    "changed_on": "2026-11-17",
    "change": "opened",
-   "alerted": false
+   "alerted": true
   },
   {
    "game_id": "PS5-0053",
@@ -2879,7 +2879,7 @@
    "kind": "sale",
    "changed_on": "2026-11-17",
    "change": "opened",
-   "alerted": false
+   "alerted": true
   },
   {
    "game_id": "PS5-0205",
@@ -2909,7 +2909,7 @@
    "kind": "sale",
    "changed_on": "2026-11-17",
    "change": "opened",
-   "alerted": false
+   "alerted": true
   },
   {
    "game_id": "PS5-0210",
