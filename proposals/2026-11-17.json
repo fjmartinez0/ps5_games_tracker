@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-17",
+  "searches": [
+    "PlayStation Blog new PS5 games this week November 17 2026",
+    "PS5 games released November 16 2026",
+    "PlayStation Store Canada new releases PS5 November 2026",
+    "new PS5 games out this week November 16 to November 22 2026",
+    "Skin Deep PS5 release date PlayStation Store",
+    "Moonlight Peaks PS5 store.playstation.com en-ca",
+    "Ranger's Path National Park Simulator PS5 PlayStation Store",
+    "POPUCOM PS5 PlayStation Store concept",
+    "Duck Side of the Moon PS5 PlayStation Store",
+    "Unicorn Academy: Island of Magic PS5 November 17 2026"
+  ],
+  "new_games": [
+    {
+      "title": "Moonlight Peaks", "category": "game", "scale": "Indie", "genre": "Supernatural life sim",
+      "release_date": "2026-11-17",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10020700",
+      "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+      "evidence": ["https://store.playstation.com/en-ca/concept/10020700", "https://www.pushsquare.com/guides/these-13plus-ps5-and-ps-plus-games-are-coming-out-this-week-16th-22nd-november"]
+    },
+    {
+      "title": "Ranger's Path: National Park Simulator", "category": "game", "scale": "AA", "genre": "Park ranger simulator",
+      "release_date": "2026-11-17",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10009391",
+      "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+      "evidence": ["https://store.playstation.com/en-ca/concept/10009391", "https://www.pushsquare.com/guides/these-13plus-ps5-and-ps-plus-games-are-coming-out-this-week-16th-22nd-november"]
+    },
+    {
+      "title": "POPUCOM", "category": "game", "scale": "Indie", "genre": "Co-op puzzle platformer",
+      "release_date": "2026-11-17",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10009072",
+      "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+      "evidence": ["https://store.playstation.com/en-ca/concept/10009072", "https://www.pushsquare.com/guides/these-13plus-ps5-and-ps-plus-games-are-coming-out-this-week-16th-22nd-november"]
+    },
+    {
+      "title": "Unicorn Academy: Island of Magic", "category": "game", "scale": "AA", "genre": "Kids adventure",
+      "release_date": "2026-11-17",
+      "ps_store_url": "https://store.playstation.com/en-ca/concept/10018602",
+      "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+      "evidence": ["https://store.playstation.com/en-ca/concept/10018602", "https://www.pushsquare.com/guides/these-13plus-ps5-and-ps-plus-games-are-coming-out-this-week-16th-22nd-november"]
+    },
+    {
+      "title": "Duck Side of the Moon", "category": "game", "scale": "Indie", "genre": "Space exploration",
+      "release_date": "2026-11-17",
+      "ps_store_url": null, "metacritic_url": null, "deku_url": null, "eb_url": null, "walmart_url": null,
+      "evidence": ["https://www.pushsquare.com/guides/these-13plus-ps5-and-ps-plus-games-are-coming-out-this-week-16th-22nd-november", "https://www.vgchartz.com/article/469552/duck-side-of-the-moon-launches-november-17-for-ps5/"],
+      "note": "No en-ca store page found; links to be enriched later."
+    }
+  ],
+  "updates": [],
+  "flyer_prices": [],
+  "events": []
+}
