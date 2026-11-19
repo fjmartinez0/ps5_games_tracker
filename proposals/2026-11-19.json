@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-19",
+  "searches": [
+    "Grand Theft Auto VI PS5 Metacritic reviews",
+    "PlayStation Blog new PS5 games this week November 17 2026",
+    "PS5 new releases November 18 2026",
+    "PlayStation Store Canada new releases PS5 November 19 2026",
+    "Dark Rail PS5 PlayStation Store",
+    "The House of Tesla: Definitive Edition PS5 PlayStation Store",
+    "dekudeals search: dark rail",
+    "dekudeals search: house of tesla",
+    "dekudeals search: ranger's path",
+    "dekudeals search: shrek 2 remastered",
+    "dekudeals search: planet of lana II"
+  ],
+  "new_games": [
+    {
+      "title": "Grand Theft Auto VI",
+      "category": "game",
+      "scale": "AAA",
+      "genre": "Open-world action",
+      "release_date": "2026-11-19",
+      "ps_store_url": "https://store.playstation.com/en-ca/product/EP1004-PPSA01547_00-GTAVISTANDARD001",
+      "metacritic_url": "https://www.metacritic.com/game/grand-theft-auto-vi/critic-reviews/?platform=playstation-5",
+      "deku_url": "https://www.dekudeals.com/items/grand-theft-auto-vi?format=all&country=ca&platform=all",
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://www.playstation.com/en-ca/games/grand-theft-auto-vi/",
+        "https://www.metacritic.com/game/grand-theft-auto-vi/critic-reviews/?platform=playstation-5",
+        "https://www.dekudeals.com/items/grand-theft-auto-vi?format=all&country=ca&platform=all"
+      ]
+    },
+    {
+      "title": "Dark Rail",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Strategy management roguelike",
+      "release_date": "2026-11-18",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://ingamenews.com/playstation/gta-6-leads-ps5-releases-this-week-alongside-12-more-games/"
+      ],
+      "note": "Store page not found; Deku Deals has no listing yet. Scale is a guess (small studio)."
+    },
+    {
+      "title": "The House of Tesla: Definitive Edition",
+      "category": "game",
+      "scale": "Indie",
+      "genre": "Puzzle adventure",
+      "release_date": "2026-11-19",
+      "ps_store_url": null,
+      "metacritic_url": null,
+      "deku_url": null,
+      "eb_url": null,
+      "walmart_url": null,
+      "evidence": [
+        "https://ingamenews.com/playstation/gta-6-leads-ps5-releases-this-week-alongside-12-more-games/"
+      ],
+      "note": "Blue Brain Games; store page not found; Deku Deals has no listing yet."
+    }
+  ],
+  "updates": [
+    {
+      "id": "PS5-0389",
+      "deku_url": "https://www.dekudeals.com/items/dreamworks-shrek-2-remastered?format=all&country=ca&platform=all",
+      "evidence": ["https://www.dekudeals.com/items/dreamworks-shrek-2-remastered?format=all&country=ca&platform=all"]
+    },
+    {
+      "id": "PS5-0214",
+      "deku_url": "https://www.dekudeals.com/items/planet-of-lana-ii?format=all&country=ca&platform=all",
+      "evidence": ["https://www.dekudeals.com/items/planet-of-lana-ii?format=all&country=ca&platform=all"]
+    }
+  ],
+  "flyer_prices": [],
+  "events": []
+}
