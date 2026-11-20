@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19",
+ "generated_at": "2026-11-20",
  "buckets": [
   "0–3 Months",
   "3–6 Months",
@@ -43,9 +43,9 @@
    ]
   },
   "disc": {
-   "games": 105,
+   "games": 106,
    "first_age_median": 4.1,
-   "first_pct_median": 20,
+   "first_pct_median": 20.5,
    "within_3_months": 36,
    "deepest": {
     "game_id": "PS5-0100",
@@ -67,13 +67,13 @@
     },
     {
      "label": "6–12 Months",
-     "median": 31,
-     "games": 81
+     "median": 30,
+     "games": 85
     },
     {
      "label": "12+ Months",
-     "median": 33.0,
-     "games": 42
+     "median": 33,
+     "games": 43
     }
    ]
   }
@@ -698,16 +698,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 21
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -1391,16 +1389,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 33
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -1465,16 +1461,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -1823,16 +1817,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 10
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -1848,7 +1840,7 @@
      null,
      null,
      13,
-     13
+     25
     ]
    },
    "first": {
@@ -1869,7 +1861,7 @@
    },
    "lowest": {
     "digital": 9.99,
-    "disc": 34.99
+    "disc": 29.99
    },
    "launch": {
     "digital": 19.99,
@@ -1957,6 +1949,14 @@
      "event": null,
      "store": "PNP Games",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 13.2,
+     "pct": 25,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -1966,6 +1966,12 @@
       "price": 9.99,
       "store": "PlayStation Store",
       "end": "2026-11-21"
+     },
+     "disc": {
+      "pct": 25,
+      "price": 29.99,
+      "store": "PNP Games",
+      "end": null
      }
     }
    }
@@ -2549,16 +2555,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -2607,16 +2611,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -4592,16 +4594,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -4753,16 +4753,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -5205,16 +5203,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 50,
-     "disc": 27
+     "digital": 60
     },
     "basis": {
-     "digital": "own",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -5771,16 +5767,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 35
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -5814,16 +5808,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -5857,16 +5849,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -5979,16 +5969,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 25
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -6220,16 +6208,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -6245,7 +6231,7 @@
      null,
      15,
      31,
-     null
+     31
     ]
    },
    "first": {
@@ -6411,19 +6397,24 @@
      "event": null,
      "store": "Best Buy",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 12.7,
+     "pct": 31,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
+    "on_sale": {
+     "disc": {
+      "pct": 31,
+      "price": 44.99,
+      "store": "PNP Games",
+      "end": null
+     }
     }
    }
   },
@@ -6868,16 +6859,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -11181,16 +11170,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -11724,16 +11711,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -12044,16 +12029,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -12354,16 +12337,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 40,
-     "disc": 44
+     "digital": 30
     },
     "basis": {
-     "digital": "own",
-     "disc": "own"
+     "digital": "typical"
     }
    }
   },
@@ -12436,16 +12417,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -12494,16 +12473,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -12772,16 +12749,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -12815,16 +12790,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -12858,16 +12831,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -13318,16 +13289,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -13589,16 +13558,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -13663,16 +13630,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -14592,16 +14557,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 56
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "own"
+     "digital": "typical"
     }
    }
   },
@@ -14959,16 +14922,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -15482,16 +15443,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -15895,16 +15854,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -16016,16 +15973,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -17244,16 +17199,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -17326,16 +17279,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -17647,16 +17598,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 45
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -17808,16 +17757,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 40
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -17851,16 +17798,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -18199,16 +18144,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -18242,16 +18185,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -18649,16 +18590,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -18692,16 +18631,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -19044,16 +18981,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -19476,16 +19411,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -19693,16 +19626,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -19736,16 +19667,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -19850,16 +19779,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 34,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "own",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -19987,16 +19914,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 20
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -20012,7 +19937,7 @@
      null,
      14,
      29,
-     29
+     36
     ]
    },
    "first": {
@@ -20033,7 +19958,7 @@
    },
    "lowest": {
     "digital": 46.89,
-    "disc": 49.99
+    "disc": 44.99
    },
    "launch": {
     "digital": 66.99,
@@ -20209,6 +20134,14 @@
      "event": null,
      "store": "PNP Games",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 15.9,
+     "pct": 36,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -20218,6 +20151,12 @@
       "price": 46.89,
       "store": "PlayStation Store",
       "end": "2026-12-01"
+     },
+     "disc": {
+      "pct": 36,
+      "price": 44.99,
+      "store": "PNP Games",
+      "end": null
      }
     }
    }
@@ -20322,16 +20261,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 25
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -20467,16 +20404,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -20510,16 +20445,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -20553,16 +20486,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -20596,16 +20527,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -20845,16 +20774,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 40,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "own",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -20919,16 +20846,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -20962,16 +20887,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -21020,16 +20943,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -21258,16 +21179,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -21316,16 +21235,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -22420,16 +22337,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -22478,16 +22393,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -22536,16 +22449,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -23063,16 +22974,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 20
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -23177,16 +23086,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 53
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "own"
     }
    }
   },
@@ -23330,16 +23237,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 35,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "own",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -23428,16 +23333,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -25674,16 +25577,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -25717,16 +25618,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -25775,16 +25674,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -25818,16 +25715,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -25955,16 +25850,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -26013,16 +25906,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -27956,16 +27847,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -27999,16 +27888,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -28207,16 +28094,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -28606,16 +28491,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -28767,16 +28650,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -29161,16 +29042,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -29204,16 +29083,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -29228,7 +29105,7 @@
     "disc": [
      null,
      11,
-     null,
+     22,
      null
     ]
    },
@@ -29250,7 +29127,7 @@
    },
    "lowest": {
     "digital": 62.99,
-    "disc": 79.99
+    "disc": 69.99
    },
    "launch": {
     "digital": 89.99,
@@ -29306,6 +29183,22 @@
      "event": null,
      "store": "PNP Games",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 6.1,
+     "pct": 22,
+     "event": null,
+     "store": "Best Buy",
+     "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 6.1,
+     "pct": 22,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -29315,6 +29208,12 @@
       "price": 62.99,
       "store": "PlayStation Store",
       "end": "2026-12-01"
+     },
+     "disc": {
+      "pct": 22,
+      "price": 69.99,
+      "store": "Best Buy",
+      "end": null
      }
     }
    }
@@ -29364,16 +29263,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -29462,16 +29359,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -29671,16 +29566,14 @@
     }
    ],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -29814,16 +29707,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -30038,16 +29929,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -30081,16 +29970,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -30468,16 +30355,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -30809,16 +30694,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -30975,16 +30858,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -31069,6 +30950,22 @@
      "event": null,
      "store": "Best Buy",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 5.1,
+     "pct": 25,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 5.1,
+     "pct": 25,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -31078,6 +30975,12 @@
       "price": 55.99,
       "store": "PlayStation Store",
       "end": "2026-11-21"
+     },
+     "disc": {
+      "pct": 25,
+      "price": 59.99,
+      "store": "PNP Games",
+      "end": null
      }
     }
    }
@@ -31222,16 +31125,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -31364,7 +31265,7 @@
     "disc": [
      25,
      20,
-     null,
+     50,
      null
     ]
    },
@@ -31386,7 +31287,7 @@
    },
    "lowest": {
     "digital": 29.99,
-    "disc": 29.99
+    "disc": 19.99
    },
    "launch": {
     "digital": 39.99,
@@ -31442,6 +31343,14 @@
      "event": null,
      "store": "Video Games Plus",
      "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 7.9,
+     "pct": 50,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
     }
    ],
    "next_expected": {
@@ -31451,6 +31360,12 @@
       "price": 29.99,
       "store": "PlayStation Store",
       "end": "2026-11-21"
+     },
+     "disc": {
+      "pct": 50,
+      "price": 19.99,
+      "store": "Video Games Plus",
+      "end": null
      }
     }
    }
@@ -31883,16 +31798,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -31926,16 +31839,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32016,16 +31927,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32119,7 +32028,7 @@
     "disc": [
      null,
      null,
-     null,
+     27,
      null
     ]
    },
@@ -32131,11 +32040,17 @@
      "store": "PlayStation Store",
      "us_pct": false
     },
-    "disc": null
+    "disc": {
+     "age": 8.6,
+     "pct": 27,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
+    }
    },
    "lowest": {
     "digital": 23.19,
-    "disc": 54.99
+    "disc": 39.99
    },
    "launch": {
     "digital": 28.99,
@@ -32151,18 +32066,32 @@
      "us_pct": false
     }
    ],
-   "obs_disc": [],
-   "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
+   "obs_disc": [
+    {
+     "date": "2026-11-20",
+     "age": 8.6,
+     "pct": 27,
+     "event": null,
+     "store": "PNP Games",
+     "us_pct": false
     },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
+    {
+     "date": "2026-11-20",
+     "age": 8.6,
+     "pct": 27,
+     "event": null,
+     "store": "Video Games Plus",
+     "us_pct": false
+    }
+   ],
+   "next_expected": {
+    "on_sale": {
+     "disc": {
+      "pct": 27,
+      "price": 39.99,
+      "store": "PNP Games",
+      "end": null
+     }
     }
    }
   },
@@ -32398,16 +32327,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32504,16 +32431,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32704,16 +32629,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32747,16 +32670,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32790,16 +32711,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32888,16 +32807,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32946,16 +32863,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -32970,7 +32885,7 @@
     "disc": [
      null,
      17,
-     null,
+     17,
      null
     ]
    },
@@ -33047,6 +32962,14 @@
      "pct": 17,
      "event": null,
      "store": "PNP Games",
+     "us_pct": false
+    },
+    {
+     "date": "2026-11-20",
+     "age": 8.3,
+     "pct": 17,
+     "event": null,
+     "store": "Video Games Plus",
      "us_pct": false
     }
    ],
@@ -33152,16 +33075,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -33195,16 +33116,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -33434,16 +33353,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -33587,16 +33504,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -33630,16 +33545,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -33743,16 +33656,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -33817,16 +33728,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -33952,16 +33861,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -35629,16 +35536,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -35687,16 +35592,13 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
-    "expected": true,
-    "pct": {
-     "digital": 30,
-     "disc": 27
-    },
-    "basis": {
-     "digital": "typical",
-     "disc": "typical"
+    "on_sale": {
+     "digital": {
+      "pct": 20,
+      "price": 26.79,
+      "store": "PlayStation Store",
+      "end": "2026-12-01"
+     }
     }
    }
   },
@@ -35745,16 +35647,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -35788,16 +35688,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -35886,16 +35784,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36053,16 +35949,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36111,16 +36005,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36264,16 +36156,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36307,16 +36197,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36428,16 +36316,14 @@
    ],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36581,16 +36467,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36624,16 +36508,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36667,16 +36549,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36765,16 +36645,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36808,16 +36686,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36938,16 +36814,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -36981,16 +36855,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37024,16 +36896,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37067,16 +36937,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37110,16 +36978,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37153,16 +37019,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37196,16 +37060,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37239,16 +37101,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37282,16 +37142,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37325,16 +37183,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37368,16 +37224,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37411,16 +37265,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37454,16 +37306,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37497,16 +37347,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37540,16 +37388,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37583,16 +37429,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37626,16 +37470,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37669,16 +37511,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37767,16 +37607,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37810,16 +37648,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37853,16 +37689,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   },
@@ -37896,16 +37730,14 @@
    "obs_digital": [],
    "obs_disc": [],
    "next_expected": {
-    "event": "Black Friday 2026",
-    "start": "2026-11-20",
+    "event": "Holiday Sale 2026",
+    "start": "2026-12-16",
     "expected": true,
     "pct": {
-     "digital": 30,
-     "disc": 27
+     "digital": 30
     },
     "basis": {
-     "digital": "typical",
-     "disc": "typical"
+     "digital": "typical"
     }
    }
   }
