@@ -105,6 +105,19 @@
   "expected": false
  },
  {
+  "id": "PLAYSTATIONB",
+  "name": "PlayStation Black Friday 2026",
+  "start": "2026-11-16",
+  "end": "2026-11-30",
+  "special": true,
+  "formats": [
+   "digital",
+   "disc"
+  ],
+  "source": "https://www.iphoneincanada.ca/2026/11/16/playstation-black-friday-2026/",
+  "expected": false
+ },
+ {
   "id": "BF26",
   "name": "Black Friday 2026",
   "start": "2026-11-20",

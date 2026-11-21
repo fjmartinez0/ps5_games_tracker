@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-21",
+  "searches": [
+    "PlayStation Blog this week's PS5 game releases November 17 2026",
+    "new PS5 games released November 21 2026",
+    "PS5 games out November 20 2026 release",
+    "PlayStation Store Black Friday 2026 sale Canada dates",
+    "Walmart Canada EB Games Black Friday 2026 PS5 games deals flyer",
+    "Skin Deep PS5 release date PlayStation Store"
+  ],
+  "new_games": [],
+  "updates": [],
+  "flyer_prices": [
+    {"id": "PS5-0184", "store": "EB Games", "price": 79.99, "regular": 99.99, "valid_from": "2026-11-26", "valid_to": "2026-12-03", "evidence": ["https://mobilesyrup.com/2026/11/19/eb-games-canada-black-friday-2026-deals/"]},
+    {"id": "PS5-0205", "store": "EB Games", "price": 54.99, "regular": 79.99, "valid_from": "2026-11-22", "valid_to": "2026-11-29", "evidence": ["https://mobilesyrup.com/2026/11/19/eb-games-canada-black-friday-2026-deals/"]},
+    {"id": "PS5-0206", "store": "EB Games", "price": 74.99, "regular": 99.99, "valid_from": "2026-11-26", "valid_to": "2026-12-03", "evidence": ["https://mobilesyrup.com/2026/11/19/eb-games-canada-black-friday-2026-deals/"]},
+    {"id": "PS5-0195", "store": "EB Games", "price": 49.99, "regular": 79.99, "valid_from": "2026-11-16", "valid_to": "2026-12-02", "evidence": ["https://mobilesyrup.com/2026/11/19/eb-games-canada-black-friday-2026-deals/"]},
+    {"id": "PS5-0265", "store": "EB Games", "price": 64.99, "regular": 89.99, "valid_from": "2026-11-16", "valid_to": "2026-12-02", "evidence": ["https://mobilesyrup.com/2026/11/19/eb-games-canada-black-friday-2026-deals/"]},
+    {"id": "PS5-0216", "store": "EB Games", "price": 64.99, "regular": 79.99, "valid_from": "2026-11-19", "valid_to": "2026-12-02", "evidence": ["https://mobilesyrup.com/2026/11/19/eb-games-canada-black-friday-2026-deals/"]}
+  ],
+  "events": [
+    {"name": "PlayStation Black Friday 2026", "start": "2026-11-16", "end": "2026-11-30", "formats": ["digital", "disc"], "special": true, "evidence": ["https://www.iphoneincanada.ca/2026/11/16/playstation-black-friday-2026/", "https://mobilesyrup.com/2026/11/16/playstation-black-friday-2026-deals/"]}
+  ]
+}
